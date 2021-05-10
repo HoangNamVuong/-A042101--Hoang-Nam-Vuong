@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple form</title>
+</head>
+<body>
+    <form method="get" action="simpleform.html">
+        <h1>Order Form</h1>
+        <p>What would you like to buy?</p>
+        <select style="width:10%;">
+            <option value="1">A</option>
+            <option value="2">B</option>
+            <option value="3">C</option>
+        </select>
+        <p>How many would you like to order?</p>
+        <input name="rd1" type="radio" value="1 - $10"/>1 - $10<br>
+        <input name="rd2" type="radio" value="2 - $20"/>2 - $20<br>
+        <input name="rd3" type="radio" value="3 - $25"/>3 - $25<br>
+        <p>Name <span style="color: red;">*</span></p>
+        <!-- the span dùng để gán kiểu style -->
+        <input name="firstname" id="firstname" type="text" value="" placeholder="Hoang" size="15"/>
+        <!--thuoc tinh placeholder dung de tao goi y trong truong nhap du lieu-->
+        <input name="lastname" id="larstname" type="text" value="" placeholder="Nam Vuong" size="15"/>
+        <p>Email</p>
+        <input name="email" id="email" type="email" value="hoangnamvuong@gmail.com" size="38"/>
+        <p>Phone Number</p>
+        <input name="number1" id="number1" type="tel" value="" size="5" placeholder="0000"/> -
+        <input name="number2" id="number2" type="tel" value="" size="3" placeholder="000"/> -
+        <input name="number3" id="number3" type="tel" value="" size="3" placeholder="000"/>
+        <p><input name="sumit" id="sumit" type="button" value="sumit" style="color: blu;"/></p>
+    </form>
+</body>
+</html>
