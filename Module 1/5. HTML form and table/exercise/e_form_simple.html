@@ -5,9 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>make simple form</title>
+    <style>
+        .parent_class {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .all {
+            width: 50%;
+            margin: auto 25%
+        }
+        .table {
+            font-size: large;
+            text-align: center;
+            color: white;
+            background-color:red;
+        }
+        .nameemail {
+            color: blue;
+            text-align: left;
+            width: 10%;
+            text-align: left;
+            float: left;
+        }  
+    </style>
 </head>
 <body>
-    <p>SO THICH CUA BAN</p>
-    
+    <div class="all">
+        <div class="table">
+            <p aria-colspan="5">SO THICH CUA BAN</p>
+        </div>
+        <div>
+            <div class="nameemail">ho va ten</div>
+            <div><input name="hovaten" id="hovaten" type="text" size="30"/></div>
+            <div class="nameemail">email</div>
+            <div><input name="email" id="email" type="email" size="30"/></div>
+        </div>
+        <div>
+            <div class="nameemail">so thich </div>
+            <div style="width: 80%; float: left;">  
+                <div style="vertical-align:auto;" class="parent_class" >
+                    <div style="display: flex; flex-direction: column;">
+                        <div><input name="sothich" id="sothich" type="checkbox" value=""/>the thao</div>
+                        <div><input name="sothich" id="sothich" type="checkbox" value=""/>luot web</div>
+                        <div><input name="sothich" id="sothich" type="checkbox" value=""/>du lich</div>
+                    </div>
+                    <div style="display: flex; flex-direction: column;">
+                        <div><input name="sothich" id="sothich" type="checkbox" value=""/>am nhac</div>
+                        <div><input name="sothich" id="sothich" type="checkbox" value=""/>choi game</div>
+                    </div>
+                    <div style="display: flex; flex-direction: column;">
+                        <div><input name="sothich" id="sothich" type="checkbox" value=""/>doc sach</div>
+                        <div><input name="sothich" id="sothich" type="checkbox" value=""/>dien anh</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="width: 40%; margin-right: 40%;">
+            <input name="guithongtin" id="guithongtin" type="submit" value="gui thong tin"/>
+            <input name="nhaplai" id="nhaplai" type="reset" value="nhap lai"/>
+        </div>
+    </div>
 </body>
 </html>
