@@ -7,17 +7,24 @@
     <title>form user registration</title>
 </head>
 <body>
-    <form>
+    <form action="http://demo.codegym.vn/6/registration_form/register.php" method="GET">
         <div>
-                ho va ten:
-                <input name="name" id="name" type="text" value=""/>
-                email:
-                <input name="email" id="email" type="email" value=""/>
-                so dien thoai:
-                <input name="phone" id="phone" type="tel" value=""/>
-                gioi tinh:
+            <div>ho va ten:</div>
+            <div><input name="name" id="name" type="text" value=""/></div>
+            <br>
+            <div>email:</div>
+            <div><input name="email" id="email" type="email" value=""/></div>
+            <br>
+            <div>so dien thoai:</div>
+            <div><input name="phone" id="phone" type="tel" value=""/></div>
+            <br>
+            <div>gioi tinh:</div>
+            <div>
                 <input name="gender_man" id="gender_man" type="radio" value="nam"/>nam
                 <input name="gender_women" id="gender_women" type="radio" value="nu"/>nu
+            </div>
+            <br>
+            <div><input type="submit" name="submit" id="submit" value="dang ky"/></div>
         </div>
     </form>
 </body>
