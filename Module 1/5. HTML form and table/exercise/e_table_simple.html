@@ -25,85 +25,115 @@
             color:# black;
             text-align:center;
             padding:20px;
-            background-color: yellow;
             border-color: black;
         }
-        p {
+        .title {
             text-align: center;
         }
+        .all {
+            width: 50%;
+            margin:25%;
+            line-height: 30px;/*dung de tao khoang cach dong*/
+            background-color: #fef9f9;
+        }
+        .room_teacher {
+            text-align: left;
+            float: left;
+            display: flex;
+            flex-direction: column  ;
+            margin-left: 20px;
+        }
+        .time_day {
+            text-align: right;
+            float: right;
+            display: flex;
+            flex-direction: column  ;/* hien thi theo chieu doc, chieu ngang dung row*/
+            margin-right: 20px;
+        }
+        .title_color {
+            color: blue;
+        }   
     </style>
 </head>
 <body>
-    <p>Thời khóa biểu lớp T0908I</p>
-    <table>
-        <tr>
-            <th>Thứ 3</th>
-            <th>Thứ 5</th>
-            <th>Thứ 7</th>
-        </tr>
-        <tr>
-            <td>CF-T1,L1</td>
-            <td>CF-T2,L1</td>
-            <td>CF-T3,L1</td>
-        </tr>
-        <tr>
-            <td>CF-T4,L1</td>
-            <td>CF-T5,L1</td>
-            <td>CF-T6,L1</td>
-        </tr>
-    </table>
+    <div class="all">
+        <div>
+            <div class="title"><h1>Thời khóa biểu lớp T0908I</h1></div>
+            <div>
+                <table style="width: 100%;">
+                    <tr style="background-color: yellow;">
+                        <th>Thứ 3</th>
+                        <th>Thứ 5</th>
+                        <th>Thứ 7</th>
+                    </tr>
+                    <tr>
+                        <td>CF-T1,L1</td>
+                        <td>CF-T2,L1</td>
+                        <td>CF-T3,L1</td>
+                    </tr>
+                    <tr>
+                        <td>CF-T4,L1</td>
+                        <td>CF-T5,L1</td>
+                        <td>CF-T6,L1</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div>
+            <div class="title_color">
+                <div class="title"><h1>THOI KHOA BIEU</h1></div>
+                <div class="room_teacher">
+                    <div>T0908I</div>
+                    <div>Giao vien: linh</div>
+                    <div>Phong hoc: Class3/lab3</div>
+                </div>
+                <div class="time_day">
+                    <div>Thoi gian hoc: 13h30-17h30</div>
+                    <div>Ngay hoc: Thu 3,5,7</div>
+                </div>
+            </div>
+            <div>
+                <table style="width: 100%;">
+                    <tr>
+                        <th colspan="3"></th>
+                        <th style="background-color: yellow;">Thu 3</th>
+                        <th style="background-color: yellow;">Thu 5</th>
+                        <th style="background-color: yellow;">Thu 7</th>
+                    </tr>
+                    <tr style="background-color: #ffc107;">
+                        <th>Tuan</th>
+                        <th>Ngay bat dau</th>
+                        <th>Ngay ket thuc</th>
+                        <th colspan="3">Mon hoc</th>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+    </div>
 </body>
-<!--bang so mot-->
-<body>
-    <p>THOI KHOA BIEU</p>
-    <pre>
-        Lop: T0908I
-        Giao vien: KhoaNV
-        Phong hoc: Class3/lab3
-    </pre>
-    <pre>
-        Thoi gian hoc: 13h30-17h30
-        Ngay hoc: Thu 3,5,7
-    </pre>    
-    <table>
-        <tr>
-            <th colspan="3"></th>
-            <th>Thu 3</th>
-            <th>Thu 5</th>
-            <th>Thu 7</th>
-        </tr>
-        <tr>
-            <th>Tuan</th>
-            <th>Ngay bat dau</th>
-            <th>Ngay ket thuc</th>
-            <th colspan="3">Mon hoc</th>
-        </tr>
-        <tr>
-            <td>01</td>
-            <td>...</td>
-            <td>...</td>
-            <td>...</td>
-            <td>...</td>
-            <td>...</td>
-        </tr>
-        <tr>
-            <td>02</td>
-            <td>...</td>
-            <td>...</td>
-            <td>...</td>
-            <td>...</td>
-            <td>...</td>
-        </tr>
-        <tr>
-            <td>03</td>
-            <td>...</td>
-            <td>...</td>
-            <td>...</td>
-            <td>...</td>
-            <td>...</td>
-        </tr>
-        
-    </table>
-</body>
-<!--bang so hai-->
 </html>

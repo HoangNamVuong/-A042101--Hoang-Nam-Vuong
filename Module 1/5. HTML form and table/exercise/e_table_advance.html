@@ -6,171 +6,217 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homework bableadvance</title>
     <style>
-        body {
-            padding: 50px;
+        .all {
+            width: 80%;
+            margin: auto 10%;   
         }
-        table, td, th {
-        border: 1px solid black;
+        .table1 {
+            border-collapse: collapse;/* 1 net trong bang*/
+            background: white;
+            width: 80px;
+            margin: auto 10%;
         }
-        table {
-            width: 100%;
+        .table2 {
+            border-collapse: collapse;/* 1 net trong bang*/
+            background: white;
+            width: 40px;
+            margin: auto 35%;
+        }
+        .title {
+            font-size: x-large; 
+            text-align: center;
+            color: blue ;
+        }
+        .blur {
+            background: yellow;
+    
+            border-width: 0px;
+        }
+        .black {
+            background-color: black;  
+        }
+        td
+        {
+            border: 1px solid black;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-right: 50px;
+            padding-left: 50px;
             border-collapse: collapse;
         }
         th {
-            width: initial;
-            height: inherit;
+            font-weight: bold;
+            border-width: 0px;
         }
     </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <th>s</th>
-            <th>s</th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th>s</th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-    </table>
-    <!-- ban co vua-->
-    <table>
-        <p>Thang 10 - October</p>
-        <tr>
-            <th>C.Nhat</th>
-            <th>T.Hai</th>
-            <th>T.Ba</th>
-            <th>T.Tu</th>
-            <th>T.Nam</th>
-            <th>T.Sau</th>
-            <th>T.Bay</th>
-        </tr>
-        <tr>
-            <th>Sun</th>
-            <th>Mon</th>
-            <th>Tue</th>
-            <th>Wed</th>
-            <th>Thu</th>
-            <th>Fri</th>
-            <th>Sat</th>
-        </tr>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th>1<sub>13</sub></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-    </table>
+    <div>
+        <div class="all">
+            <table class="table1">
+                <h1 class="title">CHESSBOARD</h1>
+                <tr class="blur">
+                    <th></th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                </tr> 
+                <tr>
+                    <th class="blur">A</th>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                </tr>
+                <tr>
+                    <td class="blur">B</td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="blur">C</th>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                </tr>
+                <tr>
+                    <td class="blur">D</td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="blur">E</th>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                </tr>
+                <tr>
+                    <td class="blur">F</td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="blur">G</th>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                </tr>
+                <tr>
+                    <td class="blur">H</td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                    <td class="black"></td>
+                    <td></td>
+                </tr>    
+            </table>
+        </div>
+        <!-- ban co vua-->
+        <hr>
+        <div class="all">
+            <table class="table2">
+                <p class="title">Thang 10 - October</p>
+                <tr>
+                    <th>C.Nhat</th>
+                    <th>T.Hai</th>
+                    <th>T.Ba</th>
+                    <th>T.Tu</th>
+                    <th>T.Nam</th>
+                    <th>T.Sau</th>
+                    <th>T.Bay</th>
+                </tr>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>1<sub>13</sub></th>
+                    <th>2<sub>14</sub></th>
+                    <th>3<sub>15</sub></th>
+                </tr>
+                <tr>
+                    <th>4<sub>13</sub></th>
+                    <th>5<sub>14</sub></th>
+                    <th>6<sub>15</sub></th>
+                    <th>7<sub>13</sub></th>
+                    <th>8<sub>14</sub></th>
+                    <th>9<sub>15</sub></th>
+                    <th>10<sub>16</sub></th>
+                </tr>
+                <tr>
+                    <th>11<sub>17</sub></th>
+                    <th>12<sub>18</sub></th>
+                    <th>13<sub>19</sub></th>
+                    <th>14<sub>20</sub></th>
+                    <th>15<sub>21</sub></th>
+                    <th>16<sub>22</sub></th>
+                    <th>17<sub>23</sub></th>
+                </tr>
+                <tr>
+                    <th>18<sub>24</sub></th>
+                    <th>19<sub>25</sub></th>
+                    <th>20<sub>26</sub></th>
+                    <th>21<sub>27</sub></th>
+                    <th>22<sub>28</sub></th>
+                    <th>23<sub>29</sub></th>
+                    <th>24<sub>30</sub></th>
+                </tr>
+            </table>
+        </div>
+    </div>
 </body>
 </html>

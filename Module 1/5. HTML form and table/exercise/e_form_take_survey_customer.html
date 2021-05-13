@@ -5,10 +5,145 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> make form take survey customer</title>
+    <style>
+        .market_research_survery {
+            font-size: large;
+        }
+        .hr {
+            border-top: 0px dotted black;
+        }
+        .select_option {
+            width: 70%;
+        }
+        .other_square {
+            margin-left: 30px;
+            margin-top: 10px; 
+        }
+        .dollars {
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+        .dollars_cents {
+            display: flex;
+            flex-direction: row-reverse;
+            float: left;
+        }
+        .note {
+            width: 100%;
+            font-weight: bold;
+        }
+        .submit {
+            padding: 30px;
+            width: 20em;  height: 70px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td, th {
+            padding: 20px;
+            border: 1px solid black;
+            text-align: center;
+        }
+        th{
+            font-family: 'Patua One', cursive;
+            font-size:16px;
+            font-weight:bold;
+            color:# black;
+            text-align:center;
+            border-color: black;
+            padding: 20px;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <form>
+        <div class="market_research_survery"><h1>Market Research Rurvery</h1></div>
+        <div><p>Please take a few moments to complete this satisfaction survey.</p></div>
+        <hr class="hr">
+        <div><h2>What is your age range?</h2></div>
+        <div class="select_option">
+            <select>
+                <option value="18-24">18-24</option>
+                <option value="25-34">25-34</option>
+                <option value="35-50">35-50</option>
+                <option value="50+">50+</option>    
+            </select>
+        </div>
+        <div><h2>What is your yearly income range?</h2></div>
+        <div class="select_option">
+            <select>
+                <option value="18-24">0$-250$</option>
+                <option value="25-34">250$-500$</option>
+                <option value="35-50">500$-1000$</option>
+                <option value="50+">1000+$</option>    
+            </select>
+        </div>
+        <div><h2>Gender Identity</h2></div>
+        <div><input type="radio" name="male" id="male" value=""/> Male</div>
+        <div><input type="radio" name="female" id="female" value=""/> Female</div>
+        <div><input type="radio" name="nonbinary" id="nonbinary" value=""/> Nonbinary</div>
+        <div><input type="radio" name="other" id="other" value=""/> Other</div>
+        <div class="other_square"><input type="text" name="other_square" id="other_square" value=""/></div>
         
+        <div><h2>Which of the following products have your purchased in the last 2 months. Please check all that apply.</h2></div>
+        <div><input type="checkbox" name="product1" id="male" value=""/> Product 1</div>
+        <div><input type="checkbox" name="product2" id="female" value=""/> Product 2</div>
+        <div><input type="checkbox" name="product3" id="nonbinary" value=""/> Product 3</div>
+
+        <div><h2>How often would you use our new product?</h2></div>
+        <div><input type="radio" name="daily" id="male" value=""/> Daily</div>
+        <div><input type="radio" name="weekly" id="female" value=""/> Weekly</div>
+        <div><input type="radio" name="monthly" id="nonbinary" value=""/> Monthly</div>
+
+        <div><h2>What would you pay for the new product?</h2></div>
+        <div class="dollars_cents">
+            <div><input type="text" name="cents" id="cents" value=""/></div>
+            <span class="dollars">.</span>
+            <div><input type="text" name="dollars" id="dolars" value=""/></div>
+            <span class="dollars">$</span>
+        </div>
+        <div>
+            <div><p>Dollars</p></div>
+            <div><p>Cents</p></div>
+        </div>
+        <div><h2>What features would you like to see in the new product.</h2></div>
+        <textarea name="textare" id="textare" rows="7" cols="100px" style="width: 95%; margin: 10px;"></textarea>
+
+        <div><p>Please rate your level of agreement with the following statements.</p></div>
+        <table>
+            <tr style="background: #c8ced1;">
+                <th></th>
+                <th>Strongly Disagree</th>
+                <th>Disagree</th>
+                <th>Agree</th>
+                <th>Strongly Agree</th>
+            </tr>
+            <tr>
+                <th>Our products are priced fairly.</th>
+                <td><input type="radio" name="" id="" value=""/><p>1</p></td>
+                <td><input type="radio" name="" id="" value=""/><p>2</p></td>
+                <td><input type="radio" name="" id="" value=""/><p>3</p></td>
+                <td><input type="radio" name="" id="" value=""/><p>4</p></td>
+            </tr>
+            <tr style="background: #c8ced1;">
+                <th>Our products are high quality.</th>
+                <td><input type="radio" name="" id="" value=""/><p>1</p></td>
+                <td><input type="radio" name="" id="" value=""/><p>2</p></td>
+                <td><input type="radio" name="" id="" value=""/><p>3</p></td>
+                <td><input type="radio" name="" id="" value=""/><p>4</p></td>
+            </tr>
+            <tr>
+                <th>You would recommend our product to a friend or coworker.</th> 
+                <td><input type="radio" name="" id="" value=""/><p>1</p></td>
+                <td><input type="radio" name="" id="" value=""/><p>2</p></td>
+                <td><input type="radio" name="" id="" value=""/><p>3</p></td>
+                <td><input type="radio" name="" id="" value=""/><p>4</p></td>
+            </tr>
+        </table>
+        <div class="submit"><input type="submit" name="submit" id="submit" value="submit"/></div>
     </form>
 </body>
 </html>
