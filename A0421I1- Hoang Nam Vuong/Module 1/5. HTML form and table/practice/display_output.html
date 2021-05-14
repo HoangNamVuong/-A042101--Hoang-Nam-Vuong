@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display output</title>
+</head>
+<body>
+    <button type="button" onclick="showMessage();">Click Me!</button>
+    <script>
+        //function showMessage(){
+            console.log('Xin chào nam vuong toi hien thi bang ham console.log!');
+        }
+    </script>
+    <!--phia tren la hien thi su dung ham console.log-->
+    <button type="button" onclick="showMessage();">Click Me!</button>
+    <script>
+        //function showMessage(){
+            document.write('Xin chào nam vuong toi hien thi bang ham document.write!');
+        }
+    </script>
+    <!--phia tren la hien thi su dung ham document.write-->
+    <div id="messageDiv"></div>
+    <button type="button" onclick="showMessage();">Click Me!</button>
+    <script>
+        //function showMessage(){
+            document.getElementById('messageDiv').innerHTML = 'Xin chào nam vuong toi hien thi bang html!';
+        }
+    </script>
+    <!-- phia tren la hien thi su dung the html-->
+    <button type="button" onclick="showMessage();">Click Me!</button> <!-- the button dung de hien thi mot nut-->
+    <script>
+        //function showMessage() {  // hàm này mình tự tạo ra
+            alert('Xin chào nam vuong toi hien thi bang ham alert!');   // ham nay dung de hien thi
+        }
+    </script>
+    <!--phia tren la hien thi su dung ham alert-->
+    <button type="button" onclick="showMessage();">Click Me!</button>
+    <script src="display_output.js"></script>
+</body>
+</html>
