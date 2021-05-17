@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>declare and use variables</title>
+</head>
+<body>
+    <script>
+        var i = 10;
+        var f = 20.5;
+        var c = true;
+        var s = "Ha Noi";
+        var width = 2;
+        var height = 3;
+        var area = width * height;
+        var a = prompt("nhap so a: ");
+        var b = prompt("nhap so b: ");
+        var multiples = a % b;
+
+
+        document.write("i = " + i);
+        document.write("<br>");
+        document.write("f = " + f);
+        document.write("<br>");
+        document.write("c = " + c);
+        document.write("<br>");
+        document.write("s = " + s)
+        document.write("<br>");
+        document.write("area = " + area);
+        document.write("<br>");
+        if(multiples == 0) {
+            alert("a la boi so cua b");
+            document.write("a la boi so cua b" + multiples);
+        } else {
+            alert("a khong phai la boi so cua b");
+            document.write("a khong phai la boi so cua b" + multiples);
+        }
+
+    </script>
+</body>
+</html>
