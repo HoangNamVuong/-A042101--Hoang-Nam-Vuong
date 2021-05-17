@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variable data pype and operator</title>
+</head>
+<body>
+    <script>
+        // bai tap 1
+        var physical ;
+        physical = prompt("input physical:") ;
+        var math ;
+        math = prompt("input math:") ;
+        var biological ;
+        biological = prompt("input biological") ;
+        var total_score ;
+        total_score = parseInt(physical) + parseInt(math) + parseInt(biological) ;
+        var medium_score;
+        medium_score = total_score / 3 ;
+
+        document.write("total score is:" + total_score) ;
+        document.write("<br> medium score is:" + medium_score) ;
+
+        // bai tap 2
+        var degrees_c ;
+        degrees_c =prompt("input degrees c:") ;
+        var degress_f ;
+        degress_f = (degrees_c * 1.8) + 32 ;
+
+        document.write("degress f la: " + degress_f) ;
+
+        // bai tap 3
+        const PI = 3.14;
+        var radius ;
+        radius = prompt("input radius:") ;
+        var area_circle ;
+        area_circle = radius * radius * PI ;
+
+        document.write("circle area is: " + area_circle) ;
+
+        // bai tap 4
+        var radius ;
+        radius = prompt("input radius:") ;
+        var diameter_circle ;
+        diameter_circle = radius * 2 * 3.14 ;
+
+        document.write("diameter_circle is: " + diameter_circle) ;
+    </script>
+</body>
+</html>
