@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise calculator</title>
+    <style>
+        .title {
+            padding-left: 6%;
+        }
+        .input {
+            padding-bottom: 0.05% ;
+            padding-left: 1%;
+        }
+    </style>
+</head> 
+<body>
+    <h1 class="title">calculator</h1>
+    <div class="input">
+        <input type="text" name="input1" id="input1"/>
+        <input type="text" name="input2" id="input2"/>
+    </div>
+    <br>
+    <button onclick="adition()">Adition(+)</button>
+    <button onclick="subtraction()">Subtraction(-)</button>
+    <button onclick="multiplication()">Multiplication(*)</button>
+    <button onclick="division()">Division(/)</button>
+    <p id="result"></p>
+</body>
+<script>
+    function adition() {
+        let input1 = parseInt(document.getElementById("input1").value) ;
+        let input2 = parseInt(document.getElementById("input2").value) ;
+        let result = ("result is :" + (input1 + input2)) ;
+        document.getElementById("result").innerHTML = result ;
+    }
+    function subtraction() {
+        let input1 = parseInt(document.getElementById("input1").value) ;
+        let input2 = parseInt(document.getElementById("input2").value) ;
+        let result = ("result is :" + (input1 - input2)) ;
+        document.getElementById("result").innerHTML = result ;
+    }
+    function multiplication() {
+        let input1 = parseInt(document.getElementById("input1").value) ;
+        let input2 = parseInt(document.getElementById("input2").value) ;
+        let result = ("result is :" + (input1 * input2)) ;
+        document.getElementById("result").innerHTML = result ;
+    }
+    function division() {
+        let input1 = parseInt(document.getElementById("input1").value) ;
+        let input2 = parseInt(document.getElementById("input2").value) ;
+        let result = ("result is :" + (input1 / input2)) ;
+        document.getElementById("result").innerHTML = result ;
+    }
+</script>
+</html>
