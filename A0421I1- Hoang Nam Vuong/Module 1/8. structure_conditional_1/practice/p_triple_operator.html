@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triple operator</title>
+</head>
+<body>
+    <!-- example 1-->
+    <script>
+        var a = parseInt(prompt ("input number a:"));
+        var b = parseInt(prompt ("input number b:"));
+
+        var result = (a + b > 4) ? "Below": "Over";
+        document.write (result);
+    </script>
+    <!--example 2-->
+    <script>
+        var message = prompt ("input your message");
+
+        var message = (message == "Employee") ? "hello" : (message == "Director") ? "Greetings" : (message == "") ? "No login" : "";
+        alert (message);
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice if_else_if</title>
+</head>
+<body>
+    <script>
+        var yourName = prompt("Who are you ?");
+        var password = prompt("Your password ?");
+
+        if (yourName == "Admin") {
+            if (password == "TheMaster") {
+                alert ("Wellcome");
+            }else if (password == null) {
+                alert ("canceled");
+            }else {
+                alert ("Wrong password");
+            }
+        }else if (yourName == null) {
+            alert ("canceled");
+        }else {
+            alert ("I don't now you");
+        }
+    </script>
+</body>
+</html>
