@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // var radius = Number(prompt("Nhap vao ban kinh hinh tron: "));
+        // if (radius >= 0) {
+        //     var area = radius * radius * 3.1415;
+        //     console.log("Area: " + area);
+        // } else {
+        //     console.log("Radius phai lon hon 0");
+        // }
+​
+        // var flag = true;
+        // var i = 1;
+​
+        // if (i) {
+        //     console.log("Gia tri bien la true");
+        // } else {
+        //     console.log("Gia tri bien la false");
+        // }
+        // var number = parseInt(prompt("Nhap vao 1 so bat ky: "));
+        // var isEven = number % 2 === 0;
+        // if (isEven) {
+        //     console.log("Number is even");
+        // } else {
+        //     console.log("Number is odd");
+        // }
+​
+        // var diemTb = Number(prompt("Nhap vao diem trung binh: "));
+        // if (diemTb >= 8) {
+        //     console.log("Hoc sinh gioi");
+        // } else if (diemTb >= 6.5) {
+        //     console.log("Hoc sinh kha");
+        // } else if (diemTb >=5) {
+        //     console.log("Hoc sinh trung binh");
+        // } else if (diemTb > 3.5) {
+        //     console.log("Hoc sinh yeu");
+        // } else {
+        //     console.log("Hoc sinh kem");
+        // }
+​
+        // var i = 1;
+        // var j = 2;
+​
+        // if (j > i)
+        //     if (j > 2) 
+        //         console.log("j");
+        //     else 
+        //         console.log("i");
+​
+        // var x = 1.0 - 0.1 - 0.1 - 0.1 - 0.1 - 0.1;
+        // console.log(x == 0.5);
+        // console.log(x);
+        // if (Math.abs(x - 0.5) < 1E-14)
+        //     console.log(x + " is approximately 0.5");
+        
+        // var isOdd;
+        // if (number % 2 == 0) {
+        //     isOdd = false;
+        // } else {
+        //     isOdd = true;
+        // }
+​
+        // var isOdd = (number % 2 != 0);
+        // var num = parseInt(prompt("Nhap vao 1 so nguyen bat ky duoi 8"));
+        // switch (num) {
+        //     case 1:
+        //         console.log("Ban da nhap so 1");
+        //         break;
+        //     case 2:
+        //         console.log("Ban da nhap so 2");
+        //         break;
+        //     case 3:
+        //         console.log("Ban da nhap so 3");
+        //         break;
+        //     case 4:
+        //         console.log("Ban da nhap so 4");
+        //         break;
+        //     case 5:
+        //         console.log("Ban da nhap so 5");
+        //         break;
+        //     case 6:
+        //         console.log("Ban da nhap so 6");
+        //         break;
+        //     case 7:
+        //         console.log("Ban da nhap so 7");
+        //         break;
+        //     default:
+        //         console.log("Ban da nhap vao so lon hon 7");
+        // }
+​
+        var month = parseInt(prompt("Nhap vao so thang"));
+        switch (month) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                console.log("Thang " + month + " co 31 ngay");
+                break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                console.log("Thang " + month + " co 30 ngay");
+                break;
+            case 2:
+                console.log("Thang " + month + " co 28 ngay");
+                break;
+            default:
+                console.log("Thang " + month + " khong ton tai");
+        }
+        // ?:
+        var number1 = 5, number2 = 7;
+        var maxNumber;
+        if (number1 > number2) {
+            maxNumber = number1;
+        } else {
+            maxNumber = number2;
+        }
+​
+        maxNumber = number1 > number2 ? number1 : number2;
+​
+        maxNumber = a > b ? a > c ? a : c : b > c ? b : c; // slide 20
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+Collapse
+
+
+
+
+
+8 replies
+Last reply today at 7:29 PMView thread
+
+hai.truong  7:42 PM
+@channel Các abnj có khó khăn thì chat vào thread này nhé
+
+1 reply
+Today at 7:53 PMView thread
+
+hai.truong  8:29 PM
+@A0421I1-Nguyễn Trọng Huy. Sao gọi hoài ko thấy (edited) 
+
+
+3 replies
+Last reply today at 8:47 PMView thread
+
+A0421I1-Nguyễn Phạm Quốc Huy  8:46 PM
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="so1"><input type="text" id="so2"><br>
+<input type="button" id="add" onclick="cal('+')" value="add" >
+<input type="button" id="cal" onclick="cal('-')" value="sub">
+<input type="button" id="mul" onclick="cal('*')" value="mul">
+<input type="button" id="div" onclick="cal('/')" value="div">
+<p id="demo"></p>
+<script>
+    // var cal=document.getElementById("add");
+    // console.log(cal);
+    function cal(ten) {
+        let result;
+        let so1=parseInt(document.getElementById("so1").value);
+        let so2=parseInt(document.getElementById("so2").value);
+        switch (ten) {
+            case '+':  result= so1+so2;break;
+            case'-':result=so1-so2;break;
+            case'*':result=so1*so2;break;
+            case'/':
+                if (so2==0){
+                    result="không thể chia cho 0";
+                }else{
+                    result=so1/so2;
+                }
+                break;
+        }
+        document.getElementById("demo").innerText=result
+    }
+</script>
+</body>
+</html>
