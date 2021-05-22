@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice condition structure 02</title>
+</head>
+<body>
+                         <!--lesson1:Convert from Celsius to Fahrenheit.-->
+    <script>
+        var c = Number(prompt("enter teamprature:"));
+        var f = c * (9 / 5) + 32;
+        alert("temperature f is: " + f);
+    </script>
+                         <!--lesson 2:Move from meter to feet:-->
+    <script>
+        var meter = Number(prompt("enter meter:"));
+        var feet = meter * 3.2808;
+        alert("feet is: " + feet);
+    </script>
+                             <!--lesson 3:Calculate the area of the square-->
+    <script>
+        var edge_a  = Number(prompt("enter length one edge:"));
+        var area = edge_a * edge_a;
+        alert("area is: " + area);
+    </script>
+                                 <!--lesson 4:Find the area of a rectangle when two sides a and b are known.-->
+    <script>
+        var edge_a  = Number(prompt("enter length edge a:"));
+        var edge_b  = Number(prompt("enter length edge b:"));
+        var area = edge_a * edge_b;
+        alert("area is: " + area);
+    </script>
+                                <!--lesson 5:Find the area of a triangle when two sides a and b are known-->
+    <script>
+        var edge_a  = Number(prompt("enter length edge a:"));
+        var edge_b  = Number(prompt("enter length edge b:"));
+        var area = Math.sqrt(edge_a * edge_a + edge_b * edge_b);
+        alert("area is: " + area);
+    </script>
+                                       <!--lesson 6:Solve the first degree equation a*x + b = 0.-->
+    <script>
+        var number_a  = Number(prompt("enter number a:"));
+        var number_b  = Number(prompt("enter number b:"));
+        var solution;
+        
+        if (number_a == 0) {
+            if (number_b == 0) {
+                alert("The equation has infinitely many solutions");
+            }else {
+                alert("equation has no solution");
+            }   
+        }else if (number_b == 0) {
+            alert("equation has no solution")
+        }else {
+            solution = - number_b / number_a;
+            alert("solution of equation is: " + solution);
+        }
+    </script>
+                                           <!--lesson 7:solve quadratic equations a*x^2 + b*x + c = 0.-->
+    <script>
+        var number_a  = Number(prompt("enter number a:"));
+        var number_b  = Number(prompt("enter number b:"));
+        var number_c  = Number(prompt("enter number c:"));
+        var solution_1;
+        var solution_2;
+        
+        if (number_a == 0) {
+            if (number_b == 0) {
+                if (number_c == 0) {
+                    alert("The equation has infinitely many solutions");
+                }else {
+                    alert("equation has no solution");
+                }
+            }else if (number_c == 0) {
+                alert("equation has no solution");
+            }else {
+                solution_1 = -number_c / number_b;
+                alert("equation has one solution is: "+ " x = " + solution_1);
+            }
+        }else {
+            var delta = number_b * number_b - 4 * number_a * number_c;
+            if (delta > 0) {
+                var solution_1 = (-number_b + Math.sqrt(delta)) / (2 * number_a);
+                var solution_2 = (-number_b - Math.sqrt(delta)) / (2 * number_a);
+                alert("equation has two solution is: " +" x1 = " + solution_1 + " and" + " x2 = "+ solution_2);
+            }else if (delta == 0) {
+                var solution_1 = -number_b / 2 * number_a;
+                alert("equation has one solution is: "+ " x = " + solution_1);
+            }else {
+                alert("equation has no solution");
+            }
+        }
+    </script>
+                                          <!--lesson 8:Check if a number entered is a person's age.-->
+    <script>
+        var number_a  = parseInt(prompt("enter number age:"));
+
+        if (number_a > 0 && number_a < 120) {
+            alert(number_a + " is a person's age");
+        }else {
+            alert(number_a + " is not a person's age");
+        }
+    </script>
+                                              <!--lesson 9:Check if 3 real numbers (a, b, c) entered are sides of a triangle.-->
+    <script>
+        var number_a  = Number(prompt("enter number a:"));
+        var number_b  = Number(prompt("enter number b:"));
+        var number_c  = Number(prompt("enter number c:"));
+
+        if (number_a > 0 && number_b > 0 && number_c > 0) {
+            if (number_a + number_b > number_c) {
+                if (number_b + number_c > number_a) {
+                    if (number_a + number_c > number_b) {
+                        alert("number " + number_a + " ; number " + number_b + " ; number " + number_c +  " : is sides of a triangle");
+                    }else {
+                        alert("number " + number_a + " ; number " + number_b + " ; number " + number_c +  " : is not sides of a triangle");
+                    }
+                }else {
+                    alert("number " + number_a + " ; number " + number_b + " ; number " + number_c +  " : is not sides of a triangle");
+                }
+            }else {
+                alert("number " + number_a + " ; number " + number_b + " ; number " + number_c +  " : is not sides of a triangle");
+            }
+        }else {
+            alert("number " + number_a + " ; number " + number_b + " ; number " + number_c +  " : is not sides of a triangle");
+        }
+    </script>
+                                              <!--lesson 10: Write the program electricity price..-->
+    <script>
+        var electricNumber  = Number(prompt("enter your electric number (kWh):"));
+        var electricBill;
+        if (electricNumber < 0) {
+            alert("enter wrong electric number");
+        }else if (0 <= electricNumber <= 50) {
+            electricBill = electricNumber * 1.678;
+            alert("your electric bill is: " + electricBill + " VND" );
+        }else if (50 < electricNumber <= 100) {
+            electricBill = electricNumber * 1.734;
+            alert("your electric bill is: " + electricBill + " VND" );
+        }else if (100 < electricNumber <= 200) {
+            electricBill = electricNumber * 2.014;
+            alert("your electric bill is: " + electricBill + " VND");
+        }else if (200 < electricNumber <= 300) {
+            electricBill = electricNumber * 2.536;
+            alert("your electric bill is: " + electricBill + " VND" );
+        }else if (300 < electricNumber <= 400) {
+            electricBill = electricNumber * 2.834;
+            alert("your electric bill is: " + electricBill + " VND" );
+        }else {
+            electricBill = electricNumber * 2.927
+            alert("your electric bill is: " + electricBill + " VND" );
+        }
+    </script>
+                                                  <!--lesson 11: Write a program to calculate personal income tax..-->
+    <script>
+        var yourMoneyNumber  = Number(prompt("enter your money number (VND):"));
+        var taxPayable;
+        if (yourMoneyNumber < 5000000) {
+            alert("do not pay income tax");
+        }else if (yourMoneyNumber = 5000000) {
+            taxPayable = yourMoneyNumber * 0.05;
+            alert("your income tax is: " + taxPayable + " VND" );
+        }else if (5000000 < yourMoneyNumber <= 10000000) {
+            taxPayable = yourMoneyNumber * 0.1;
+            alert("your income tax is: " + taxPayable + " VND" );
+        }else if (10000000 < yourMoneyNumber <= 18000000) {
+            taxPayable = yourMoneyNumber * 0.15;
+            alert("your income tax is: " + taxPayable + " VND" );
+        }else if (18000000 < yourMoneyNumber <= 32000000) {
+            taxPayable = yourMoneyNumber * 0.2;
+            alert("your income tax is: " + taxPayable + " VND" );
+        }else if (32000000 < yourMoneyNumber <= 52000000) {
+            taxPayable = yourMoneyNumber * 0.25;
+            alert("your income tax is: " + taxPayable + " VND" );
+        }else if (52000000 < yourMoneyNumber <= 80000000) {
+            taxPayable = yourMoneyNumber * 0.3;
+            alert("your income tax is: " + taxPayable + " VND" );
+        }else {
+            taxPayable = yourMoneyNumber * 0.35;
+            alert("your income tax is: " + taxPayable + " VND" );
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice event keyboard</title>
+</head>
+<body>
+    <img id="dogBoring" src="http://www.codeproject.com/KB/GDI-plus/ImageProcessing2/img.jpg?w=144" alt="demo image" style="position: absolute;left: 0; top: 0"/>
+
+    <script>
+        window.addEventListener("keydown",moveDog);
+            function moveDog(params) {
+                let dogBoring = document.getElementById("dogBoring");
+                switch (params.keyCode) {
+                case 37: {
+                    dogBoring.style.left = parseInt(dogBoring.style.left) - 5 + 'px';
+                    break;
+                }
+                case 38: {
+                    dogBoring.style.top = parseInt(dogBoring.style.top) - 5 + 'px';
+                    break;
+                }
+                case 39: {
+                    dogBoring.style.left = parseInt(dogBoring.style.left) + 5 + 'px';
+                    break;
+                }
+                case 40: {
+                    dogBoring.style.top = parseInt( dogBoring.style.top) + 5 + 'px';
+                    break;
+                }
+            }
+        }
+    </script>
+</body>
+</html>

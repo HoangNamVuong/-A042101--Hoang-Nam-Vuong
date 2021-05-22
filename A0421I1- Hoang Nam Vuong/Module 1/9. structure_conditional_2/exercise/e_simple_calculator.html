@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise simple calculator</title>
+</head>
+<!-- <style>
+    .output {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: right;
+    }
+    .table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 50%;
+    }
+    th {
+        padding: 2%;
+    }
+</style> -->
+<body>
+    <table class="table">
+        <tr>
+            <th class="output" colspan="4"><input name="output" id="output" type="text"/></th>
+        </tr>
+        <tr>
+            <th><button id="1" name="number" onclick="calculator('1')">1</button></th>
+            <th><button id="2"  name="number" onclick="calculator('2')">2</button></th>
+            <th><button id="3"  name="number" onclick="calculator('3')">3</button></th>
+            <th><button id="+" onclick="calculator('+')">+</button></th>
+        </tr>
+        <tr>
+            <th><button id="4"  name="number" onclick="calculator('4')">4</button></th>
+            <th><button id="5"  name="number" onclick="calculator('5')">5</button></th>
+            <th><button id="6"  name="number" onclick="calculator('6')">6</button></th>
+            <th><button id="-" onclick="calculator('-')">-</button></th>
+         </tr>
+        <tr>
+            <th><button id="7"  name="number" onclick="calculator('7')">7</button></th>
+            <th><button id="8"  name="number" onclick="calculator('8')">8</button></th>
+            <th><button id="9"  name="number" onclick="calculator('9')">9</button></th>
+            <th><button id="*" onclick="calculator('*')">*</button></th>
+        </tr>
+        <tr>
+            <th><button id="c" onclick="calculator('c')">c</button></th>
+            <th><button id="0"  name="number" onclick="calculator('0')">0</button></th>
+            <th><button id="=" onclick="result('=')">=</button></th>
+            <th><button id="/" onclick="calculator('/')">/</button></th>
+        </tr>
+    </table>
+    <script>
+        function calculator(params) {
+            document.getElementById("output").value = document.getElementById("output").value + params;
+            if (params == "c") {
+                document.getElementById("output").value = "";
+            }
+        }
+        function result() {
+            document.getElementById("output").value = eval(document.getElementById("output").value);
+            
+        }
+    </script>
+</body>
+</html>

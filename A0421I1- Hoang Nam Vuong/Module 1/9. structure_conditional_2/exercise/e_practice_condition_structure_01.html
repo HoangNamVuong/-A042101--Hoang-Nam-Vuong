@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice condition structure 01</title>
+</head>
+<body>
+                                            <!--lesson 01: input a and b then check a%b-->
+    <script>
+            let a = Number(prompt ("input number a"));
+            let b = Number(prompt ("input number b"));
+            let result;
+
+            if (a % b == 0) {
+                result = (a + " is divisible by " + b);
+                document.write (result);
+            }else {
+                result = (a + " is not divisible by " + b);
+                document.write (result);
+            }
+    </script>
+    <script>
+        let a = Number(prompt ("input number a"));
+        let b = Number(prompt ("input number b"));
+
+        let result = a % b == 0 ? a + " is divisible by " + b : a + " is not divisible by " + b;
+        document.write (result);
+        //alert (result);
+    </script>
+                            <!--lesson 02: Enter age and report the result if you are aligible to enter grade 10 -->
+    <script>
+        var age = parseInt(prompt ("enter your age:"));
+
+        if (age >= 15) {
+            document.write ("You can enter grade 10");
+        }else {
+            document.write ("You can't enter grade 10");
+        }
+    </script>
+    <script>
+        var age = parseInt(prompt ("enter your age:"));
+        var result = age >= 15 ? "you can enter grade 10" : "you can't enter grade 10";
+        document.write (result);
+    </script>
+                             <!--lesson 03: negative integers and positive integers -->
+    <script>
+        var integer = parseInt(prompt ("Enter your number:"));
+
+        if (integer == 0) {
+            document.write ("You enter number 0");
+        }else if (integer > 0) {
+            document.write ("You enter a positive integer");
+        }else {
+            document.write ("You enter a nagative integer");
+        }
+    </script>
+    <script>
+        var integer = parseInt(prompt ("Enter your number:"));
+
+        var result = integer == 0 ? "You enter number 0" : integer >= 0 ? "You enter a positive integer" : "You enter a nagative integer";
+        document.write (result); 
+    </script>
+                                 <!--lesson 04: find the largest integer in 3 number -->
+    <script>
+        var a = parseInt(prompt("enter number integer a:"));
+        var b = parseInt(prompt("enter number integer b:"));
+        var c = parseInt(prompt("enter number integer c:"));
+
+        if (a > b) {
+            if (a > c) {
+                alert (a +" is max number integer");
+            }else {
+                alert (c +" is max number integer");
+            }
+        }else if (b > c) {
+            alert (b +" is max number integer");
+        }else {
+            alert (c +" is max number integer");
+        }
+        
+    </script>
+    <script>
+        var a = parseInt(prompt("enter number integer a:"));
+        var b = parseInt(prompt("enter number integer b:"));
+        var c = parseInt(prompt("enter number integer c:"));
+
+        var result = a>b?a>c?a+" is max":c+" is max":b>c?b+" is max":c+" is max";
+        alert(result);
+    </script>
+                                     <!--lesson 05: Graded academic performance based on grades -->
+    <script>
+        var midtermScore = Number(prompt("enter your midterm score:"));
+        var finalGrade = Number(prompt("enter your final grade:"));
+        var result = midtermScore*0.3 +finalGrade*0.7;
+
+        if (0 >= midtermScore && finalGrade <= 10) {
+            if (result < 4) {
+                document.write("bad");
+            }else if (result < 6.5) {
+                document.write("medium");
+            }else if (result < 7) {
+                document.write("good pretty");
+            }else if (result < 8.5) {
+                document.write("Good");
+            }else {
+                document.write("excellent");
+            }
+        }else {
+            document.write("you entered the wrong score");
+        }
+    </script>
+                         <!--lesson 06:Calculate the commission received depending on the level of sales -->
+    <script>
+        var sales = Number(prompt("enter your lever of selers"));
+        var commission = sales * 10 / 100;
+        document.write("commission is: " + commission  + "USD");
+    </script>
+</body>
+</html>

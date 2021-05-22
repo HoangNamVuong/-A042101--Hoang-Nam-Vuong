@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice mouse event</title>
+</head>
+<body>
+    <img id="dogBoring" src="http://www.codeproject.com/KB/GDI-plus/ImageProcessing2/img.jpg?w=144" alt="demo image" style="position: relative; left: 0;"/>
+    <p>Click button below to move the image to right</p>
+    <input id="click" type="button" value="click me" onclick="move()"/>
+
+    <script>
+        function move() {
+            let imgObject = document.getElementById("dogBoring")
+            imgObject.style.left = parseInt(imgObject.style.left) + 30 + "px" ;
+        }
+    </script>
+</body>
+</html>
