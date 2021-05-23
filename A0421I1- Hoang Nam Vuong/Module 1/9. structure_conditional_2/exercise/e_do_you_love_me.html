@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise do you love me</title>
+</head>
+<body>
+    <h1>Do you love me?</h1>
+    <input id="yes" onclick="yesClick()" type="button" value="Yes" style="position: absolute;"/>
+    <input id="no" onmouseover="noOver()" type="button" value="No" style="position: absolute; left: 80px;"/>
+
+    <script>
+        function yesClick() {
+            alert("I love you too!");
+        }
+        function noOver() {
+            var moveWidth = Math.round(Math.random() * window.innerWidth);
+            var moveHeight = Math.round(Math.random() * window.innerHeight);
+            document.getElementById("no").style.left = moveWidth + "px";
+            document.getElementById("no").style.top = moveHeight + "px";
+        }
+    </script>
+</body>
+</html>
