@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>using for loop</title>
+</head>
+<body>
+    <!--lesson 1: Write a program that displays the string “The number is N” 5 times using a for  loop -->
+    <h1>javaScript Loops</h1>
+    <p id="lesson1"></p>
+
+    <script>
+        var text = "";
+        var i;
+        
+        for (i = 0; i < 5; i++) {
+            text += "The number is N " + i + "<br>";
+        }
+        document.getElementById("lesson1").innerHTML = text;
+    </script>
+
+    <!--Write a program to input any number greater than 0. Calculate the sum of the elements from 1 to the number entered.-->
+    <script>
+        var number = parseInt(prompt("input your number: "));
+        var total = null;
+        var i;
+
+        for(i = 1; i <= number; i += 1) {
+            total += i;
+        }
+        alert(total);
+    </script>
+</body>
+</html>

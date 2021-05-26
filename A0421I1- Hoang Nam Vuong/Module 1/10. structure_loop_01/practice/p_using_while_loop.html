@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice using while loop</title>
+</head>
+<body>
+    <!--lesson 1: Write a program to calculate the sum-->
+    <script>
+        let num = null;
+        let sum = 0;
+
+        while (num != -1) {
+            num = parseInt(prompt("input numbet:"));
+            alert(num);
+            sum = sum + num;
+        }
+        document.write("Your sum number is: " + sum);
+    </script>
+    <!--lesson 2: Write a program that displays the <hr> tag in widths from 1 to 100.-->
+    <script>
+        let i = 1;
+
+        while (i < 100) {
+            document.write("<hr width = " + i + "%>");
+            i++;
+        }
+    </script>
+</body>
+</html>

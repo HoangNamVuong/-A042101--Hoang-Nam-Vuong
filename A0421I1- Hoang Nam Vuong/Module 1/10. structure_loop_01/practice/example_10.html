@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // for(var i = 1; i <= 10; i++) {
+        //     document.write("5 x " + i + " = " + (5*i) + "<br/>");
+        // }
+​
+        // // Tính tổng s = 1 + 2 + 3 + ... + n. n nhập từ bàn phím
+        // var n = parseInt(prompt("Nhap n: ")); //23432434
+        // var sum = 0;
+        // for (var i = 1; i <= n; i++) {
+        //     sum += i;
+        // }
+        // document.write("Tong 1 + 2 + ... + " + n + " = " + sum);
+​
+        var str;// = "Hello";
+        // while (str !== "q") {
+        //     document.write(str + "<br/>");
+        //     str = prompt("Nhap vao chuoi. Nhan 1 de thoat.");
+        // }
+​
+        // do {
+        //     str = prompt("Nhap vao chuoi. Nhan 1 de thoat.");
+        //     document.write(str + "<br/>");
+        // } while (str !== "q");
+​
+        // var number = 1;
+        // while (number <= 10) {
+        //     document.write(number + "<br/>");
+        //     number = parseInt(prompt("Nhap vao 1 so bat ky: "));
+        // }
+        
+        // var sum = 0;
+        // var number;
+        // do {
+        //     number = parseInt(prompt("nhap vao so khac 0. nhap 0 de thoat"));
+        //     sum += number;
+        // } while (number !== 0);
+​
+        // document.write("Tong la: " + sum);
+​
+        // for (var i = 0; i < 10; i++) {
+        //     document.write("i: " + i + "<br/>");
+        //     for(var j = i; j < 10; j++) {
+        //         if (j >= 5) {
+        //             break;
+        //         }
+        //         document.write("j: " + j + "<br/>");
+        //     }
+        // }
+​
+​
+        // for (var i = 0; i < 10; i++) {
+        //     document.write("i: " + i + "<br/>");
+        //     for(var j = i; j < 10; j++) {
+        //         if (j === 5) {
+        //             continue;
+        //         }
+        //         document.write("j: " + j + "<br/>");
+        //     }
+        // }
+​
+        var f1 = 1, f2 = 1;
+        document.write(f1 + "<br/>");
+        while (f2 <= 10) {
+            document.write(f2 + "<br/>");
+            let temp = f1 + f2;
+            f1 = f2;
+            f2 = temp;
+        }
+        // 1   1    2    3    5   8(f1)  13(f2)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

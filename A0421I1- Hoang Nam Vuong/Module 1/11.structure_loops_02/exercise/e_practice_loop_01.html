@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercese practice loops 01</title>
+</head>
+<body>
+    <!-- <script>//lesson 1: count from 1 to 100.
+        for (i = 1; i < 100; i++) {
+            document.write(i + "<br>");
+            if (i == 99) {
+                alert("done");
+            }
+        }
+    </script>
+    <script>//lesson 2: input temperature
+        do {
+            t = Number(prompt("input your temperature"));
+        }
+        while (isNaN(t)) {
+            if (t < 20) {
+                alert("please increase the temperature");
+            }else if (t > 100) {
+                alert("please lower the temperature");
+            }else {
+                alert("ok");
+            }
+        }
+        ////c2
+        var t = Number(prompt("input your temperature"));
+
+        while (t > 100) {
+            alert("please lower the temperature");
+            t = Number(prompt("input your temperature"));
+        }
+        while (t < 20) {
+            alert("please increase the temperature");
+            t = Number(prompt("input your temperature"));
+        }
+    </script>
+    <script>//lesson 3: Display the 20 numbers in the first fibonacci sequence.
+        var number0 = 0, number1 = 1, number2 = 1;
+
+        for (i = 2; i < 20; i++) {
+            number0 = number1;
+            number1 = number2;
+            number2 = number0 + number1;
+            document.write(number2 + "<br>");
+        }
+    </script> -->
+    <script>//lesson 4: Find the first number in the fibonacci sequence that is divisible by 5.
+        var number0 = 0, number1 = 1, number2 = 1;
+
+        do {
+            number0 = number1;
+            number1 = number2;
+            number2 = number0 + number1;
+        }
+        while (number2 % 5 !== 0);
+        alert("fibonacci number first that is divisible by 5 is " + number2);
+    </script>
+    <script>//Sum of the first 20 numbers in the fibonacci sequence.
+        var number0 = 0, number1 = 1, number2 = 1;
+
+        for (i = 2; i < 20; i++) {
+            number0 = number1;
+            number1 = number2;
+            number2 = number0 + number1;
+        }
+    </script>
+</body>
+</html>
