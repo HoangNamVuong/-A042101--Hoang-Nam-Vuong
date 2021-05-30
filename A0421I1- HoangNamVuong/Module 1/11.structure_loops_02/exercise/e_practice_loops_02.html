@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise practice loops 02</title>
+</head>
+<body>
+    <script>//lesson 1: Display the numbers fibonacci sequence.
+        var input = parseInt(prompt("enter lagest number"));
+        var number0 = 0, number1 = 1, number2 = 1;
+
+        for (i = 2; i < input; i++) {
+            number0 = number1;
+            number1 = number2;
+            number2 = number0 + number1;
+            document.write(number2 + "<br>");
+        }
+    </script>
+    <script>//lesson 2:Factorial of a positive integer. 
+        var number = parseInt(prompt("input your number: "));
+        var result = 1;
+
+        for (i = 1; i <= number; i++) {
+            result *= i;
+        }
+        document.write("factorial of " + number + " is " + result);
+    </script>
+    <script>//lesson 3: Print square triangle. Right angles are in different positions.
+        // picture 1.
+        var max = 4;
+
+        for (i = 0; i <= max; i++) {
+            for (j = 0; j <= i; j++) {
+                document.write("*");
+            }
+            document.write("<br/>");
+        }
+        // picture 2.
+        for (i = 0; i <= max; i++) {
+            for (j = max ; j >= i; j--) {
+                document.write("*");
+            }
+            document.write("<br/>");
+        }
+    </script>
+    <script>//lesson 4: print rectangle.
+        for (i = 0; i <= 7; i++) {
+            for (j = 0; j <= 21; j++) {
+                if (i == 0 || j == 0 || i == 7 || j == 21) {
+                    document.write("*");
+                } else {
+                    document.write("&nbsp;&nbsp;");
+                }
+            }
+            document.write("<br/>");
+        }
+    </script>
+    <script>// lesson 5: bank interest calculation program.
+        var loan = parseInt(prompt("enter loan amount: "));
+        var month = parseInt(prompt("enter monthly amount: "));      
+        var interestMonthlyFirst;
+        var interestMonthlyLast = 0;
+        var sumMoney;
+        for(i = 0; i < month; i++) {
+          interestMonthlyFirst = loan * 0.12 / month;
+          interestMonthlyLast  += interestMonthlyFirst
+        }
+        sumMoney = interestMonthlyLast + loan;
+        document.write("monthly interest is:" + interestMonthlyLast);
+        document.write("<br>");
+        document.write("the total amount to be paid is: " + sumMoney);
+    </script>
+    <script>//lesson 6: Heart print.
+        for (i = 1; i < 7; i++) {
+          for (j = 1; j <= 7; j++) {
+            if (
+              !(
+                (i == 1 && (j == 1 || j == 4 || j == 7)) ||
+                (i == 4 && (j == 1 || j == 7)) ||
+                (i == 5 && (j <= 2 || j >= 6)) ||
+                (i == 6 && (j <= 3 || j >= 5))
+              )
+            ) {
+              document.write(" * ");
+            } else {
+              document.write("&nbsp;&nbsp;");
+            }
+          }
+          document.write("<br/>");
+        }
+      </script>
+</body>
+</html>

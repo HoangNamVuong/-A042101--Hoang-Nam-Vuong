@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example 12</title>
+</head>
+<body>
+     <script>
+        // var array = ["Phuoc", "Tung", "Huy", "Ngan"];
+        var array = new Array("Phuoc", "Tung", "Huy", "Ngan");
+        array[2] = "Nam";
+        var arr = [];
+        // for (i = 0; i < array.length; i++) {
+        //     document.write(array[i] + "<br/>");
+        // }
+​
+        // array.forEach(v => document.write(v + "<br/>")); // arrow function
+        // for(index in array) {
+        //     document.write(array[index] + "<br/>");
+        // }
+​
+        for (i = array.length - 1; i >= 0; i--) {
+            document.write(array[i] + "<br/>");
+        }
+        document.write("<br/><br/>");
+        array.push("Thanh"); // array[array.length] = "Thanh";
+        // for (i = 0; i < array.length; i++) {
+        //     document.write(array[i] + "<br/>");
+        // }
+        document.write(array.join() + "<br/>");
+        var arr1 = [1];
+        // Đảo ngược mảng
+        var array2 = array.reverse();
+        document.write(array2.join() + "<br/>");
+        document.write(array2.sort().reverse().join() + "<br/>");
+        var array3 = [1,5,9,32,43,5,7,10];
+        array3.sort(function(a,b) {
+            // return số âm thì a đứng trước b
+            // return số dương thì b đứng trước a
+            // return 0 thì a = b
+            // b = 4, a = 7
+            // b = 4, a = 2
+            return b - a;
+            // sắp xếp tăng dần => return a - b;
+            // sắp xếp giảm dần => return b - a;
+        });
+        document.write(array3.join() + "<br/>");
+        // Nối 2 mảng lại với nhau
+        var array4 = array3.concat(array2);
+        document.write(array4.join() + "<br/>");
+​
+        document.write("<br/><br/>");
+        // Chèn phần tử vào cuối mảng
+        array2.push("Van");
+        document.write(array2.join() + "<br/>");
+        // Xóa phần tử cuối mảng
+        // var ele1 = array2.pop();
+        array2.pop();
+        document.write(array2.join() + "<br/>");
+        // document.write("Phan tu bi xoa: " + ele1);
+        var array5 = [[1, 2], [2,4], [5,6]];
+​
+        var bangCuuChuong = new Array(10);
+        for (var i = 0; i < bangCuuChuong.length; i++) {
+            bangCuuChuong[i] = new Array(10);
+        }
+​
+        for (var i = 1; i <= 10; i++) {
+            for (var j = 1; j <= 10; j++) {
+                bangCuuChuong[i-1][j-1] = i + " x " + j + " = " + i * j;
+            }
+        }
+​
+        // 5 -> 100 => 0 -> 95
+        // Math.random() sinh ra số ngẫu nhiên thập phân từ 0 -> 1
+        // Math.floor() làm tròn lấy cận dưới
+        // VD Math.floor(1.222) = 1; Math.floor(1.99) = 1
+        var random = Math.floor((Math.random() * 95) + 1) + 5;
+​
+​
+​
+​
+    </script>
+</body>
+</html>
