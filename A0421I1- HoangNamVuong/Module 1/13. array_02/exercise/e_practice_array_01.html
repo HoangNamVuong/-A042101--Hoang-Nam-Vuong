@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice array 01</title>
+</head>
+<body>
+    <!-- <script>//lesson 01: calculates and displays how many integer are greater than or equal to 10.
+        let integer = [5, 7, 8, 8, 2, 4, 25, 23, 2, 27];
+        let result = 0;
+        let value = [];
+
+        for (let i = 0; i < integer.length; i++) {
+            if (integer[i] > 10) {
+                result += 1;
+                value += integer[i];
+            }
+        }
+        document.write("have " + result + " number inter equal to 10" + "<br>"); 
+        document.write("this is number: " + value);
+    </script>
+    <script>//lesson 02: Displays the element with the largest value in the array and its position.
+        let integer = [-1, 7, 8, 2, 4, 4, 4, 73, 2, 27];
+        let max = integer[0];
+
+        for (let i = 0; i < integer.length; i++) {
+            console.log(max)
+            if (max < integer[i]) {
+                max = integer[i];
+            }
+        }
+        document.write("number max is: " + max + "<br/>");
+        document.write("index max is: " + integer.indexOf(max));
+    </script>
+    <script>//lesson 03: Displays the maximum value in that array. Print the average value of the elements in the array.
+        let integer = [5, 7, 8, 2, 2, 4, 87, 3, 2, 27];
+        let max = integer[0];
+        let medium = 0;
+
+        for (let i = 0; i < integer.length; i++) {
+            if (max < integer[i]) {
+                max = integer[i];
+            }
+            medium += parseInt(integer[i]);
+        }
+        document.write("number max is: " + max + "<br/>");
+        document.write("index max is: " + integer.indexOf(max) + "<br>");
+        document.write("medium of array is: " + medium);
+    </script> -->
+    <script>//lesson 04: Input an array of integers and reverse the elements in that array.
+        let lengthValue = parseInt(prompt("how much value ? "));
+        let array = [];
+        //let arrayReverse = [];
+        for (i = 0; i < lengthValue; i++) {
+            array[i] = parseInt(prompt("enter your value: "));
+        }
+        let arrayReverse = array.reverse();
+        document.write("array your enter is: " + array + "<br>");
+        document.write("array your reverse is: " + arrayReverse);
+        //console.log(array);
+    </script>
+</body>
+</html>

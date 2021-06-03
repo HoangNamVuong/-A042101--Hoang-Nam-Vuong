@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>convert between feet and meter</title>
+</head>
+<body>
+    <label>Feet</label>
+    <input type="text" id="feet" onchange="feetToMeter()"/>
+    <label>Meter</label>
+    <input type="text" id="meter" onchange="meterToFeet()"/>
+    <!-- <input type="button" id="button" value="change" onclick="feetToMeter,meterToFeet"/> -->
+    <script>
+        var result = feetToMeter(feet);
+        var result1 = meterToFeet(meter);
+        if (feet !== null) {
+            document.getElementById("feet").innerHTML = result;
+        }else if (meter !== null) {
+            document.getElementById("meter").innerHTML = result1;
+        }
+        function feetToMeter(feet) {
+            var feet = document.getElementById("feet").value;
+            return 0.305 * feet
+        }
+        function meterToFeet(metter) {
+            var meter = document.getElementById("meter").value;
+            return 3.279 * meter
+        }
+    </script>
+    ///////////////////////////////////////////////
+    <form>
+        <p>
+            <label>Fahrenheit</label>
+            <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+                   oninput="temperatureConverter(this.value)"
+                   onchange="temperatureConverter(this.value)">
+        </p>
+        <p>Celsius: <span id="outputCelsius"></span></p>
+    </form>
+    
+    <script>
+    
+        function temperatureConverter(valNum) {
+            valNum = parseFloat(valNum);
+            let result = (valNum-32) / 1.8;
+            document.getElementById("outputCelsius").innerHTML = result;
+        }
+    
+    </script>
+</body>
+</html>

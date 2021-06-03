@@ -1,0 +1,33 @@
+<script language='JavaScript' type='text/JavaScript'>
+    <!--
+    function validate(type) {
+        if(document.form1.textinput.value=='')
+        {
+        alert('Fill the Input box before submitting');
+        return false;
+        }else{
+    if(type=="to_feet"){
+    var res=3.2808*document.form1.textinput.value;
+    var unit=" feet";
+    }else{
+    var res=0.3048*document.form1.textinput.value;
+    var unit=" meter";
+    
+    }
+    document.getElementById("result").innerHTML=res.toFixed(2) + unit;
+    return false;
+        }
+    }
+    //-->
+    </script>
+    </head>
+    <body>
+    <form name='form1' action='' method='post' 
+        onSubmit='return validate();'>
+    Input :<input type=text name=textinput size=10>
+    <input type=button value='Convert to Feet' onClick=validate('to_feet');>
+    <input type=button value='Convert to Meter' onClick=validate('to_meter');>
+    
+    </form>
+    <div id=result></div>
+    </body>

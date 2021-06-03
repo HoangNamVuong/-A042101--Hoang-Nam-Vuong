@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>use function in array</title>
+</head>
+<body>
+    <script>//lesson 01: join string.
+        myColor = ["Red", "Green", "White", "Black"];
+        document.write(myColor.join());
+    </script>
+    <script>//lesson 02: enter a number and insert a sign (-)
+        let input = prompt("enter your number:");
+        let result = [input[0]];
+
+        for (let i = 1; i < input.length; i++) {
+            if (input[i - 1] % 2 == 0 && input[i] % 2 == 0) {
+                result.push("-", input[i]);
+            }else {
+                result.push(input[i]);
+            }
+        }
+        document.write(result.join(""));
+    </script>
+    <script>//lesson 03: character conversion program.
+        var str = prompt("enter string: ");
+        var UPPER = '[ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var LOWER = 'abcdefghijklmnopqrstuvwxyz';
+        var result = [];
+        
+        for(var x=0; x<str.length; x++)
+        {
+            console.log(str[x])
+            if(UPPER.indexOf(str[x]) !== -1)
+            {
+            result.push(str[x].toLowerCase());
+            }
+            else if(LOWER.indexOf(str[x]) !== -1)
+            {
+            result.push(str[x].toUpperCase());
+            }
+            else 
+            {
+            result.push(str[x]);
+            }
+        }
+        document.write(result.join(""));
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var n = parseInt(prompt("Moi ban nhap so phan tu cua mang: "));
+        // var arr = new Array(n);
+        // inputArray(arr);
+        // alert("Cac phan tu trong mang la: \n" + arr);
+        // var minMax = findMinMaxNumber(arr);
+        // alert("So lon nhat trong mang la: " + minMax[0] + "\n" +
+        //     "So nho nhat trong mang la: " + minMax[1]);
+​
+        var a = 5, b = 2;
+        alert("Sum: " + sum());
+        
+        // var a = 1, b =2;
+        // alert("a: " + a + "| b: " + b);
+        // swap(a, b);
+        
+        // alert("a: " + a + "| b: " + b);
+​
+        function inputArray(array) {
+            for (let i = 0; i < array.length; i++) {
+                array[i] = parseInt(prompt("Moi ban nhap so thu " + (i + 1) + ": "));
+            }
+        }
+​
+        function sum() {
+            return a + b;
+        }
+​
+        function findMinMaxNumber(array) {
+            let max = array[0];
+            let min = array[0]
+            for (let i = 1; i < array.length; i++) {
+                if (max < array[i]) {
+                    max = array[i];
+                }
+                if (min > array[i]) {
+                    min = array[i];
+                }
+            }
+​
+            return [max, min];
+        }
+​
+        function swap(a, b) {
+            let temp = a;
+            a = b;
+            b = temp;
+        }
+​
+​
+    </script>
+</body>
+</html>
