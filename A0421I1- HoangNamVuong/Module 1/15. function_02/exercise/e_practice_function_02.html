@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise practice function 02</title>
+</head>
+<body>
+    <!-- <script>//lesson 01: function to square a number.
+        function squareNumber(number) {
+            let result = number * number;
+            return result;
+        }
+        document.write("square your number is: " + squareNumber(parseInt(prompt("enter number: "))));
+    </script> -->
+    <!-- <script>//lesson 02: function perimeter and area.
+        var radius = parseInt(prompt("enter radius: "));
+        function areaCircle(radius) {
+            return radius * radius * 3.14;
+        }
+        function perimeterCirlce(radius) {
+            return radius * 2 * 3.14;
+        }
+        //var area = areaCircle(radius);
+        //var perimeter = perimeterCirlce(radius);
+        document.write("area is: " + areaCircle(radius) + "<br>");
+        document.write("perimeter is: " +perimeterCirlce(radius));
+    </script> -->
+    <!-- <script>//lesson 03: function to calculate the factorial of any integer.
+        function factorialInteger(number) {
+            let factorial = 1;
+            for (i = 1; i <= number; i++) {
+                factorial *= i;
+                console.log(factorial);
+            }
+            return factorial;
+        }
+        document.write(factorialInteger(parseInt(prompt("enter number: "))));
+    </script> -->
+    <!-- <script>//lesson 04: function check enter is number or string.
+        var enter = prompt("enter paremater: ");
+        function checkEnter(enter) {
+            if (enter >= 'a' && enter <= 'z') {
+                return false;
+            }else if (enter == isNaN(enter)) {
+                return true;
+            }else {
+                return "not found";
+            }
+        }
+        var result = checkEnter(enter)
+            if (result == false) {
+                document.write(enter + " is string");
+            }else if (result = true) {
+                document.write(enter + " is number");
+            }else {
+                document.write("not found");
+            }
+    </script> -->
+    <!-- <script>
+        function findMinNumber(number1,number2,number3) {
+            if (number1 < number2) {
+                if (number2 < number3) {
+                    return number1;
+                }else if (number1 < number3) {
+                    return number1;
+                }else {
+                    return number3;
+                }
+            }else if (number2 < number3) {
+                return number2;
+            }else {
+                return number3;
+            }
+        }
+        for (i = 0; i < 3; i++) {
+            number1 = parseInt(prompt("enter number: "));
+        }
+        var result = findMinNumber(number1,number2,number3);
+        document.write(result);
+    </script> -->
+    <!-- <script>//lesson 05: return min number.
+        var number1 = parseInt(prompt("enter number1: "));
+        var number2 = parseInt(prompt("enter number2: "));
+        var number3 = parseInt(prompt("enter number3: "));
+        document.write("min number is: " + findMinNumber(number1,number2,number3));
+        //tra ve luon do la number so may?
+
+        function findMinNumber(number1,number2,number3) {
+            if (number1 < number2) {
+                if (number2 < number3) {
+                    return number1;
+                }else if (number1 < number3) {
+                    return number1;
+                }else {
+                    return number3;
+                }
+            }else if (number2 < number3) {
+                return number2;
+            }else {
+                return number3;
+            }
+        }
+    </script> -->
+    <!-- <script>//lesson 06: check number positive integer.
+        document.write(checkNumber(parseInt(prompt("enter a number: "))));
+        function checkNumber(number) {
+            if (number != isNaN(number)) {
+                if (number >= 0) {
+                    return true;
+                }else {
+                    return false;
+                }
+            }else {
+                return "is not a number: ";
+            }
+        }
+    </script> -->
+    <!-- <script>//lesson 07: swap number:
+        var number1 = parseInt(prompt("enter number1: "));
+        var number2 = parseInt(prompt("enter number2: "));
+        document.write(swapNumber(number1,number2));
+
+        function swapNumber(number1,number2) {
+            let temp = null;
+            temp = number1;
+            number1 = number2;
+            number2 = temp;
+            console.log(number1,number2);
+            return (number1,number2);
+        }
+    </script> -->
+    <script>
+        var array = [];
+        for (i = 0; i < array.length; i++) {
+            array[i] = 
+            console.log(array);
+        }
+        function swapArray(array) {
+
+        }
+    </script>
+</body>
+</html>

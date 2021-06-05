@@ -1,33 +1,121 @@
-<script language='JavaScript' type='text/JavaScript'>
-    <!--
-    function validate(type) {
-        if(document.form1.textinput.value=='')
-        {
-        alert('Fill the Input box before submitting');
-        return false;
-        }else{
-    if(type=="to_feet"){
-    var res=3.2808*document.form1.textinput.value;
-    var unit=" feet";
-    }else{
-    var res=0.3048*document.form1.textinput.value;
-    var unit=" meter";
-    
-    }
-    document.getElementById("result").innerHTML=res.toFixed(2) + unit;
-    return false;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>//demo chuyen doi
+        let str = "Truong Tan Hai"
+        let result = '';
+        for (let i = 0; i < str.length; i++) {
+            if (str[i] >= 'a' && str[i] <= 'z') {
+                result += str[i].toUpperCase();  // a->A
+            } else if (str[i] >= 'A' && str[i] <= 'Z') {
+                result += str[i].toLowerCase(); //A ->a
+            } else {
+                result += str[i];
+            }
         }
-    }
-    //-->
+        alert(result);
     </script>
-    </head>
-    <body>
-    <form name='form1' action='' method='post' 
-        onSubmit='return validate();'>
-    Input :<input type=text name=textinput size=10>
-    <input type=button value='Convert to Feet' onClick=validate('to_feet');>
-    <input type=button value='Convert to Meter' onClick=validate('to_meter');>
-    
-    </form>
-    <div id=result></div>
-    </body>
+    <script>//demo so nguyen am
+        let arr = [];
+        let num;
+        do {
+            num = parseInt(prompt("Mời bạn nhập số lượng phần tử của mảng: "))
+        } while (num <= 0 || isNaN(num));
+        for (let i = 0; i < num; i++) {
+            arr[i] = parseInt(prompt("Mời bạn nhập phần tử thứ " + i));
+        }
+        let count = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] < 0) {
+                count++;
+            }
+        }
+        alert("Số lượng số không phải là số dương là: " + count);
+    </script>
+    <h3>Game caro phiên bản lỗi</h3>
+    <script>//demo tictacte
+        let arr = [];
+        let check = true;
+        function initArray() {
+            for (let i = 0; i < 5; i++) {
+                arr[i] = new Array();
+                for (let j = 0; j < 5; j++) {
+                    arr[i][j] = "";
+                }
+            }
+        }
+        function displayTable() {
+            document.body.innerHTML = "";
+            let display = "<table border='1'>";
+            for (let i = 0; i < arr.length; i++) {
+                display += "<tr>"
+                for (let j = 0; j < arr[i].length; j++) {
+                    display += "<td onclick='changeValue(" + i + "," + j + ")' style='width: 50px; height: 50px;text-align: center'>" + arr[i][j] + "</td>"
+                }
+                display += "</tr>"
+            }
+            display += "</table>"
+            display += "<button onclick='changeValue()'>Click</button>"
+            document.write(display)
+        }
+        function changeValue(x, y) {
+            if (arr[x][y] === "X" || arr[x][y] === "O") {
+                alert("Ô nay da duoc nguoi khac choi")
+            } else {
+                if (check) {
+                    arr[x][y] = "X";
+                    checkWin("X");
+                } else {
+                    arr[x][y] = "O";
+                    checkWin("O");
+                }
+                check = !check;
+                displayTable();
+            }
+        }
+        function checkWin(temp) {
+            for (let i = 0; i < arr.length; i++) {
+                for (let j = 0; j < 3; j++) {
+                    if (arr[i][j] === temp && arr[i][j + 1] === temp && arr[i][j + 2] === temp) {
+                        alert(temp + " thang");
+                        initArray();
+                        displayTable();
+                    }
+                }
+            }
+            for (let i = 0; i < 3; i++) {
+                for (let j = 0; j < arr[i].length; j++) {
+                    if (arr[i][j] === temp && arr[i + 1][j] === temp && arr[i + 2][j] === temp) {
+                        alert(temp + " thang");
+                        initArray();
+                        displayTable();
+                    }
+                }
+                for (let j = 0; j < 3; j++) {
+                    if (arr[i][j] === temp && arr[i + 1][j + 1] === temp && arr[i + 2][j + 2] === temp) {
+                        alert(temp + " thang");
+                        initArray();
+                        displayTable();
+                    }
+                }
+                for (let j = 2; j < 5; j++) {
+                    if (arr[i][j] === temp & arr[i + 1][j - 1] === temp && arr[i + 2][j - 2] === temp) {
+                        alert(temp + " thang");
+                        initArray();
+                        displayTable();
+                    }
+                }
+            }
+        }
+        initArray();
+        displayTable();
+       var person = {name:'Smith'};
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice and use function 01</title>
+</head>
+<body>
+    <script>//lesson 01: alert mesessage xin chao.
+        function alertMesessage() {
+            alert("Xin Chao");
+        }
+        alertMesessage();
+    </script>
+    <script>//lesson 02: function enter a number argument.
+        function count(param) {
+            param++;
+            return param;
+        }
+        document.write(count(prompt("enter a number")));
+    </script>
+    <script>//lesson 03: Create a function that takes two parameters.
+        function enterTwoParameter(parameter1,parameter2) {
+            if (parameter1 > parameter2) {
+                alert("your entered: " + parameter1 + " and " + parameter2 );
+            }else {
+                let sum = parameter1 + parameter2;
+                document.write("sum of parameter1 and parameter2 is: " + sum);
+            }
+        }
+        enterTwoParameter(parseInt(prompt("enter parameter1: ")),parseInt(prompt("enter parameter2: ")))
+        //document.write(enterTwoParameter(parseInt(prompt("enter parameter1: ")),parseInt(prompt("enter parameter2: "))));
+    </script>
+    <script>//lesson 04: add alert().
+        function addNumbers() {
+            firstNum = 4;
+            secondNum = 8;
+            result = firstNum + secondNum;
+            return result;
+        }
+        result = 0;
+        alert(result);
+        result = addNumbers(); 
+        alert(result);
+    </script>
+    <script>//lesson 05: move name to constellation.
+        var name = [ "Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+        var constellation = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major","Leo"];
+        document.write(enterString(prompt("enter string: ")));
+
+        function enterString(string) {
+            for (i = 0; i < name.length; i++) {
+                if (string == name[i]) {
+                    return constellation[j];
+                }
+            }
+            return "not found";
+        }
+    </script>
+</body>
+</html>
