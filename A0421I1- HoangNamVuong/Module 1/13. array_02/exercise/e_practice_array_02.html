@@ -7,7 +7,7 @@
     <title>practice array 02</title>
 </head>
 <body>
-    <script>//lesson 01: print out element in array.
+    <!-- <script>//lesson 01: print out element in array.
         var array = [[1, 2, 1, 24],[8, 11, 9, 4],[7, 0, 7, 27],[7, 4, 28, 14],[3, 10, 26, 7]];
 
         for (i = 0; i < array.length; i++) {
@@ -16,11 +16,27 @@
                 document.write(array[i][j] + "<br>");
             }
         }
-    </script>
+    </script> -->
     <script>//lesson 02: reverse array.
         var array = ['c','s','c','2','6','1'];
-
-        
+        document.write("array to string is: " + array.reverse().join(""));
+    </script>
+     <script>
+        let array = [];
+        let num;
+        let count =0;
+        do {
+            num = parseInt(prompt("Nhap vao so luong phan tu cua mang: "));
+        } while (num <= 0 || isNaN(num));
+        for (let i = 0; i < num; i++){
+            array[i] = prompt("Nhap vao phan tu thu " + i + " cua mang")
+        }
+        for (let j = 0; j < array.length; j++){
+            if (!isNaN(array[j])){
+                count++;
+            }
+        }
+        document.write("So ky tu so trong mang la: " + count);
     </script>
 </body>
 </html>
