@@ -7,7 +7,7 @@
     <title>practice array 01</title>
 </head>
 <body>
-    <!-- <script>//lesson 01: calculates and displays how many integer are greater than or equal to 10.
+    <script>//lesson 01: calculates and displays how many integer are greater than or equal to 10.
         let integer = [5, 7, 8, 8, 2, 4, 25, 23, 2, 27];
         let result = 0;
         let value = [];
@@ -48,7 +48,7 @@
         document.write("number max is: " + max + "<br/>");
         document.write("index max is: " + integer.indexOf(max) + "<br>");
         document.write("medium of array is: " + medium);
-    </script> -->
+    </script>
     <script>//lesson 04: Input an array of integers and reverse the elements in that array.
         let lengthValue = parseInt(prompt("how much value ? "));
         let array = [];
@@ -60,6 +60,23 @@
         document.write("array your enter is: " + array + "<br>");
         document.write("array your reverse is: " + arrayReverse);
         //console.log(array);
+    </script>
+    <script>
+        let arr = [];
+        let num;
+        do {
+            num = parseInt(prompt("enter number of element of th array: "))
+        } while (num <= 0 || isNaN(num));
+        for (let i = 0; i < num; i++) {
+            arr[i] = parseInt(prompt("enter element" + i));
+        }
+        let count = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] < 0) {
+                count++;
+            }
+        }
+        alert("the number of negative number is: " + count);
     </script>
 </body>
 </html>

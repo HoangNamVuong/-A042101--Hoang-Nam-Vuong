@@ -7,7 +7,7 @@
     <title>practice array 02</title>
 </head>
 <body>
-    <!-- <script>//lesson 01: print out element in array.
+    <script>//lesson 01: print out element in array.
         var array = [[1, 2, 1, 24],[8, 11, 9, 4],[7, 0, 7, 27],[7, 4, 28, 14],[3, 10, 26, 7]];
 
         for (i = 0; i < array.length; i++) {
@@ -16,12 +16,12 @@
                 document.write(array[i][j] + "<br>");
             }
         }
-    </script> -->
+    </script>
     <script>//lesson 02: reverse array.
-        var array = ['c','s','c','2','6','1'];
+        var array = ['c','s','d','2','3','1'];
         document.write("array to string is: " + array.reverse().join(""));
     </script>
-     <script>
+    <script>//lesson 03: program count number of characters.
         let array = [];
         let num;
         let count =0;
@@ -38,5 +38,37 @@
         }
         document.write("So ky tu so trong mang la: " + count);
     </script>
+    <script>//lesson 04: program count words in a string.
+        var array = prompt("enter your string: ");
+        var count = null;
+
+        count = array.split(" ").length;
+        document.write("words in your string is: " + count);
+    </script>
+    <script>//lesson 05: check if two string the same.
+        var string1 = prompt("enter your string 01: ");
+        var string2 = prompt("enter your string 02: ");
+
+        if (string1 == string2) {
+            document.write("two enter string are the same");
+        }else {
+            document.write("two enter string are is not same");
+        }
+    </script>
+    <script>//lesson 06: program check characters in array and change it by chacters other.
+        let array = [];
+
+        for (i = 0; i < 10; i++) {
+            array[i] = prompt("enter string: ");
+            //console.log(array[i])
+        }
+        document.write("array begining: " + array + "<br>");
+        for (i = 0; i < array.length; i++) {
+                if (array[i] == "_") {
+                    array[i] = "-";
+                }
+        }
+        document.write("array arter replacement: " + array);
+    </script>
 </body>
-</html>
+</html> 
