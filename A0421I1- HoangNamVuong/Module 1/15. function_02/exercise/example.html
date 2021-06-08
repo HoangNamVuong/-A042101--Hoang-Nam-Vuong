@@ -2,120 +2,208 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Title</title>
 </head>
-<body>  
-    <script>//demo chuyen doi
-        let str = "Truong Tan Hai"
-        let result = '';
-        for (let i = 0; i < str.length; i++) {
-            if (str[i] >= 'a' && str[i] <= 'z') {
-                result += str[i].toUpperCase();  // a->A
-            } else if (str[i] >= 'A' && str[i] <= 'Z') {
-                result += str[i].toLowerCase(); //A ->a
-            } else {
-                result += str[i];
-            }
-        }
-        alert(result);
-    </script>
-    <script>//demo so nguyen am
-        let arr = [];
-        let num;
-        do {
-            num = parseInt(prompt("Mời bạn nhập số lượng phần tử của mảng: "))
-        } while (num <= 0 || isNaN(num));
-        for (let i = 0; i < num; i++) {
-            arr[i] = parseInt(prompt("Mời bạn nhập phần tử thứ " + i));
-        }
-        let count = 0;
-        for (let i = 0; i < arr.length; i++) {
-            if (arr[i] < 0) {
-                count++;
-            }
-        }
-        alert("Số lượng số không phải là số dương là: " + count);
-        </script>
-    <h3>Game caro phiên bản lỗi</h3>
-    <script>//demo tictacte
-        let arr = [];
-        let check = true;
-        function initArray() {
-            for (let i = 0; i < 5; i++) {
-                arr[i] = new Array();
-                for (let j = 0; j < 5; j++) {
-                    arr[i][j] = "";
-                }
-            }
-        }
-        function displayTable() {
+<body>
+  <h2>Các sản phẩm: </h2>
+  <p id="ds"><br></p>
+  <button type="button" onclick="add(matHang)">Thêm</button>
+  <button type="button" onclick="edit(matHang)">Sửa</button>
+  <button type="button" onclick="xoa(matHang)">Xóa</button>
+
+  <script>
+    var matHang = ['Sữa', 'Đường', 'Bánh', 'Kem', 'Kẹo'];
+    function hienThi(matHang) {
+      var s="";
+      for (var i=0;i<matHang.length;i++){
+        s=s+(i+1)+". "+matHang[i]+"<br>";
+      }
+      return s;
+    }
+
+    function add(matHang) {
+      var newMatHang = prompt("Nhập mặt hàng muốn thêm: ");
+      matHang.push(newMatHang);
+      document.getElementById("ds").innerHTML = hienThi(matHang);
+    }
+
+    function edit(matHang) {
+      var index = prompt("Nhập số thứ tự muốn sửa: ");
+      var newMatHang = prompt("Nhập tên mặt hàng thay thế: ");
+      matHang[index-1] = newMatHang;
+      document.getElementById("ds").innerHTML = hienThi(matHang);
+    }
+
+    function xoa(matHang) {
+      var index = prompt("Nhập số thứ tự muốn xóa: ");
+      matHang.splice(index-1,1);
+      document.getElementById("ds").innerHTML = hienThi(matHang);
+    }
+    document.getElementById("ds").innerHTML = hienThi(matHang);
+  </script>
+</body>
+<body>
+    <script>
+        let arrayProduct = ["Sony", "SamSung", "Oppo"];
+        function displayProduct() {
             document.body.innerHTML = "";
-            let display = "<table border='1'>";
-            for (let i = 0; i < arr.length; i++) {
-                display += "<tr>"
-                for (let j = 0; j < arr[i].length; j++) {
-                    display += "<td onclick='changeValue(" + i + "," + j + ")' style='width: 50px; height: 50px;text-align: center'>" + arr[i][j] + "</td>"
-                }
-                display += "</tr>"
+            document.writeln("<input id='product' type='text'><button onclick='addProduct()'>Create</button>");
+            document.writeln("</br><table>");
+            for (let i = 0; i < arrayProduct.length; i++) {
+                document.writeln("<tr>")
+                document.write("<td>" + arrayProduct[i] + "</td>");
+                document.writeln("<td> <button onclick='updateProduct(" + i + ")'>Edit</button></td>")
+                document.writeln("<td> <button onclick='deleteProduct(" + i + ")'>Delete</button></td>")
+                document.writeln("</tr>")
             }
-            display += "</table>"
-            display += "<button onclick='changeValue()'>Click</button>"
-            document.write(display)
+            document.writeln("</table>")
         }
-        function changeValue(x, y) {
-            if (arr[x][y] === "X" || arr[x][y] === "O") {
-                alert("Ô nay da duoc nguoi khac choi")
+        function addProduct() {
+            let product = document.getElementById("product").value;
+            if (arrayProduct.indexOf(product) != -1) {
+                alert("Sản phẩm đã tồn tại. Mời bạn nhập thông tin khác!")
             } else {
-                if (check) {
-                    arr[x][y] = "X";
-                    checkWin("X");
+                arrayProduct.push(product);
+                displayProduct();
+            }
+        }
+        function deleteProduct(index) {
+            if (confirm("Bạn có chắc muốn xóa " + arrayProduct[index] + " hay không?")) {
+                arrayProduct.splice(index, 1);
+                displayProduct();
+            }
+        }
+        function updateProduct(index) {
+            document.body.innerHTML = "";
+            document.writeln("<input id='product' type='text'><button onclick='addProduct()'>Create</button>");
+            document.writeln("</br><table>");
+            for (let i = 0; i < arrayProduct.length; i++) {
+                document.writeln("<tr>")
+                if (i == index) {
+                    document.write("<td><input id='editValueOfProduct' value='" + arrayProduct[i] + "'></td>");
+                    document.writeln("<td> <button onclick='successProduct(" + i + ")'>Update</button></td>")
                 } else {
-                    arr[x][y] = "O";
-                    checkWin("O");
+                    document.write("<td>" + arrayProduct[i] + "</td>");
+                    document.writeln("<td> <button onclick='updateProduct(" + i + ")'>Edit</button></td>")
                 }
-                check = !check;
-                displayTable();
+                document.writeln("<td> <button onclick='deleteProduct(" + i + ")'>Delete</button></td>")
+                document.writeln("</tr>")
+            }
+            document.writeln("</table>")
+        }
+        function successProduct(index) {
+            let product = document.getElementById("editValueOfProduct").value;
+            if (arrayProduct.indexOf(product) != -1) {
+                alert("Sản phẩm đã tồn tại. Mời bạn nhập thông tin khác!")
+            } else {
+                arrayProduct[index] = product;
+                displayProduct();
             }
         }
-        function checkWin(temp) {
-            for (let i = 0; i < arr.length; i++) {
-                for (let j = 0; j < 3; j++) {
-                    if (arr[i][j] === temp && arr[i][j + 1] === temp && arr[i][j + 2] === temp) {
-                        alert(temp + " thang");
-                        initArray();
-                        displayTable();
-                    }
-                }
-            }
-            for (let i = 0; i < 3; i++) {
-                for (let j = 0; j < arr[i].length; j++) {
-                    if (arr[i][j] === temp && arr[i + 1][j] === temp && arr[i + 2][j] === temp) {
-                        alert(temp + " thang");
-                        initArray();
-                        displayTable();
-                    }
-                }
-                for (let j = 0; j < 3; j++) {
-                    if (arr[i][j] === temp && arr[i + 1][j + 1] === temp && arr[i + 2][j + 2] === temp) {
-                        alert(temp + " thang");
-                        initArray();
-                        displayTable();
-                    }
-                }
-                for (let j = 2; j < 5; j++) {
-                    if (arr[i][j] === temp & arr[i + 1][j - 1] === temp && arr[i + 2][j - 2] === temp) {
-                        alert(temp + " thang");
-                        initArray();
-                        displayTable();
-                    }
-                }
-            }
-        }
-        initArray();
-        displayTable();
-       var person = {name:'Smith'};
+        displayProduct();
     </script>
+</body>
+<body>
+    <p><b>ADD NEW PRODUCE</b></p>
+    <p style="height: 50px; width: 300px ; background-color: #dddddd" ><br>
+        <span style="margin-left: 40px" ><input type="text" id="add" placeholder="New produce">
+        <input type="button" value="Add" style="background-color: chartreuse" onclick="add();"></span>
+    </p>
+    <br>
+    <p><b>Display All Produce</b></p>
+    <p id="show"></p>
+<script>
+    var arr = ["Sony Xperia", "Samsum Galaxy", "Nokia 6", "Xiaomi Redmi Note 4",
+        "Apple Iphone 6S", "Xiaomi Mi 5s Plus", "Apple Iphone 8 Plus", "Fujitsu F-04E", "Oppo A71"];
+    function show(arr) {
+        var soup = "<table cellpadding='7' width='50%' >"
+        soup = soup + "<tr>"+"<td>"+ "<b>"+"Produce name"+"</b>" + "</td>" +
+            "<td colspan='2' style='text-align: right'>"+ "<b>"+ arr.length + " produce"+"</b>" + "</td>";
+        for (let i = 0; i <arr.length ; i++) {
+            if (i%2==0){
+                soup = soup + "<tr>"
+            }else if (i%2!=0){
+                soup = soup + "<tr style='background-color: #dddddd'>"
+            }
+                soup = soup + "<td>" + arr[i] + "</td>"
+                + "<td>" + "<input type='button' value='Edit' style='background-color: chartreuse' onclick='edit("+i+");'>" + "</td>" +"<td>" +
+                    "<input type='button' value='Delete' style='background-color: chartreuse' onclick='delete1("+i+");'>" + "</td>";
+            soup = soup + "</tr>"
+        }
+        soup = soup + "</table>";
+        return soup;
+    }
+    var soup = show(arr);
+    document.getElementById("show").innerHTML = soup;
+    function add() {
+        var value = document.getElementById("add").value;
+        arr.push(value);
+        document.getElementById("show").innerHTML = '';
+        var soup = "<table cellpadding='7' width='50%' >";
+        soup = soup + "<tr>"+"<td>"+ "<b>"+"Produce name"+"</b>" + "</td>" +
+            "<td colspan='2' style='text-align: right'>"+ "<b>"+ arr.length + " produce"+"</b>" + "</td>";
+        for (let i = 0; i <arr.length ; i++) {
+            if (i%2==0){
+                soup = soup + "<tr>"
+            }else if (i%2!=0){
+                soup = soup + "<tr style='background-color: #dddddd'>"
+            }
+            soup = soup + "<td>" + arr[i] + "</td>"
+                + "<td>" + "<input type='button' value='Edit' style='background-color: chartreuse' onclick='edit("+i+");'>" + "</td>" +"<td>" +
+                "<input type='button' value='Delete' style='background-color: chartreuse' onclick='delete1("+i+");'>" + "</td>";
+            soup = soup + "</tr>"
+        }
+        soup = soup + "</table>";
+        document.getElementById("show").innerHTML = soup;
+    }
+    function delete1(i){
+        var last = arr.length-1;
+        var tam = arr[i];
+        arr[i]=arr[last];
+        for (let j=i;j<arr.length-2;j++){
+            arr[j]=arr[j+1];
+        }
+        arr[last]=tam;
+        arr.pop();
+        document.getElementById("show").innerHTML = '';
+        var soup = "<table cellpadding='7' width='50%' >";
+        soup = soup + "<tr>"+"<td>"+ "<b>"+"Produce name"+"</b>" + "</td>" +
+            "<td colspan='2' style='text-align: right'>"+ "<b>"+ arr.length + " produce"+"</b>" + "</td>";
+        for (let i = 0; i <arr.length ; i++) {
+            if (i%2==0){
+                soup = soup + "<tr>"
+            }else if (i%2!=0){
+                soup = soup + "<tr style='background-color: #dddddd'>"
+            }
+            soup = soup + "<td>" + arr[i] + "</td>"
+                + "<td>" + "<input type='button' value='Edit' style='background-color: chartreuse' onclick='edit("+i+");'>" + "</td>" +"<td>" +
+                "<input type='button' value='Delete' style='background-color: chartreuse' onclick='delete1("+i+");'>" + "</td>";
+            soup = soup + "</tr>"
+        }
+        soup = soup + "</table>";
+        document.getElementById("show").innerHTML = soup;
+    }
+    function edit(i) {
+        let revalue = prompt("Mời bạn nhập giá trị mới: ");
+        arr[i]=revalue;
+        document.getElementById("show").innerHTML = '';
+        var soup = "<table cellpadding='7' width='50%' >";
+        soup = soup + "<tr>"+"<td>"+ "<b>"+"Produce name"+"</b>" + "</td>" +
+            "<td colspan='2' style='text-align: right'>"+ "<b>"+ arr.length + " produce"+"</b>" + "</td>";
+        for (let i = 0; i <arr.length ; i++) {
+            if (i%2==0){
+                soup = soup + "<tr>"
+            }else if (i%2!=0){
+                soup = soup + "<tr style='background-color: #dddddd'>"
+            }
+            soup = soup + "<td>" + arr[i] + "</td>"
+                + "<td>" + "<input type='button' value='Edit' style='background-color: chartreuse' onclick='edit("+i+");'>" + "</td>" +"<td>" +
+                "<input type='button' value='Delete' style='background-color: chartreuse' onclick='delete1("+i+");'>" + "</td>";
+            soup = soup + "</tr>"
+        }
+        soup = soup + "</table>";
+        document.getElementById("show").innerHTML = soup;
+    }
+</script>
 </body>
 </html>
