@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>build a class that describle a rectangle</title>
+</head>
+<body>
+    <canvas id="myCanvas"></canvas>
+
+    <script>
+        class Rectangle {
+            constructor(length, width) {
+                this.length = length;
+                this.width = width;
+            }
+            getArea() {
+                return this.length * this.width;
+            }
+            getPerimeter() {
+                return (this.length + this.width) * 2;
+            }
+        }
+        var rectangle = new Rectangle(parseInt(prompt("enter length: ")),parseInt(prompt("enter width: ")));
+        document.write("area rectangle is: " + rectangle.getArea() + "<br>" + "perimeter rectangle is: " + rectangle.getPerimeter());
+    </script>
+</body>
+</html>

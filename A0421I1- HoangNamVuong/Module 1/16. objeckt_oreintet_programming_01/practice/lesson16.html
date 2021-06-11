@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Person { //khoi tao mot class cha.
+            constructor(name, age) {
+                this.name = name;
+                this.age = age;
+            }
+​
+            setName(name) {
+                this.name = name;
+            }
+​
+            getName() {
+                return this.name;
+            }
+​
+            setAge (age) {
+                this.age = age;
+            }
+​
+            getAge() {
+                return this.age;
+            }
+        }
+​
+        class Student extends Person { // class Student ke thua thuoc tinh va phuong thuc cua class Person.
+            setClassName(className) {
+                this.className = className;
+            }
+​
+            getClassName() {
+                return this.className;
+            }
+​
+            getAge() {// thay doi phuong thuc age cua class con Studen.
+                return 21;
+            }
+        }
+​
+        class Teacher extends Person { //class Teacher ke thua thuoc tinh va phuong thuc cua class Person.
+​
+        }
+​
+        var nam = new Student();// tao doi tuong(object) nam trong class student.
+        nam.setName("Nam");
+        nam.setAge(18);
+        nam.setClassName("A0421I1");
+
+        var teacher = new Teacher();// tao doi tuong(object) teacher trong class teacher.
+        teacher.setName("Hai");
+        teacher.setAge("24");
+
+        alert("Ten: " + nam.getName() + "\n Tuoi: " + nam.getAge() + "\n Lop: " 
+              + nam.getClassName() + "\n Teacher: " + teacher.getName() + "\nAge: " + teacher.getAge());
+
+        var p = new Person("Nha", 23); // cach khai bao mot doi tuong(object) bang phuong thuc constructor.
+        alert("Name: " + p.name + "| Age: " + p.getAge());
+
+        alert("Name: " + p["name"] + "| Age: " + p.getAge());
+    </script>
+
+    <!-- anh hai demo khoi tao mot doi tuong bang phuong thuc constructor() -->
+    <script>//khoi tao mot doi tuong(object)
+        class Product {
+            constructor(id, name, price, description) {
+                this.id = id;
+                this.name = name;
+                this.price = price;
+                this.desciption = description;
+            }
+            display() {
+            alert(this.id) ;
+            }
+            getContent() {
+                return "id: "+this.id +", name: "+this.name;
+            }
+        }
+        let product = new Product(1, "Nokia", 20000, "Điện thoại");
+        alert(product.getContent());
+        let product1 = new Product(2, "Nokia", 20000, "Điện thoại");
+    </script>
+</body>
+</html>
