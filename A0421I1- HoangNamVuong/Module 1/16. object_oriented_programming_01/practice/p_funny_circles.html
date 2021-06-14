@@ -10,21 +10,39 @@
     <canvas id="myCanvas" width="1368px" height="768px" style="border: 1px solid #d3d3d3 ;"></canvas>
 
     <script>
-        // class Circle {
-        //     constructor(x, y, radius) {
-        //         this.x = x;
-        //         this.y = y;
-        //         this.radius = radius;
-        //     }
-        // }
-        // class EnterRadius extends Circle {
-         
-        // }
+        class Circle {
+            constructor(x, y, radius) {
+                this.x = x;
+                this.y = y;
+                this.radius = radius;
+            }
+            setX(x) {
+                this.x = x;
+            }
+            setX(y) {
+                this.y = y;
+            }
+            setX(radius) {
+                this.radius = radius;
+            }
+            getX() {
+                return this.x;
+            }
+            getY() {
+                return this.y;
+            }
+            getRadius() {
+                return this.radius;
+            }
+        }
+        var circle = new Circle(95, 50, 40);
+
         function createCircle() {
             var c = document.getElementById("myCanvas");
             var ctx = c.getContext("2d");
             ctx.beginPath();
-            ctx.arc(95,50,40,0,2*Math.PI);
+            ctx.arc(circle.getX(), circle.getY(), circle.getRadius(), 0, 2 * Math.PI);
+            //ctx.arc(95,50,40,0,2*Math.PI);
             ctx.stroke();
         }
         createCircle();

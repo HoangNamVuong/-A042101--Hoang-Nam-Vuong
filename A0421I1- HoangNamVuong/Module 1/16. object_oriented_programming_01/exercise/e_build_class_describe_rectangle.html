@@ -8,6 +8,7 @@
 </head>
 <body>
     <canvas id="myCanvas"></canvas>
+    <canvas id="can" width="500px" height="500px"></canvas>
 
     <script>
         class Rectangle {
@@ -24,6 +25,33 @@
         }
         var rectangle = new Rectangle(parseInt(prompt("enter length: ")),parseInt(prompt("enter width: ")));
         document.write("area rectangle is: " + rectangle.getArea() + "<br>" + "perimeter rectangle is: " + rectangle.getPerimeter());
+    </script>
+
+    <script>// hai demo.
+        class Rectangle {
+            constructor(width, height) {
+                this.width = width;
+                this.height = height;
+            }
+            getArea() {
+                return this.width*this.height;
+            }
+            getPerimeter() {
+                return (this.width+this.height)*2;
+            }
+            crawCanvas() {
+            let canvas = document.getElementById("can");
+            let craw = canvas.getContext("2d");
+            craw.beginPath();
+            craw.fillRect(10,10,this.width, this.height);
+            }
+        }
+        let rectangle = new Rectangle(100,200);
+        rectangle.crawCanvas();
+        rectangle.width = 200;
+        rectangle.height = 100;
+        alert(rectangle.getArea());
+        alert(rectangle.getPerimeter());
     </script>
 </body>
 </html>

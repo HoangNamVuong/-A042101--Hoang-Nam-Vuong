@@ -7,7 +7,57 @@
     <title>build a class discrible flashLamp and battery</title>
 </head>
 <body>
-    <script>
+    <!-- <script>
+        class Battery {
+            constructor(energy) {
+                this.energy = energy;
+            }
+            setEnergy(energy) {
+                this.energy = energy;
+            }
+            getEnergy() {
+                return this.energy;
+            }
+            decreaseEnergy() {
+                if (this.energy > 0) {
+                    this.energy--;
+                }else {
+                    alert("battery low, please change battery:");
+                }
+            }
+        }
+        class FlashLamp {
+            constructor(status) {
+                this.status = status;
+                this.battery = new Battery(100);
+            }
+            setStatus(status) {
+                this.status = status;
+            }
+            setBattery(battery) {
+
+            }
+            light() {
+                if (this.status) {
+                    alert("lighting");
+                }else {
+                    alert("not lighting");
+                }
+            }
+            turnOn() {
+                this.status = true;
+            }
+            turnOff() {
+                this.status = false;
+            }
+        }
+
+        var battery = new Battery(10);
+        var flashLamp = new FlashLamp();
+        document.write("turn on: " + flashLamp.turnOn());
+    </script> -->
+
+    <script>//demo hai.
         class Battery {
             constructor(energy) {
                 this.energy = energy;
@@ -15,17 +65,57 @@
             getEnergy() {
                 return this.energy;
             }
-            DecreaseEnergy() {
-                if (this.energy > 0) {
+            setEnergy(energy) {
+                this.energy = energy;
+            }
+            decreaseEnergy() {
+                if(this.energy>0) {
                     this.energy--;
+                } else {
+                    alert("Pin đã cạn. Làm ơn thay pin mới")
                 }
             }
         }
-        class FlashLamp extends Battery {
-            tunOn() {
-                
+        class FlashLamp {
+            constructor(status) {
+                this.status = status;
+                this.battery = new Battery(100);
+            }
+            getBattery() {
+                return this.battery;
+            }
+            setBattery(battery) {
+                this.battery = battery;
+            }
+            light() {
+                if(this.status) {
+                    this.battery.decreaseEnergy();
+                } else {
+                    alert("Làm ơn bật đèn")
+                }
+            }
+            turnOn() {
+                if(this.battery.getEnergy()>0) {
+                    this.status = true;
+                }
+            }
+            turnOf() {
+                this.status = false;
             }
         }
+        function main() {
+            let flashLamp = new FlashLamp(true);
+            if(flashLamp.status) {
+                alert("Đèn đang bật")
+            } else {
+                alert("Đèn đang tắt")
+            }
+            for(let i=0;i<10;i++) {
+                flashLamp.light();
+            }
+            alert("Pin hiện tại: "+flashLamp.getBattery().getEnergy())
+        }
+        main();
     </script>
 </body>
 </html>
