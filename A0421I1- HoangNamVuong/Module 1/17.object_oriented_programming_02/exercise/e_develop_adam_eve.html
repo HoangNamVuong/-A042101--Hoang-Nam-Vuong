@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>developing story of Adam and Eva</title>
+</head>
+
+<body>
+    <script>
+        class Apple {
+            constructor(weight) {
+                this.weight = weight;
+            }
+            decrease() {
+                if (this.isEmpty()) {
+                    alert("out of apples");
+                } else {
+                    this.weight--;
+                }
+            }
+            isEmpty() {
+                if (this.weight <= 0) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        }
+        class Human {
+            constructor(name, weight) {
+                this.name = name;
+                this.weight = weight;
+            }
+            chechApple(apple) {
+                return !apple.isEmpty();
+            }
+            eatApple(apple) {
+                if (this.chechApple(apple)) {
+                    apple.decrease();
+                    this.weight++;
+                }else {
+                    alert("out of apples, please by more.");
+                }
+            }
+            getInfo(human) {
+                alert(human.name + " " + human.weight)
+            }
+        }
+        let apple = new Apple(3);
+        let adam = new Human("Adam", 70);
+        let eva = new Human("Eva", 60);
+        adam.eatApple(apple);
+        eva.eatApple(apple);
+        alert(adam.weight);
+        alert(eva.weight);
+        alert(apple.weight);
+        adam.getInfo(eva);
+
+    </script>
+</body>
+
+</html>
