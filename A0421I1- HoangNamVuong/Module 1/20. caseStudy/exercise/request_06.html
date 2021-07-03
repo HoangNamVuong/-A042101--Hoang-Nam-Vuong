@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oop</title>
+</head>
+
+<body>
+    <script>
+        class Lottery {
+            constructor(number1, number2, number3, number4, number5, number6) {
+                this.number1 = number1;
+                this.number2 = number2;
+                this.number3 = number3;
+                this.number4 = number4;
+                this.number5 = number5;
+                this.number6 = number6;
+            }
+        }
+        var arrayLottery = [];
+
+        function payLottery() {
+            let choose = parseInt(prompt("please choose a form of purchase. With 1 is input number or 2 is computer random"));
+            if (choose == 1) {
+                let result
+                result = "number 1: <input id = 'number1'>";
+                result += "number 2: <input id = 'number2'>";
+                result += "number 3: <input id = 'number3'>";
+                result += "number 4: <input id = 'number4'>";
+                result += "number 5: <input id = 'number5'>";
+                result += "number 6: <input id = 'number6'>";
+                result += "<button onclick = 'donePayLottery()'>Pay Lottery</button>";
+                document.write(result);
+            } else if (choose == 2) {
+                let lottery = [];
+                for (let i = 1; i <= 6; i++) {
+                    lottery[i] = Math.floor(Math.random() * 99);
+                }
+                arrayLottery.push(new Lottery(lottery[1], lottery[2], lottery[3], lottery[4], lottery[5], lottery[6]));
+            } else {
+                alert("please choose number right.");
+            }
+           display();
+        }
+
+        function donePayLottery() {
+            let number1 = parseInt(document.getElementById("number1").value);
+            let number2 = parseInt(document.getElementById("number2").value);
+            let number3 = parseInt(document.getElementById("number3").value);
+            let number4 = parseInt(document.getElementById("number4").value);
+            let number5 = parseInt(document.getElementById("number5").value);
+            let number6 = parseInt(document.getElementById("number6").value);
+
+            arrayLottery.push(new Lottery(number1, number2, number3, number4, number5, number6));
+            display();
+        }
+
+        function checkLottery() {
+            let lottery = [];
+            for (let i = 1; i <= 6; i++) {
+                loterry[i] = Math.floor(Math.random() * 99);
+            }
+
+            let resultLottery = new Lottery(lottery[1], lottery[2], lottery[3], lottery[4], lottery[5], lottery[6]);
+            for (let i = 0; i < arrayLottery.length; i++) {
+                if (resultLottery.number1 == arrayLottery[i].number1 && resultLottery.number2 == arrayLottery[i].number2 && resultLottery.number3 == arrayLottery[i].number3 && resultLottery.number4 == arrayLottery[i].number4 && resultLottery.number5 == arrayLottery[i].number5 && resultLottery.number6 == arrayLottery[i].number6) {
+                    alert("congratulation lottery index: " + i + " first prize");
+                } else if (resultLottery.number2 == arrayLottery[i].number2 && resultLottery.number3 == arrayLottery[i].number3 && resultLottery.number4 == arrayLottery[i].number4 && resultLottery.number5 == arrayLottery[i].number5 && resultLottery.number6 == arrayLottery[i].number6) {
+                    alert("congratulation lottery index: " + i + " second prize");
+                } else if (resultLottery.number3 == arrayLottery[i].number3 && resultLottery.number4 == arrayLottery[i].number4 && resultLottery.number5 == arrayLottery[i].number5 && resultLottery.number6 == arrayLottery[i].number6) {
+                    alert("congratulation lottery index: " + i + " third prize");
+                }
+            }
+            document.write("first prize is:" + resultLottery.number1 + " " + resultLottery.number2 + " " + resultLottery.number3 + " " + resultLottery.number4 + " " + resultLottery.number5 + " " + resultLottery.number6 + "");
+            display();
+        }
+
+        function display() {
+            document.body.innerText = "";
+            let result;
+            result = "<button type = 'button' onclick = 'payLottery()'>Pay Lottery</button>";
+            result += "<button type = 'button' onclick = 'checkLottery()'>Watch Lottery</button><table border = '1'>";
+
+            for (let i = 0; i < arrayLottery.length; i++) {
+                result += "<tr>";
+                result += "<td>" + arrayLottery[i].number1 + "</td>"
+                result += "<td>" + arrayLottery[i].number2 + "</td>"
+                result += "<td>" + arrayLottery[i].number3 + "</td>"
+                result += "<td>" + arrayLottery[i].number4 + "</td>"
+                result += "<td>" + arrayLottery[i].number5 + "</td>"
+                result += "<td>" + arrayLottery[i].number6 + "</td>"
+                result += "</tr>";
+            }
+            result += "</table>"
+            document.write(result);
+        }
+    </script>
+</body>
+</html>

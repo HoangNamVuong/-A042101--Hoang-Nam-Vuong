@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if and switch case</title>
+</head>
+
+<body>
+    <script>//lesson 01
+        function salary() {
+            let enterSalary = parseInt(prompt("enter salary: "));
+            let incomeTax;
+            let afterTax;
+            if (enterSalary == 15000000) {
+                incomeTax = enterSalary * 20 / 100;
+                afterTax = enterSalary - incomeTax;
+                alert("income tax is: " + incomeTax + " after tax is: " + afterTax);
+            } else if (7000000 <= enterSalary < 15000000) {
+                incomeTax = enterSalary * 10 / 100;
+                afterTax = enterSalary - incomeTax;
+                alert("income tax is: " + incomeTax + " after tax is: " + afterTax);
+            } else if (enterSalary < 7000000) {
+                incomeTax = enterSalary * 5 / 100;
+                afterTax = enterSalary - incomeTax;
+                alert("income tax is: " + incomeTax + " after tax is: " + afterTax);
+            }
+        }
+        salary();
+    </script>
+    <script>//lesson 02
+        function check() {
+            string = prompt("enter your string");
+            if (string < 'A' || string > 'z') {
+                alert("is not string, plese enter again")
+            } else {
+                switch (string) {
+                    case 'a':
+                    case 'A':
+                    case 'e':
+                    case 'E':
+                    case 'i':
+                    case 'I':
+                    case 'o':
+                    case 'O':
+                    case 'u':
+                    case 'U':
+                        alert(string + " is vowel");
+                        break;
+                    default:
+                        alert(string + " is consonant");
+                }
+            }
+        }
+        check();
+    </script>
+</body>
+
+</html>

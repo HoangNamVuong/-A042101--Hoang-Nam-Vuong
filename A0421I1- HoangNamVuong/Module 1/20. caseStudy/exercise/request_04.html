@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string</title>
+</head>
+
+<body>
+    <script>//lesson 01.
+        function changeString(str) {
+            var convertToArray = str.toLowerCase().split(' ');
+            var result = convertToArray.map(function (val) {
+                return val.replace(val.charAt(0), val.charAt(0).toUpperCase());
+            });
+
+            return result.join(' ');
+        }
+        document.write(changeString("   hoang  nam vuong    "));
+    </script>
+    <script>//lesson 02.
+        function countValueOfString() {
+            let enter = prompt("enter string: ");
+            let count = [...new Set(enter)];
+            alert(count.length);
+        }
+        countString();
+    </script>
+    <script>//lesson 03.
+        function compareTwoString() {
+            let string1 = prompt("enter string 1:");
+            let string2 = prompt("enter string 2: ");
+            let count = 0;
+
+            for (let i = 0; i < string1.length; i++) {
+                if (string2.indexOf(string1[i]) > -1) {
+                    count++;
+                    string2 = string2.replace(string1[i], '');
+                }
+            }
+            alert(count);
+        }
+        compareTwoString();
+    </script>
+</body>
+</html>

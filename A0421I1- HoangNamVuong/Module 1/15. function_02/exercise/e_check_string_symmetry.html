@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check string symmetry</title>
+</head>
+<body>
+    <script>
+        function checkStringSymmetry(string) {
+            string == string.split("").reverse().join("");
+            if(string = true) {
+                alert("your string is symmetry");
+            }else {
+                alert("your string is not symmetry");
+            }
+            return string;
+        }
+        alert(checkStringSymmetry(prompt("enter your string want check: ")));s
+    </script>
+</body>
+</html>

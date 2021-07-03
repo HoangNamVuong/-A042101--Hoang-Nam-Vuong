@@ -7,7 +7,7 @@
     <title>exercese practice loops 01</title>
 </head>
 <body>
-    <!-- <script>//lesson 1: count from 1 to 100.
+    <script>//lesson 1: count from 1 to 100.
         for (i = 1; i < 100; i++) {
             document.write(i + "<br>");
             if (i == 99) {
@@ -49,8 +49,8 @@
             number2 = number0 + number1;
             document.write(number2 + "<br>");
         }
-    </script> -->
-    <!-- <script>//lesson 4: Find the first number in the fibonacci sequence that is divisible by 5.
+    </script>
+    <script>//lesson 4: Find the first number in the fibonacci sequence that is divisible by 5.
         var number0 = 0, number1 = 1, number2 = 1;
 
         do {
@@ -60,8 +60,8 @@
         }
         while (number2 % 5 !== 0);
         alert("fibonacci number first that is divisible by 5 is " + number2);
-    </script> -->
-    <!-- <script>//lesson 5: Sum of the first 20 numbers in the fibonacci sequence.
+    </script>
+    <script>//lesson 5: Sum of the first 20 numbers in the fibonacci sequence.
         var number0 = 0, number1 = 1, number2 = 1;
 
         for (i = 2; i < 20; i++) {
@@ -69,8 +69,8 @@
             number1 = number2;
             number2 = number0 + number1;
         }
-    </script> -->
-    <!-- <script>//lesson 6: Calculate the sum of the first 30 numbers divisible by 7 of the natural numbers.
+    </script>
+    <script>//lesson 6: Calculate the sum of the first 30 numbers divisible by 7 of the natural numbers.
         var sum = 0;
 
         for (var i = 1; i <= 30; i++) {
@@ -79,8 +79,8 @@
             }
         }
         document.write("sum of the first 30 number divisible by 7 is: " + sum);
-    </script> -->
-    <!-- <script>//lesson 7: Program to print numbers from 1 to 100, if %3 print "Fizz" else %5 print "Buzz" or %3 && %5 print "FizzBuzz".
+    </script>
+    <script>//lesson 7: Program to print numbers from 1 to 100, if %3 print "Fizz" else %5 print "Buzz" or %3 && %5 print "FizzBuzz".
         for (i = 0; i <= 100; i++){
             if (i % 3 ==0 && i % 5 == 0){
             document.write("Fizz Buzz" + "<br/>")
@@ -92,14 +92,14 @@
             document.write(i + "<br/>");
             }
         }
-    </script> -->
+    </script>
     
     <input type="button" value="play" onclick="play()"/>
-    <script>//Number guessing game
-      function play() {
-        var input = parseInt(prompt("input your number: "));        
+    <script>//lesson 08: Number guessing game
+      function play() {       
         var random = Math.round(Math.random()*input);
         for(i = 0; i <= random; i++){
+            let input = parseInt(prompt("input your number: ")); 
             while (i < 3) {
                 if(input > random){
                     alert("the number you entered is larger, please re-enter");
@@ -111,6 +111,7 @@
                 break;           
             }   
         }
+        input++;
       }  
       
     </script>

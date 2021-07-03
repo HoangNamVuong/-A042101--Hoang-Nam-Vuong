@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game simple move object</title>
+</head>
+
+<body>
+    <div id="game"></div>
+    <script>
+        class Move {
+            constructor(image, top, left, size) {
+                this.image = image;
+                this.top = top;
+                this.left = left;
+                this.size = size;
+            }
+
+            getdogSadElement() {
+                return '<img width="' + this.size + '"' +
+                    ' height="' + this.size + '"' +
+                    ' src="' + this.image + '"' +
+                    ' style="top: ' + this.top + 'px; left:' + this.left + 'px; position:absolute;" />';
+            }
+
+            moveRight() {
+                this.left += 100;
+                console.log('Ok: ' + this.left);
+            }
+            moveLeft() {
+                this.left -= 100;
+                console.log('Ok: ' + this.left);
+            }
+            moveTop() {
+                this.top -= 100;
+                console.log('Ok: ' + this.top);
+            }
+            moveDown() {
+                this.top += 100;
+                console.log('Ok: ' + this.top);
+            }
+        }
+
+        var dogSad = new Move('dogSad.jpg', 20, 30, 200);
+
+        function start() {
+            if (dogSad.left < window.innerWidth - dogSad.size) {
+                dogSad.moveRight();
+            } else if (dogSad.top < window.innerHeight - dogSad.size) {
+                dogSad.moveDown();
+            } else if (dogSad.left > window.innerWidth - dogSad.size) {
+                dogSad.moveLeft();
+            } else if (dogSad.top > window.innerHeight - dogSad.size) {
+                dogSad.moveTop();
+            }
+            document.getElementById('game').innerHTML = dogSad.getdogSadElement();
+            setTimeout(start, 500)
+        }
+        start();
+    </script>
+</body>
+
+</html>

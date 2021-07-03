@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tom tomch jerry</title>
+</head>
+
+<body>
+    <script>
+        class Rat {
+            constructor(name, weight, speed, status, behavior) {
+                this.name = name;
+                this.weight = weight;
+                this.speed = speed;
+                this.status = true;
+                this.behavior = behavior;
+            }
+
+
+            getName() {
+                return this.name;
+            }
+
+            setName(name) {
+                this.name = name;
+            }
+
+            getWeight() {
+                return this.weight;
+            }
+
+            setWeight(weight) {
+                this.weight = weight;
+            }
+
+            getSpeed() {
+                return this.speed;
+            }
+
+            setSpeed(speed) {
+                this.speed = speed;
+            }
+
+            getStatus() {
+                return this.status;
+            }
+
+            setStatus(status) {
+                this.status = status;
+            }
+
+            getBehavior() {
+                return this.behavior;
+            }
+
+            setBehavior(behavior) {
+                this.behavior = behavior;
+            }
+        }
+
+        class Cat {
+            constructor(name, weight, speed, behavior, jerry) {
+                this.name = name;
+                this.weight = weight;
+                this.speed = speed;
+                this.behavior = behavior;
+                this.jerry = jerry;
+            }
+
+
+            getName() {
+                return this.name;
+            }
+
+            setName(name) {
+                this.name = name;
+            }
+
+            getWeight() {
+                return this.weight;
+            }
+
+            setWeight(weight) {
+                this.weight = weight;
+            }
+
+            getSpeed() {
+                return this.speed;
+            }
+
+            setSpeed(speed) {
+                this.speed = speed;
+            }
+
+            getBehavior() {
+                return this.behavior;
+            }
+
+            setBehavior(behavior) {
+                this.behavior = behavior;
+            }
+
+            gettomchjerry() {
+                if (this.speed > this.jerry.getSpeed()) {
+                    alert("the tom caught the jerry");
+                } else {
+                    alert("the tom can't catch the jerry");
+                }
+            }
+
+            getEatjerry() {
+                if (this.jerry.getStatus() === true) {
+                    alert("tom eat jerry, mass tom" + (this.weight + this.jerry.getWeight()));
+                }
+            }
+        }
+
+        let jerry = new Rat("Jerry", 10, 30, true, "chit");
+        let tom = new Cat("Tom", 40, 20, "meo", jerry);
+        console.log(jerry);
+        console.log(tom);
+        alert(tom.gettomchjerry());
+        alert(tom.getEatjerry());
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array[[],[]]</title>
+</head>
+
+<body>
+    <script>//lesson 01.
+        function calculateSumMatrix() {
+            let rowM = parseInt(prompt("enter row m: "));
+            let colN = parseInt(prompt("enter column n: "));
+            let matrix = new Array(rowM);
+            let sumMatrix = 0;
+
+            for (let i = 0; i < matrix.length; i++) {
+                matrix[i] = [];
+                for (let j = 0; j < colN; j++) {
+                    let elementRow = parseInt(prompt("enter element of matrix:" + j));
+                    matrix[i].push(elementRow);
+                }
+            }
+            for (let i = 0; i < matrix.length; i++) {
+                for (let j = 0; j < matrix[i].length; j++) {
+                    let elements = matrix[i][j];
+                    if (elements % 2 === 0) {
+                        sumMatrix += elements;
+                    }
+
+                }
+            }
+            alert("Sum of even-numbered elements in Matrix: " + sumMatrix);
+        }
+        calculateSumMatrix();
+    </script>
+    <script>//lesson 02.
+        function findAndCountPrime() {
+            let limitArray = parseInt(prompt("enter limit array: "));
+            let aray2D = new Array(limitArray);
+            let count = 0;
+
+            for (let i = 0; i < aray2D.length; i++) {
+                aray2D[i] = [];
+                for (let j = 0; j < limitArray; j++) {
+                    let rowArray = parseInt(prompt("enter element of array: " + j));
+                    aray2D[i].push(rowArray);
+                }
+            }
+            for (let i = 0; i < aray2D.length; i++) {
+                for (let j = 0; j < aray2D[i].length; j++) {
+                    let elements = aray2D[i][j];
+                    for (let n = 2; n < elements - 1; n++) {
+                        if (elements % n === 0) {
+                            count++;
+                        }
+                    }
+                }
+            }
+            alert("The number of primes in the array: " + count);
+
+        }
+        findAndCountPrime();
+    </script>
+    <script>//lesson 03.
+        function findMInMax() {
+            let limitArray = parseInt(prompt("enter limit array: "));
+            let aray2D = new Array(limitArray);
+            let max = 0;
+            let min = array2D[0][0];
+
+            for (let i = 0; i < aray2D.length; i++) {
+                aray2D[i] = [];
+                for (let j = 0; j < limitArray; j++) {
+                    let rowArray = parseInt(prompt("enter element of array: " + j));
+                    aray2D[i].push(rowArray);
+                }
+            }
+            for (let i = 0; i < array2D.length; i++) {
+                for (let j = 0; j < array2D[i].length; j++) {
+                    if (array2D[i][j] > max) {
+                        max = array2D[i][j];
+                    } else if (array2D[i][j] < min) {
+                        min = array2D[i][j];
+                    }
+                }
+
+            }
+            console.log("The maximum value is: " + max + " The minimum value is: " + min);
+        }
+        findMInMax();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Develop switch and bulb</title>
+</head>
+
+<body>
+    <!-- <script>
+        class ElectricLamp {
+            constructor(status) {
+                this.status = status;
+            }
+            turnOff() {
+                return this.status = false;
+            }
+            turnOn() {
+                return this.status = true;
+            }
+        }
+        class SwitchButton {
+            constructor(status,lamp) {
+                this.status = status;
+                this.lamp = electricLamp;
+            }
+            connectTolamp(electriclamp) {
+                if(this.switchOn()) {
+                    return this.turnOn();
+                }else if(this.switchOff()) {
+                    return this.turnOff();
+                }
+            }
+            switchOff() {
+                return this.status = false;
+            }
+            switchOn() {
+                return this.status = true;
+            }
+        }
+    </script> -->
+    <img src="" id="bong_den">
+    <button onclick="switchButton()">Button</button>
+    <script>
+        class ElectricLamp {
+            constructor() {
+                document.getElementById("bong_den").src = "Images/2.jpg";
+            }
+            turnOn() {
+                document.getElementById("bong_den").src = "Images/1.jpg";
+            }
+            turnOf() {
+                document.getElementById("bong_den").src = "Images/2.jpg";
+            }
+        }
+        class SwitchButton {
+            constructor(status, lamp) {
+                this.status = status;
+                this.lamp = lamp;
+            }
+            connectToLamp(lamp) {
+                this.lamp = lamp;
+            }
+            turnOnSwitchButton() {
+                this.lamp.turnOn();
+                this.status = true;
+            }
+            turnOfSwitchButton() {
+                this.lamp.turnOf();
+                this.status = false;
+            }
+        }
+        let lamp = new ElectricLamp();
+        let switchButton1 = new SwitchButton(false, lamp);
+        function switchButton() {
+            if (switchButton1.status) {
+                switchButton1.turnOfSwitchButton();
+            } else {
+                switchButton1.turnOnSwitchButton();
+            }
+        }
+    </script>
+</body>
+
+</html>

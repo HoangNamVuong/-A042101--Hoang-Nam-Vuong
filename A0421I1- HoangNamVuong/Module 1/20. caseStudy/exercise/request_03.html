@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array and loop</title>
+</head>
+
+<body>
+    <script>//leson 01.
+       var arrA = [2,4,5,7,5,8];
+        var arrB = new Array(arrA.length);
+        function calculateArrB(arrA,arrB) {
+            arrB[0] = arrA[0];
+            for(let i = 1; i < arrA.length; i++) {
+                arrB[i] = arrB[i-1] + arrA[i];
+            }
+            return arrB;
+            console.log(arrB)
+        } 
+        document.write(calculateArrB(arrA,arrB));
+    </script>
+    <script>//leson 02.
+        function check() {
+            var arrayA = [3, 4, 5, 6, 4, 6, 7, 2];
+            var arrayB = [7, 4, 6, 7, 3, 3, 65, 7, 6, 9, 5];
+            var value = [];
+            for (let i = 0; i < arrayB.length; i++) {
+                let flag = true;
+                let tempB = arrayB[i];
+                for (let j = 0; j < arrayA.length; j++) {
+                    let tempA = arrayA[j];
+                    if (arrayB[i] == arrayA[j]) {
+                        flag = false;
+                        break;
+                    }
+                }
+                if(flag == true) {
+                    value.push(tempB);
+                }
+            }
+            console.log(value);
+            return value;
+            
+        }
+        document.write(check());
+    </script>
+    <script>//lesson 03.
+        function findIndex() {
+            var arrayA = [3, 4, 5, 6, 4, 6, 7, 2];
+            var arrayB = [7, 4, 6, 6, 3, 3, 65, 7];
+            var max = 0;
+            var indexMax = 0;
+            for (let i = 1; i < arrayA.length; i++) {
+                let temp = Math.round(arrayA[i] / arrayB[i]);
+                if (temp > max) {
+                    max = temp;
+                    indexMax = i;
+                }
+            }
+            console.log(max);
+            return [indexMax, max];
+        }
+        document.write(findIndex());
+    </script>
+    <script>//lesson 04.
+        function numberToString() {
+            let number = [0,1,2,3,4,5,6,7,8,9];
+            let string = [" không ", " một ", " hai ", " ba ", " bốn ", " năm ", " sáu ", " bảy ", " tám ", " chín "];
+            let enter = parseInt(prompt("enter your number: "));
+            for(let i of enter) {
+                for(let j = 0; j < number.length; j++) {
+                    if(i === number[j]) {
+                        alert(string[i]);
+                    }else {
+                        continue;
+                    }
+                }
+            }
+        }
+        document.write(numberToString());
+    </script>
+    
+</body>
+
+</html>
