@@ -40,10 +40,10 @@
                     lottery[i] = Math.floor(Math.random() * 99);
                 }
                 arrayLottery.push(new Lottery(lottery[1], lottery[2], lottery[3], lottery[4], lottery[5], lottery[6]));
+                display();
             } else {
                 alert("please choose number right.");
             }
-           display();
         }
 
         function donePayLottery() {
@@ -61,7 +61,7 @@
         function checkLottery() {
             let lottery = [];
             for (let i = 1; i <= 6; i++) {
-                loterry[i] = Math.floor(Math.random() * 99);
+                lottery[i] = Math.floor(Math.random() * 99);
             }
 
             let resultLottery = new Lottery(lottery[1], lottery[2], lottery[3], lottery[4], lottery[5], lottery[6]);
@@ -75,7 +75,7 @@
                 }
             }
             document.write("first prize is:" + resultLottery.number1 + " " + resultLottery.number2 + " " + resultLottery.number3 + " " + resultLottery.number4 + " " + resultLottery.number5 + " " + resultLottery.number6 + "");
-            display();
+            //display();
         }
 
         function display() {
@@ -97,6 +97,7 @@
             result += "</table>"
             document.write(result);
         }
+        display();
     </script>
 </body>
 </html>
