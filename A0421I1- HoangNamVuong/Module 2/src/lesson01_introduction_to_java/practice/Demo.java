@@ -2,7 +2,7 @@ package lesson01_introduction_to_java.practice;
 
 import java.util.Scanner;
 
-public class demo {
+public class Demo {
     static int c;
     public static void main(String[] args) {
         System.out.println("Hello world");
