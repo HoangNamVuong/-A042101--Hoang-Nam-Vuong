@@ -2,7 +2,7 @@ package lesson04_class_and_object_in_java.practice.class_rectangle;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainRectangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the width:");

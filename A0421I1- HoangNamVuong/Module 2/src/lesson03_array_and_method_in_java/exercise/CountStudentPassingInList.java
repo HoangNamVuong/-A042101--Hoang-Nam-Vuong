@@ -1,4 +1,4 @@
-package lesson03_array_in_java.exercise;
+package lesson03_array_and_method_in_java.exercise;
 
 public class CountStudentPassingInList {
     public static void main(String[] args) {
