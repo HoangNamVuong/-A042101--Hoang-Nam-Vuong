@@ -8,5 +8,6 @@ public class StudentExtendsStudent extends Student {
         System.out.println(student.setClasses("a0421i1"));;
         System.out.println(student.setName("hoang nam vuong"));;
         //System.out.println(Student.classes);
+
     }
 }

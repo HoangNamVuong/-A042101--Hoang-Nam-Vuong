@@ -18,8 +18,8 @@ public class MainStopWatch {
 
     public static void main(String[] args) {
         int[] array = new int[100000];
-        for (int i = 0; i < 100000; i++) {
-            array[i] = (int) (Math.random()*1000);
+        for (int i = 0; i < array.length; i++) {
+            array[i] = (int) (Math.random()*100000);
         }
         LocalTime start = LocalTime.now();
         array = selectionSort(array);
