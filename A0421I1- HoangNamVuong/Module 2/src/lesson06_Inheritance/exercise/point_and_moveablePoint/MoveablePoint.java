@@ -52,7 +52,7 @@ public class MoveablePoint extends Point{
     }
 
     public MoveablePoint move() {
-        super.getXY(super.getX() + xSpeed, super.getY() + ySpeed);
+        super.getXY(this.getX() + xSpeed, this.getY() + ySpeed);
         return this;
     }
 }

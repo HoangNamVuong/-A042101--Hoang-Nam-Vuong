@@ -6,7 +6,7 @@ public class TriangleTest {
     public static void main(String[] args) {
         Triangle triangle = new Triangle();
         System.out.println(triangle);
-        triangle = new Triangle(2,4,5);
+        triangle = new Triangle(3,4,5);
         //Scanner scanner = new Scanner();
         //triangle.setColor(scanner.nextLine());
         triangle.setColor("black");

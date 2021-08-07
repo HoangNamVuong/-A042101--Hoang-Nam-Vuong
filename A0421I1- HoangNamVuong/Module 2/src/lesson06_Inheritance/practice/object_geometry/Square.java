@@ -1,10 +1,10 @@
 package lesson06_Inheritance.practice.object_geometry;
 
 public class Square extends Rectangle {
-    Square() {
+    public Square() {
     }
 
-    Square(double side) {
+    public Square(double side) {
         super(side, side);
     }
 
@@ -17,8 +17,8 @@ public class Square extends Rectangle {
     }
 
     public void setSide(double side) {
-        setWidth(side);
-        setLength(side);
+        super.setWidth(side);
+        super.setLength(side);
     }
 
     @Override
