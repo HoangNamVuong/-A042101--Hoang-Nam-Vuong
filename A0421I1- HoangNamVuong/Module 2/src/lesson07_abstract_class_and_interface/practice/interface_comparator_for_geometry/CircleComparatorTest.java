@@ -11,7 +11,6 @@ public class CircleComparatorTest {
         circles[0] = new Circle(3.6);
         circles[1] = new Circle();
         circles[2] = new Circle(3.5,"black",false);
-
         System.out.println("Pre-sort");
         for (Circle circle : circles) {
             System.out.println(circle);
@@ -19,7 +18,6 @@ public class CircleComparatorTest {
 
         CircleComparator circleComparator = new CircleComparator();
         Arrays.sort(circles,circleComparator);
-
         System.out.println("After-sort");
         for (Circle circle : circles) {
             System.out.println(circle);
