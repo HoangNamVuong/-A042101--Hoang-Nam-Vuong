@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/practice/refactor_variable_and_constant/apj-calculator" vcs="Git" />
   </component>
 </project>

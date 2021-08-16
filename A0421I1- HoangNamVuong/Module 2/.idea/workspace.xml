@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bfc21aa-977e-408b-a112-0b2e1a6c32c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FuramaResort/src/controllers/FuramaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FuramaResort/src/controllers/FuramaControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Furama/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Furama/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Furama/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Furama/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Furama/Furama.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/exercise/refactor_tennis_game/TennisGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/exercise/refactor_tennis_game/TennisGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/practice/refactor_split_methods/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/practice/refactor_split_methods/CylinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/practice/refactor_split_variable/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/practice/refactor_split_variable/FizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/practice/refactor_variable_and_constant/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/practice/refactor_variable_and_constant/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Module 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/lesson02_loop_in_java/practice/DrawingMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/lesson02_loop_in_java/practice/GreatestCommonDivisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/lesson02_loop_in_java/practice/GreatestCommonDivisor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableCircleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableCircleTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +49,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -57,79 +67,103 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.ResizeableCircleTest">
-    <configuration name="AbstractAndInterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson07_abstract_class_and_interface.practice.animal_and_interface_edible.AbstractAndInterfaceTest" />
-      <module name="furama" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson07_abstract_class_and_interface.practice.animal_and_interface_edible.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="JUnit.TennisGameTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColorableSquareTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson07_abstract_class_and_interface.exercise.interface_colorable_for_geometry.ColorableSquareTest" />
-      <module name="furama" />
+    <configuration name="CylinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson07_abstract_class_and_interface.exercise.interface_colorable_for_geometry.*" />
+          <option name="PATTERN" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_methods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_methods" />
+      <option name="MAIN_CLASS_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_methods.CylinderTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResizeableCircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson07_abstract_class_and_interface.exercise.interface_resizeable_for_geometry.ResizeableCircleTest" />
-      <module name="furama" />
+    <configuration name="FizzBuzzTest.testBuzz10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson07_abstract_class_and_interface.exercise.interface_resizeable_for_geometry.*" />
+          <option name="PATTERN" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable" />
+      <option name="MAIN_CLASS_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testBuzz10" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResizeableRectangleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson07_abstract_class_and_interface.exercise.interface_resizeable_for_geometry.ResizeableRectangleTest" />
-      <module name="furama" />
+    <configuration name="FizzBuzzTest.testFizz3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson07_abstract_class_and_interface.exercise.interface_resizeable_for_geometry.*" />
+          <option name="PATTERN" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable" />
+      <option name="MAIN_CLASS_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testFizz3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResizeableSquareTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson07_abstract_class_and_interface.exercise.interface_resizeable_for_geometry.ResizeableSquareTest" />
-      <module name="furama" />
+    <configuration name="FizzBuzzTest.testFizzBuzz15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson07_abstract_class_and_interface.exercise.interface_resizeable_for_geometry.*" />
+          <option name="PATTERN" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable" />
+      <option name="MAIN_CLASS_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testFizzBuzz15" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TennisGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson08_clearn_code_and_refactoring.exercise.refactor_tennis_game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson08_clearn_code_and_refactoring.exercise.refactor_tennis_game" />
+      <option name="MAIN_CLASS_NAME" value="lesson08_clearn_code_and_refactoring.exercise.refactor_tennis_game.TennisGameTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ResizeableCircleTest" />
-        <item itemvalue="Application.AbstractAndInterfaceTest" />
-        <item itemvalue="Application.ColorableSquareTest" />
-        <item itemvalue="Application.ResizeableRectangleTest" />
-        <item itemvalue="Application.ResizeableSquareTest" />
+        <item itemvalue="JUnit.TennisGameTest" />
+        <item itemvalue="JUnit.CylinderTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.testFizzBuzz15" />
+        <item itemvalue="JUnit.FizzBuzzTest.testBuzz10" />
+        <item itemvalue="JUnit.FizzBuzzTest.testFizz3" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +207,14 @@
       <workItem from="1628682364268" duration="787000" />
       <workItem from="1628683241466" duration="149000" />
       <workItem from="1628684762671" duration="430000" />
+      <workItem from="1628850565079" duration="3184000" />
+      <workItem from="1628860897561" duration="462000" />
+      <workItem from="1628861391642" duration="1372000" />
+      <workItem from="1628863247214" duration="126000" />
+      <workItem from="1628863645049" duration="64000" />
+      <workItem from="1628863724846" duration="111000" />
+      <workItem from="1628863919523" duration="2134000" />
+      <workItem from="1629123806209" duration="3957000" />
     </task>
     <servers />
   </component>
