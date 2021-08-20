@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bfc21aa-977e-408b-a112-0b2e1a6c32c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/exercise/refactor_tennis_game/TennisGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/exercise/refactor_tennis_game/TennisGameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/practice/refactor_split_methods/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/practice/refactor_split_methods/CylinderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/practice/refactor_split_variable/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/practice/refactor_split_variable/FizzBuzzTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/practice/refactor_variable_and_constant/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson08_clearn_code_and_refactoring/practice/refactor_variable_and_constant/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DebugTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson10_arrayList_and_linkedList/exercise/java_util_arrayList/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson10_arrayList_and_linkedList/exercise/java_util_arrayList/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson10_arrayList_and_linkedList/exercise/java_util_linkedList/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson10_arrayList_and_linkedList/exercise/java_util_linkedList/MyLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson10_arrayList_and_linkedList/practice/implement_class_list_simple/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson10_arrayList_and_linkedList/practice/implement_class_list_simple/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson10_arrayList_and_linkedList/practice/inplement_class_linkedList_simple/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson10_arrayList_and_linkedList/practice/inplement_class_linkedList_simple/MyLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Module 2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/lesson02_loop_in_java/practice/DrawingMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/lesson02_loop_in_java/practice/GreatestCommonDivisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/lesson02_loop_in_java/practice/GreatestCommonDivisor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableCircleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableCircleTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,64 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.TennisGameTest">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lesson10_arrayList_and_linkedList.exercise.java_util_arrayList" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyListTest (1)">
+    <configuration name="MyLinkedListTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson10_arrayList_and_linkedList.exercise.java_util_linkedList.MyLinkedListTest" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson10_arrayList_and_linkedList.exercise.java_util_linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson10_arrayList_and_linkedList.practice.inplement_class_linkedList_simple.MyLinkedListTest" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson10_arrayList_and_linkedList.practice.inplement_class_linkedList_simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyListTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson10_arrayList_and_linkedList.exercise.java_util_arrayList.MyListTest" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson10_arrayList_and_linkedList.exercise.java_util_arrayList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson10_arrayList_and_linkedList.practice.implement_class_list_simple.MyListTest" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson10_arrayList_and_linkedList.practice.implement_class_list_simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -75,69 +128,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CylinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Module 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_methods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_methods" />
-      <option name="MAIN_CLASS_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_methods.CylinderTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzBuzzTest.testBuzz10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Module 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable" />
-      <option name="MAIN_CLASS_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="testBuzz10" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzBuzzTest.testFizz3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Module 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable" />
-      <option name="MAIN_CLASS_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="testFizz3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzBuzzTest.testFizzBuzz15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Module 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable" />
-      <option name="MAIN_CLASS_NAME" value="lesson08_clearn_code_and_refactoring.practice.refactor_split_variable.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="testFizzBuzz15" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyListTest (1)" />
+        <item itemvalue="Application.MyLinkedListTest (1)" />
+        <item itemvalue="Application.MyLinkedListTest" />
+        <item itemvalue="Application.MyListTest" />
         <item itemvalue="JUnit.TennisGameTest" />
-        <item itemvalue="JUnit.CylinderTest" />
-        <item itemvalue="JUnit.FizzBuzzTest.testFizzBuzz15" />
-        <item itemvalue="JUnit.FizzBuzzTest.testBuzz10" />
-        <item itemvalue="JUnit.FizzBuzzTest.testFizz3" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +204,10 @@
       <workItem from="1628863645049" duration="64000" />
       <workItem from="1628863724846" duration="111000" />
       <workItem from="1628863919523" duration="2134000" />
-      <workItem from="1629123806209" duration="3957000" />
+      <workItem from="1629123806209" duration="4966000" />
+      <workItem from="1629283692537" duration="12909000" />
+      <workItem from="1629388859795" duration="218000" />
+      <workItem from="1629435347162" duration="13181000" />
     </task>
     <servers />
   </component>
