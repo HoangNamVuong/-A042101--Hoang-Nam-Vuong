@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bfc21aa-977e-408b-a112-0b2e1a6c32c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FuramaResort/src/models/Facility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson11_stack_and_queue/exercise/queue_use_linkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson11_stack_and_queue/exercise/queue_use_linkedList/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson11_stack_and_queue/exercise/queue_use_linkedList/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson11_stack_and_queue/exercise/queue_use_linkedList/TestQueueUseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson11_stack_and_queue/exercise/reverse_array_use_stack/ReverseArrayUseStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson11_stack_and_queue/exercise/reverse_array_use_stack/ReverseStringUseStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson11_stack_and_queue/practice/queue_use_linkedList/LinkedListQueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson11_stack_and_queue/practice/queue_use_linkedList/MyLinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson11_stack_and_queue/practice/queue_use_linkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson11_stack_and_queue/practice/stack_use_linkedList/GenericStackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson11_stack_and_queue/practice/stack_use_linkedList/MyGenericStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/lesson10_arrayList_and_linkedList/exercise/java_util_arrayList/MyListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/lesson10_arrayList_and_linkedList/exercise/java_util_arrayList/MyListTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +65,20 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lesson10_arrayList_and_linkedList.exercise.java_util_arrayList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyListTest (1)">
-    <configuration name="MyLinkedListTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson10_arrayList_and_linkedList.exercise.java_util_linkedList.MyLinkedListTest" />
+  <component name="RunManager" selected="Application.TestQueueUseLinkedList">
+    <configuration name="GenericStackClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson11_stack_and_queue.practice.stack_use_linkedList.GenericStackClient" />
       <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson10_arrayList_and_linkedList.exercise.java_util_linkedList.*" />
+          <option name="PATTERN" value="lesson11_stack_and_queue.practice.stack_use_linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson10_arrayList_and_linkedList.practice.inplement_class_linkedList_simple.MyLinkedListTest" />
+    <configuration name="LinkedListQueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson11_stack_and_queue.practice.queue_use_linkedList.LinkedListQueueClient" />
       <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson10_arrayList_and_linkedList.practice.inplement_class_linkedList_simple.*" />
+          <option name="PATTERN" value="lesson11_stack_and_queue.practice.queue_use_linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyListTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson10_arrayList_and_linkedList.exercise.java_util_arrayList.MyListTest" />
+    <configuration name="ReverseArrayUseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson11_stack_and_queue.exercise.reverse_array_use_stack.ReverseArrayUseStack" />
       <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson10_arrayList_and_linkedList.exercise.java_util_arrayList.*" />
+          <option name="PATTERN" value="lesson11_stack_and_queue.exercise.reverse_array_use_stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson10_arrayList_and_linkedList.practice.implement_class_list_simple.MyListTest" />
+    <configuration name="ReverseStringUseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson11_stack_and_queue.exercise.reverse_array_use_stack.ReverseStringUseStack" />
       <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson10_arrayList_and_linkedList.practice.implement_class_list_simple.*" />
+          <option name="PATTERN" value="lesson11_stack_and_queue.exercise.reverse_array_use_stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,28 +125,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TennisGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestQueueUseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson11_stack_and_queue.exercise.queue_use_linkedList.TestQueueUseLinkedList" />
       <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson08_clearn_code_and_refactoring.exercise.refactor_tennis_game.*" />
+          <option name="PATTERN" value="lesson11_stack_and_queue.exercise.queue_use_linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson08_clearn_code_and_refactoring.exercise.refactor_tennis_game" />
-      <option name="MAIN_CLASS_NAME" value="lesson08_clearn_code_and_refactoring.exercise.refactor_tennis_game.TennisGameTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyListTest (1)" />
-        <item itemvalue="Application.MyLinkedListTest (1)" />
-        <item itemvalue="Application.MyLinkedListTest" />
-        <item itemvalue="Application.MyListTest" />
-        <item itemvalue="JUnit.TennisGameTest" />
+        <item itemvalue="Application.TestQueueUseLinkedList" />
+        <item itemvalue="Application.ReverseStringUseStack" />
+        <item itemvalue="Application.ReverseArrayUseStack" />
+        <item itemvalue="Application.LinkedListQueueClient" />
+        <item itemvalue="Application.GenericStackClient" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +214,11 @@
       <workItem from="1629435347162" duration="13788000" />
       <workItem from="1629638155288" duration="89000" />
       <workItem from="1629639412115" duration="79000" />
+      <workItem from="1629715464126" duration="4249000" />
+      <workItem from="1629725219780" duration="2446000" />
+      <workItem from="1629729663017" duration="1890000" />
+      <workItem from="1629888884451" duration="13538000" />
+      <workItem from="1629953779965" duration="2230000" />
     </task>
     <servers />
   </component>
