@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5bfc21aa-977e-408b-a112-0b2e1a6c32c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/FuramaResort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/out/production/FuramaResort/controllers/FuramaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/out/production/FuramaResort/controllers/FuramaControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/out/production/FuramaResort/models/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/out/production/FuramaResort/models/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/out/production/FuramaResort/models/Facility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/out/production/FuramaResort/models/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/out/production/FuramaResort/models/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/out/production/FuramaResort/models/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/out/production/FuramaResort/models/Villa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/controllers/FuramaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/controllers/FuramaControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/models/Booking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/models/Contract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/models/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/models/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/models/Facility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/models/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/models/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/models/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/models/Villa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/services/BookingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/services/BookingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/services/ContractService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/services/ContractServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/services/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/services/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/services/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/services/EmployeeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/services/FacilityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/services/FacilityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/FuramaResort/src/services/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/10. structure_loop_01/practice/example_10.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/10. structure_loop_01/practice/lesson10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/10. structure_loop_01/practice/p_using_do-while_loop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/10. structure_loop_01/practice/p_using_for_loop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/10. structure_loop_01/practice/p_using_nested_loops.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/10. structure_loop_01/practice/p_using_while_loop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/11. structure_loops_02/exercise/e_display_first_prime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/11. structure_loops_02/exercise/e_multiplication_table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/11. structure_loops_02/exercise/e_practice_loop_01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/11. structure_loops_02/exercise/e_practice_loops_02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/12. array_01/practice/lesson12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/12. array_01/practice/p_Reverse_the_elements_in_array.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/12. array_01/practice/p_carosimple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/12. array_01/practice/p_create_and_manipulate_array.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/12. array_01/practice/p_find_value_in_array.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/12. array_01/practice/p_find_value_max_in_array.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/13. array_02/exercise/e_dictionary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/13. array_02/exercise/e_practice_array_01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/13. array_02/exercise/e_practice_array_02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/13. array_02/exercise/e_use_function_in_array.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/13. array_02/exercise/example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/14. function_01/practice/example_14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/14. function_01/practice/p_create_and_call_function.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/14. function_01/practice/p_find_small_value_of_array.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/14. function_01/practice/p_function_demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/14. function_01/practice/p_temperature_converter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/15. function_02/exercise/e_check_prime_number.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/15. function_02/exercise/e_check_string_symmetry.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/15. function_02/exercise/e_convert_feet_to_meter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/15. function_02/exercise/e_practice_function_01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/15. function_02/exercise/e_practice_function_02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/15. function_02/exercise/e_product_management_using.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/15. function_02/exercise/example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/16. object_oriented_programming_01/exercise/e_build_class_describe_rectangle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/16. object_oriented_programming_01/exercise/e_build_class_describe_temperature.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/16. object_oriented_programming_01/practice/lesson16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/16. object_oriented_programming_01/practice/p_build_class_circle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/16. object_oriented_programming_01/practice/p_build_class_date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/16. object_oriented_programming_01/practice/p_funny_circles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/17.object_oriented_programming_02/exercise/dogSad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/17.object_oriented_programming_02/exercise/e_adam_eva.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/17.object_oriented_programming_02/exercise/e_game_simle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/17.object_oriented_programming_02/exercise/e_switch_bulb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/17.object_oriented_programming_02/exercise/e_tom_catch_jerry.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/17.object_oriented_programming_02/practice/lesson17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/17.object_oriented_programming_02/practice/p_build_class_describe_flashLamp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/18. practice_codeGym_bob/practice/codeGym_bob.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/18. practice_codeGym_bob/practice/exam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/18. practice_codeGym_bob/practice/lesson.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/18. practice_codeGym_bob/practice/practice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/19. practice_hackerRank/practice/hackerRank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/20. caseStudy/exercise/demo_payLottery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/20. caseStudy/exercise/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/20. caseStudy/exercise/practice_product_management.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/20. caseStudy/exercise/request_01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/20. caseStudy/exercise/request_02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/20. caseStudy/exercise/request_03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/20. caseStudy/exercise/request_04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/20. caseStudy/exercise/request_05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/20. caseStudy/exercise/request_06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/20. caseStudy/exercise/request_07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/21. check_module_01/exercise/check_module_01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/3. describle_source_code_by_pseudo_code_and_forlowchart/exercise/[Bài tập] Mô tả thuật toán chuyển đổi tiền tệ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/3. describle_source_code_by_pseudo_code_and_forlowchart/exercise/[Bài tập] Mô tả thuật toán có cấu trúc điều kiện.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/3. describle_source_code_by_pseudo_code_and_forlowchart/exercise/[Bài tập] Mô tả thuật toán tìm giá trị lớn nhất trong 3 số.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/3. describle_source_code_by_pseudo_code_and_forlowchart/exercise/[Bài tập] Mô tả thuật toán tìm giá trị lớn nhất trong một dãy số.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/3. describle_source_code_by_pseudo_code_and_forlowchart/exercise/[Bài tập] Mô tả thuật toán tính điểm trung bình.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/3. describle_source_code_by_pseudo_code_and_forlowchart/practice/[Thực hành] Thuật toán chuyển đổi nhiệt độ.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/3. describle_source_code_by_pseudo_code_and_forlowchart/practice/[Thực hành] Thuật toán game đoán số.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/4. Git_amp_HTML/exercise/e_make_list_in_html.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/4. Git_amp_HTML/practice/p_use card_simple_html.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/5. html_form_table/exercise/e_form_simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/5. html_form_table/exercise/e_form_take_survey_customer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/5. html_form_table/exercise/e_form_user_registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/5. html_form_table/exercise/e_table_advance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/5. html_form_table/exercise/e_table_simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/5. html_form_table/practice/p_form_find_google.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/5. html_form_table/practice/p_form_simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/5. html_form_table/practice/p_table_advance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/5. html_form_table/practice/p_table_simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/6. general_javascrip/exercise/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/6. general_javascrip/practice/display_output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/6. general_javascrip/practice/display_output.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/6. general_javascrip/practice/lesson06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/7. variable_data type_operator/exercise/e_calculator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/7. variable_data type_operator/exercise/e_calculator_more.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/7. variable_data type_operator/exercise/e_currency_conversion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/7. variable_data type_operator/exercise/e_variable_data_type_and_operator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/7. variable_data type_operator/practice/example_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/7. variable_data type_operator/practice/p_declare_and_use_variables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/7. variable_data type_operator/practice/p_use_operator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/7. variable_data type_operator/practice/p_use_operator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/8. structure_conditional_01/practice/example_if_else.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/8. structure_conditional_01/practice/lesson08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/8. structure_conditional_01/practice/p_check_leap_year.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/8. structure_conditional_01/practice/p_event_keyboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/8. structure_conditional_01/practice/p_login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/8. structure_conditional_01/practice/p_mouse_event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/8. structure_conditional_01/practice/p_practice_if_else.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/8. structure_conditional_01/practice/p_switch_case.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/8. structure_conditional_01/practice/p_triple_operator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/9. structure_conditional_02/exercise/e_body_weight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/9. structure_conditional_02/exercise/e_do_you_love_me.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/9. structure_conditional_02/exercise/e_good_fast_cheap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/9. structure_conditional_02/exercise/e_practice_condition_structure_01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/9. structure_conditional_02/exercise/e_practice_condition_structure_02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/9. structure_conditional_02/exercise/e_simple_calculator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 1/9. structure_conditional_02/exercise/e_switch_case.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/Module 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/DebugTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson01_introduction_to_java/exercise/HelloYourName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson01_introduction_to_java/exercise/ReadNumberToString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson01_introduction_to_java/exercise/VndToUsd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson01_introduction_to_java/practice/CheckBmiForBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson01_introduction_to_java/practice/CheckLeapYear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson01_introduction_to_java/practice/DeclareVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson01_introduction_to_java/practice/FindDayInMonth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson01_introduction_to_java/practice/LinearEquationResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson01_introduction_to_java/practice/RectangleProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson01_introduction_to_java/practice/SystemTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson01_introduction_to_java/practice/demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson02_loop_in_java/exercise/DisplayFirstTwentyPrime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson02_loop_in_java/exercise/DisplayNumberPrimeLess100.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson02_loop_in_java/exercise/DrawGeometric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson02_loop_in_java/practice/CheckNumberPrime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson02_loop_in_java/practice/DemoLoopAndArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson02_loop_in_java/practice/DemoStringFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson02_loop_in_java/practice/GreatestCommonDivisor$DrawingMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson02_loop_in_java/practice/GreatestCommonDivisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson02_loop_in_java/practice/InterestCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/exercise/AddElementInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/exercise/CountCharacterInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/exercise/CountStudentPassingInList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/exercise/DeleteElementInArrayByIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/exercise/DeleteElementInArrayByValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/exercise/ExerciseMore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/exercise/FindMaxElementTwoDimensionalArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/exercise/FindMinElementTwoDimensionalArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/exercise/MergeTwoArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/exercise/SumColumnInTwoDimensionalArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/exercise/SumDiagonalInTwoDimensionalArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/practice/ChangeTemperature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/practice/FindElementInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/practice/FindMaxElementInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/practice/FindMinElementInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson03_array_and_method_in_java/practice/ReverseElementInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson04_class_and_object_in_java/exercise/fan/Fan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson04_class_and_object_in_java/exercise/fan/MainFan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson04_class_and_object_in_java/exercise/quadratic_equation/MainQuadraticEquation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson04_class_and_object_in_java/exercise/quadratic_equation/QuadraticEquation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson04_class_and_object_in_java/exercise/stop_watch/MainStopWatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson04_class_and_object_in_java/exercise/stop_watch/StopWatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson04_class_and_object_in_java/practice/class_rectangle/MainRectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson04_class_and_object_in_java/practice/class_rectangle/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson05_access_modifier_static_method_static_property/exercise/access_modifier_1/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson05_access_modifier_static_method_static_property/exercise/access_modifier_1/MainTestCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson05_access_modifier_static_method_static_property/exercise/access_modifier_1/StudentExtendsStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson05_access_modifier_static_method_static_property/exercise/access_modifier_2/MainTestStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson05_access_modifier_static_method_static_property/exercise/access_modifier_2/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson05_access_modifier_static_method_static_property/practice/static_method/MainStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson05_access_modifier_static_method_static_property/practice/static_method/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson05_access_modifier_static_method_static_property/practice/static_property/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson05_access_modifier_static_method_static_property/practice/static_property/MainTestStaticProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/exercise/circle_and_cylinder/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/exercise/circle_and_cylinder/Cylinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/exercise/circle_and_cylinder/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/exercise/point2D_and_point3D/Point2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/exercise/point2D_and_point3D/Point3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/exercise/point2D_and_point3D/PointTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/exercise/point_and_moveablePoint/MoveablePoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/exercise/point_and_moveablePoint/MoveablePointTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/exercise/point_and_moveablePoint/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/exercise/triangle_more_of_shape/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/exercise/triangle_more_of_shape/TriangleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/practice/object_geometry/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/practice/object_geometry/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/practice/object_geometry/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/practice/object_geometry/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson06_Inheritance/practice/object_geometry/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/exercise/interface_colorable_for_geometry/Colorable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/exercise/interface_colorable_for_geometry/ColorableSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/exercise/interface_colorable_for_geometry/ColorableSquareTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/Resizeable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableCircleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableRectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableRectangleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableSquareTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/AbstractAndInterfaceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/Chicken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/Edible.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/Orange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/Tiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/practice/interface_comparable_for_circle/ComparableCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/practice/interface_comparable_for_circle/ComparableCircleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/practice/interface_comparator_for_geometry/CircleComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson07_abstract_class_and_interface/practice/interface_comparator_for_geometry/CircleComparatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson08_clearn_code_and_refactoring/exercise/refactor_tennis_game/TennisGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson08_clearn_code_and_refactoring/exercise/refactor_tennis_game/TennisGameTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson08_clearn_code_and_refactoring/practice/refactor_split_methods/Cylinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson08_clearn_code_and_refactoring/practice/refactor_split_methods/CylinderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson08_clearn_code_and_refactoring/practice/refactor_split_variable/FizzBuzz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson08_clearn_code_and_refactoring/practice/refactor_split_variable/FizzBuzzTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson08_clearn_code_and_refactoring/practice/refactor_variable_and_constant/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson08_clearn_code_and_refactoring/practice/refactor_variable_and_constant/CalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson10_arrayList_and_linkedList/exercise/java_util_arrayList/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson10_arrayList_and_linkedList/exercise/java_util_arrayList/MyListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson10_arrayList_and_linkedList/exercise/java_util_linkedList/MyLinkedList$MyNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson10_arrayList_and_linkedList/exercise/java_util_linkedList/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson10_arrayList_and_linkedList/exercise/java_util_linkedList/MyLinkedListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson10_arrayList_and_linkedList/practice/implement_class_list_simple/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson10_arrayList_and_linkedList/practice/implement_class_list_simple/MyListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson10_arrayList_and_linkedList/practice/inplement_class_linkedList_simple/MyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson10_arrayList_and_linkedList/practice/inplement_class_linkedList_simple/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson10_arrayList_and_linkedList/practice/inplement_class_linkedList_simple/MyLinkedListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson11_stack_and_queue/exercise/queue_use_linkedList/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson11_stack_and_queue/exercise/queue_use_linkedList/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson11_stack_and_queue/exercise/queue_use_linkedList/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson11_stack_and_queue/exercise/queue_use_linkedList/TestQueueUseLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson11_stack_and_queue/exercise/reverse_array_use_stack/ReverseArrayUseStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson11_stack_and_queue/exercise/reverse_array_use_stack/ReverseStringUseStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson11_stack_and_queue/practice/queue_use_linkedList/LinkedListQueueClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson11_stack_and_queue/practice/queue_use_linkedList/MyLinkedListQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson11_stack_and_queue/practice/queue_use_linkedList/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson11_stack_and_queue/practice/stack_use_linkedList/GenericStackClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/out/production/Module 2/lesson11_stack_and_queue/practice/stack_use_linkedList/MyGenericStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/DebugTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson01_introduction_to_java/exercise/HelloYourName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson01_introduction_to_java/exercise/ReadNumberToString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson01_introduction_to_java/exercise/VndToUsd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson01_introduction_to_java/practice/CheckBmiForBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson01_introduction_to_java/practice/CheckLeapYear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson01_introduction_to_java/practice/DeclareVariable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson01_introduction_to_java/practice/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson01_introduction_to_java/practice/FindDayInMonth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson01_introduction_to_java/practice/LinearEquationResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson01_introduction_to_java/practice/RectangleProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson01_introduction_to_java/practice/SystemTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson02_loop_in_java/exercise/DisplayFirstTwentyPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson02_loop_in_java/exercise/DisplayNumberPrimeLess100.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson02_loop_in_java/exercise/DrawGeometric.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson02_loop_in_java/practice/CheckNumberPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson02_loop_in_java/practice/DemoLoopAndArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson02_loop_in_java/practice/DemoStringFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson02_loop_in_java/practice/GreatestCommonDivisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson02_loop_in_java/practice/InterestCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/exercise/AddElementInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/exercise/CountCharacterInString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/exercise/CountStudentPassingInList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/exercise/DeleteElementInArrayByIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/exercise/DeleteElementInArrayByValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/exercise/ExerciseMore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/exercise/FindMaxElementTwoDimensionalArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/exercise/FindMinElementTwoDimensionalArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/exercise/MergeTwoArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/exercise/SumColumnInTwoDimensionalArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/exercise/SumDiagonalInTwoDimensionalArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/practice/ChangeTemperature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/practice/FindElementInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/practice/FindMaxElementInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/practice/FindMinElementInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson03_array_and_method_in_java/practice/ReverseElementInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson04_class_and_object_in_java/exercise/fan/Fan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson04_class_and_object_in_java/exercise/fan/MainFan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson04_class_and_object_in_java/exercise/quadratic_equation/MainQuadraticEquation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson04_class_and_object_in_java/exercise/quadratic_equation/QuadraticEquation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson04_class_and_object_in_java/exercise/stop_watch/MainStopWatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson04_class_and_object_in_java/exercise/stop_watch/StopWatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson04_class_and_object_in_java/practice/class_rectangle/MainRectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson04_class_and_object_in_java/practice/class_rectangle/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson05_access_modifier_static_method_static_property/exercise/access_modifier_1/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson05_access_modifier_static_method_static_property/exercise/access_modifier_1/MainTestCircle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson05_access_modifier_static_method_static_property/exercise/access_modifier_1/StudentExtendsStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson05_access_modifier_static_method_static_property/exercise/access_modifier_2/MainTestStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson05_access_modifier_static_method_static_property/exercise/access_modifier_2/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson05_access_modifier_static_method_static_property/practice/static_method/MainStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson05_access_modifier_static_method_static_property/practice/static_method/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson05_access_modifier_static_method_static_property/practice/static_property/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson05_access_modifier_static_method_static_property/practice/static_property/MainTestStaticProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/exercise/circle_and_cylinder/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/exercise/circle_and_cylinder/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/exercise/circle_and_cylinder/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/exercise/point2D_and_point3D/Point2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/exercise/point2D_and_point3D/Point3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/exercise/point2D_and_point3D/PointTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/exercise/point_and_moveablePoint/MoveablePoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/exercise/point_and_moveablePoint/MoveablePointTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/exercise/point_and_moveablePoint/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/exercise/triangle_more_of_shape/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/exercise/triangle_more_of_shape/TriangleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/practice/object_geometry/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/practice/object_geometry/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/practice/object_geometry/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/practice/object_geometry/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson06_Inheritance/practice/object_geometry/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/exercise/interface_colorable_for_geometry/Colorable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/exercise/interface_colorable_for_geometry/ColorableSquare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/exercise/interface_colorable_for_geometry/ColorableSquareTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/Resizeable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableCircle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableCircleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableRectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableRectangleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableSquare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/exercise/interface_resizeable_for_geometry/ResizeableSquareTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/AbstractAndInterfaceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/Chicken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/Edible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/Orange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/practice/animal_and_interface_edible/Tiger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/practice/interface_comparable_for_circle/ComparableCircle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/practice/interface_comparable_for_circle/ComparableCircleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/practice/interface_comparator_for_geometry/CircleComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson07_abstract_class_and_interface/practice/interface_comparator_for_geometry/CircleComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson08_clearn_code_and_refactoring/exercise/refactor_tennis_game/TennisGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson08_clearn_code_and_refactoring/exercise/refactor_tennis_game/TennisGameTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson08_clearn_code_and_refactoring/practice/refactor_split_methods/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson08_clearn_code_and_refactoring/practice/refactor_split_methods/CylinderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson08_clearn_code_and_refactoring/practice/refactor_split_variable/FizzBuzz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson08_clearn_code_and_refactoring/practice/refactor_split_variable/FizzBuzzTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson08_clearn_code_and_refactoring/practice/refactor_variable_and_constant/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson08_clearn_code_and_refactoring/practice/refactor_variable_and_constant/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson10_arrayList_and_linkedList/exercise/java_util_arrayList/MyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson10_arrayList_and_linkedList/exercise/java_util_arrayList/MyListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson10_arrayList_and_linkedList/exercise/java_util_linkedList/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson10_arrayList_and_linkedList/exercise/java_util_linkedList/MyLinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson10_arrayList_and_linkedList/practice/implement_class_list_simple/MyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson10_arrayList_and_linkedList/practice/implement_class_list_simple/MyListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson10_arrayList_and_linkedList/practice/inplement_class_linkedList_simple/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson10_arrayList_and_linkedList/practice/inplement_class_linkedList_simple/MyLinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson11_stack_and_queue/exercise/queue_use_linkedList/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson11_stack_and_queue/exercise/queue_use_linkedList/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson11_stack_and_queue/exercise/queue_use_linkedList/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson11_stack_and_queue/exercise/queue_use_linkedList/TestQueueUseLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson11_stack_and_queue/exercise/reverse_array_use_stack/ReverseArrayUseStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson11_stack_and_queue/exercise/reverse_array_use_stack/ReverseStringUseStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson11_stack_and_queue/practice/queue_use_linkedList/LinkedListQueueClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson11_stack_and_queue/practice/queue_use_linkedList/MyLinkedListQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson11_stack_and_queue/practice/queue_use_linkedList/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson11_stack_and_queue/practice/stack_use_linkedList/GenericStackClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0421I1- HoangNamVuong/Module 2/src/lesson11_stack_and_queue/practice/stack_use_linkedList/MyGenericStack.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1w8D9FntJU6kUxYL70cCQZYIgVv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lesson10_arrayList_and_linkedList.exercise.java_util_arrayList" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DebugTest">
+    <configuration name="DebugTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DebugTest" />
+      <module name="Module 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListQueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson11_stack_and_queue.practice.queue_use_linkedList.LinkedListQueueClient" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson11_stack_and_queue.practice.queue_use_linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseArrayUseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson11_stack_and_queue.exercise.reverse_array_use_stack.ReverseArrayUseStack" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson11_stack_and_queue.exercise.reverse_array_use_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseStringUseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson11_stack_and_queue.exercise.reverse_array_use_stack.ReverseStringUseStack" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson11_stack_and_queue.exercise.reverse_array_use_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestQueueUseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson11_stack_and_queue.exercise.queue_use_linkedList.TestQueueUseLinkedList" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson11_stack_and_queue.exercise.queue_use_linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DebugTest" />
+        <item itemvalue="Application.TestQueueUseLinkedList" />
+        <item itemvalue="Application.ReverseStringUseStack" />
+        <item itemvalue="Application.ReverseArrayUseStack" />
+        <item itemvalue="Application.LinkedListQueueClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bfc21aa-977e-408b-a112-0b2e1a6c32c9" name="Default Changelist" comment="" />
+      <created>1627831169288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627831169288</updated>
+      <workItem from="1627831172572" duration="188000" />
+      <workItem from="1627831374700" duration="550000" />
+      <workItem from="1627902565709" duration="7869000" />
+      <workItem from="1627974181202" duration="697000" />
+      <workItem from="1627980288142" duration="820000" />
+      <workItem from="1628076092977" duration="2371000" />
+      <workItem from="1628168765261" duration="8953000" />
+      <workItem from="1628218747966" duration="19462000" />
+      <workItem from="1628306000826" duration="6816000" />
+      <workItem from="1628505445918" duration="58000" />
+      <workItem from="1628505520272" duration="25000" />
+      <workItem from="1628505557008" duration="2000" />
+      <workItem from="1628506273455" duration="1235000" />
+      <workItem from="1628509663437" duration="5133000" />
+      <workItem from="1628596054256" duration="1996000" />
+      <workItem from="1628679127438" duration="96000" />
+      <workItem from="1628679271781" duration="60000" />
+      <workItem from="1628679377602" duration="12000" />
+      <workItem from="1628679642427" duration="15000" />
+      <workItem from="1628679753213" duration="16000" />
+      <workItem from="1628679935704" duration="5000" />
+      <workItem from="1628680461237" duration="30000" />
+      <workItem from="1628680541013" duration="270000" />
+      <workItem from="1628681394119" duration="483000" />
+      <workItem from="1628681898676" duration="11000" />
+      <workItem from="1628681926766" duration="128000" />
+      <workItem from="1628682230534" duration="23000" />
+      <workItem from="1628682261952" duration="37000" />
+      <workItem from="1628682308171" duration="14000" />
+      <workItem from="1628682364268" duration="787000" />
+      <workItem from="1628683241466" duration="149000" />
+      <workItem from="1628684762671" duration="430000" />
+      <workItem from="1628850565079" duration="3184000" />
+      <workItem from="1628860897561" duration="462000" />
+      <workItem from="1628861391642" duration="1372000" />
+      <workItem from="1628863247214" duration="126000" />
+      <workItem from="1628863645049" duration="64000" />
+      <workItem from="1628863724846" duration="111000" />
+      <workItem from="1628863919523" duration="2134000" />
+      <workItem from="1629123806209" duration="4966000" />
+      <workItem from="1629283692537" duration="12909000" />
+      <workItem from="1629388859795" duration="218000" />
+      <workItem from="1629435347162" duration="13788000" />
+      <workItem from="1629638155288" duration="89000" />
+      <workItem from="1629639412115" duration="79000" />
+      <workItem from="1629715464126" duration="4249000" />
+      <workItem from="1629725219780" duration="2446000" />
+      <workItem from="1629729663017" duration="1890000" />
+      <workItem from="1629888884451" duration="13538000" />
+      <workItem from="1629953779965" duration="2682000" />
+      <workItem from="1630043930237" duration="22000" />
+      <workItem from="1630043958319" duration="838000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
