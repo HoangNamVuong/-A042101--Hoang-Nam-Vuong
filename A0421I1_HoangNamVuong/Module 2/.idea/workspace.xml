@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bfc21aa-977e-408b-a112-0b2e1a6c32c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson12_java_collection_framework/practice/comparison_hashMap_hashSet/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson12_java_collection_framework/practice/comparison_hashMap_hashSet/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson12_java_collection_framework/practice/sort_comparable_comparator/AgeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson12_java_collection_framework/practice/sort_comparable_comparator/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson12_java_collection_framework/practice/sort_comparable_comparator/TestSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson12_java_collection_framework/practice/use_hashMap_LinkedHasMap_TreeMap/TestMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/services/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/services/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/services/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/services/FacilityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/services/FacilityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/services/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/services/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson13_linearSearch_and_binarySearch/exercise/search_maxString/SortString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson13_linearSearch_and_binarySearch/practice/binary_search/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson13_linearSearch_and_binarySearch/practice/binary_search/BinarySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/exercise/show_steps_insertSort/InsertSortByStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/exercise/show_steps_insertSort/InsertSortByStepTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/practice/bubbleSort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/practice/bubbleSort/BubbleSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/practice/selectionSort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/practice/selectionSort/SelectionSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/practice/show_steps_bubbleSort/BubbleSortByStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/practice/show_steps_bubbleSort/BubbleSortByStepTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module 2/DebugTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/DebugTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DebugTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DebugTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,20 +75,13 @@
       <recent name="lesson10_arrayList_and_linkedList.exercise.java_util_arrayList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductManager">
-    <configuration name="DebugTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DebugTest" />
-      <module name="Module 2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson12_java_collection_framework.practice.comparison_hashMap_hashSet.Main" />
+  <component name="RunManager" selected="Application.InsertSortTest">
+    <configuration name="BubbleSortByStepTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson14_bubbleSort_selectSort_insertSort.practice.show_steps_bubbleSort.BubbleSortByStepTest" />
       <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson12_java_collection_framework.practice.comparison_hashMap_hashSet.*" />
+          <option name="PATTERN" value="lesson14_bubbleSort_selectSort_insertSort.practice.show_steps_bubbleSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson12_java_collection_framework.exercise.use_arrayList_LinkedList.ProductManager" />
+    <configuration name="BubbleSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson14_bubbleSort_selectSort_insertSort.practice.bubbleSort.BubbleSortTest" />
       <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson12_java_collection_framework.exercise.use_arrayList_LinkedList.*" />
+          <option name="PATTERN" value="lesson14_bubbleSort_selectSort_insertSort.practice.bubbleSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson12_java_collection_framework.practice.use_hashMap_LinkedHasMap_TreeMap.TestMap" />
+    <configuration name="InsertSortByStepTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson14_bubbleSort_selectSort_insertSort.exercise.show_steps_insertSort.InsertSortByStepTest" />
       <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson12_java_collection_framework.practice.use_hashMap_LinkedHasMap_TreeMap.*" />
+          <option name="PATTERN" value="lesson14_bubbleSort_selectSort_insertSort.exercise.show_steps_insertSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +115,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson12_java_collection_framework.practice.sort_comparable_comparator.TestSort" />
+    <configuration name="InsertSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson14_bubbleSort_selectSort_insertSort.exercise.insertSort.InsertSortTest" />
       <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson12_java_collection_framework.practice.sort_comparable_comparator.*" />
+          <option name="PATTERN" value="lesson14_bubbleSort_selectSort_insertSort.exercise.insertSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson14_bubbleSort_selectSort_insertSort.practice.selectionSort.SelectionSortTest" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson14_bubbleSort_selectSort_insertSort.practice.selectionSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductManager" />
-        <item itemvalue="Application.TestSort" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestMap" />
-        <item itemvalue="Application.DebugTest" />
+        <item itemvalue="Application.InsertSortTest" />
+        <item itemvalue="Application.InsertSortByStepTest" />
+        <item itemvalue="Application.BubbleSortByStepTest" />
+        <item itemvalue="Application.SelectionSortTest" />
+        <item itemvalue="Application.BubbleSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +226,9 @@
       <workItem from="1630057247306" duration="4048000" />
       <workItem from="1630227557433" duration="9323000" />
       <workItem from="1630320523737" duration="13061000" />
+      <workItem from="1630494539708" duration="534000" />
+      <workItem from="1630502215227" duration="4096000" />
+      <workItem from="1630669448104" duration="9303000" />
     </task>
     <servers />
   </component>

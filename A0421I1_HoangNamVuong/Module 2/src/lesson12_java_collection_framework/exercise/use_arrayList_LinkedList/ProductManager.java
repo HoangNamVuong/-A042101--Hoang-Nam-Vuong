@@ -5,6 +5,13 @@ import java.util.Collections;
 import java.util.List;
 
 public class ProductManager {
+    static {
+        Product product1 = new Product(1,"Car","50000$");
+        Product product2 = new Product(2,"House","500000$");
+        Product product3 = new Product(3,"Book","50$");
+        Product product4 = new Product(4,"Dog","500$");
+        List<Product> productList = new ArrayList<>();
+    }
     public static void main(String[] args) {
         Product product1 = new Product(1,"Car","50000$");
         Product product2 = new Product(2,"House","500000$");

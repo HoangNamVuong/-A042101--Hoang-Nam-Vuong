@@ -1,5 +1,6 @@
-public class DebugTest {
-    public static void main(String[] args) {
+import java.util.Scanner;
 
-    }
+public class DebugTest {
+
+
 }
