@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bfc21aa-977e-408b-a112-0b2e1a6c32c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lesson13_linearSearch_and_binarySearch/exercise/search_maxString/SortString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson13_linearSearch_and_binarySearch/practice/binary_search/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson13_linearSearch_and_binarySearch/practice/binary_search/BinarySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/exercise/show_steps_insertSort/InsertSortByStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/exercise/show_steps_insertSort/InsertSortByStepTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/practice/bubbleSort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/practice/bubbleSort/BubbleSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/practice/selectionSort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/practice/selectionSort/SelectionSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/practice/show_steps_bubbleSort/BubbleSortByStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/practice/show_steps_bubbleSort/BubbleSortByStepTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/exercise/triangle_exception/IllegalTriangleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/exercise/triangle_exception/TriangleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/practice/array_index_out_of_bounds_exception/ArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/practice/debug_application_java/LinearEquationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/practice/demo_check_day_month_year_exception/DemoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/practice/demo_check_day_month_year_exception/InvalidDateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/practice/demo_check_day_month_year_exception/Validate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/practice/demo_check_day_month_year_exception/ValidateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/practice/number_format_exception/CalculationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson16_input_output_text_file/practice/demo_writeFile_readFile/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson16_input_output_text_file/practice/demo_writeFile_readFile/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson16_input_output_text_file/practice/demo_writeFile_readFile/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson16_input_output_text_file/practice/demo_writeFile_readFile/WriteFileDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/DebugTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/DebugTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module 2/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DebugTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DebugTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductManager.java" afterDir="false" />
@@ -75,13 +78,13 @@
       <recent name="lesson10_arrayList_and_linkedList.exercise.java_util_arrayList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertSortTest">
-    <configuration name="BubbleSortByStepTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson14_bubbleSort_selectSort_insertSort.practice.show_steps_bubbleSort.BubbleSortByStepTest" />
+  <component name="RunManager" selected="Application.TriangleException">
+    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson15_exception_and_debug.practice.array_index_out_of_bounds_exception.ArrayExample" />
       <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson14_bubbleSort_selectSort_insertSort.practice.show_steps_bubbleSort.*" />
+          <option name="PATTERN" value="lesson15_exception_and_debug.practice.array_index_out_of_bounds_exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson14_bubbleSort_selectSort_insertSort.practice.bubbleSort.BubbleSortTest" />
+    <configuration name="CalculationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson15_exception_and_debug.practice.number_format_exception.CalculationExample" />
       <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson14_bubbleSort_selectSort_insertSort.practice.bubbleSort.*" />
+          <option name="PATTERN" value="lesson15_exception_and_debug.practice.number_format_exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +105,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSortByStepTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson14_bubbleSort_selectSort_insertSort.exercise.show_steps_insertSort.InsertSortByStepTest" />
+    <configuration name="DebugTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DebugTest" />
+      <module name="Module 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson15_exception_and_debug.exercise.triangle_exception.TriangleException" />
       <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson14_bubbleSort_selectSort_insertSort.exercise.show_steps_insertSort.*" />
+          <option name="PATTERN" value="lesson15_exception_and_debug.exercise.triangle_exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,50 +125,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson14_bubbleSort_selectSort_insertSort.exercise.insertSort.InsertSortTest" />
+    <configuration name="Unnamed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <module name="Module 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson14_bubbleSort_selectSort_insertSort.exercise.insertSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson14_bubbleSort_selectSort_insertSort.practice.selectionSort.SelectionSortTest" />
-      <module name="Module 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson14_bubbleSort_selectSort_insertSort.practice.selectionSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InsertSortTest" />
-        <item itemvalue="Application.InsertSortByStepTest" />
-        <item itemvalue="Application.BubbleSortByStepTest" />
-        <item itemvalue="Application.SelectionSortTest" />
-        <item itemvalue="Application.BubbleSortTest" />
+        <item itemvalue="Application.TriangleException" />
+        <item itemvalue="Application.CalculationExample" />
+        <item itemvalue="Application.DebugTest" />
+        <item itemvalue="Application.Unnamed" />
+        <item itemvalue="Application.ArrayExample" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +220,10 @@
       <workItem from="1630320523737" duration="13061000" />
       <workItem from="1630494539708" duration="534000" />
       <workItem from="1630502215227" duration="4096000" />
-      <workItem from="1630669448104" duration="9303000" />
+      <workItem from="1630669448104" duration="9589000" />
+      <workItem from="1630933676300" duration="4885000" />
+      <workItem from="1631098098235" duration="7837000" />
+      <workItem from="1631274775369" duration="5815000" />
     </task>
     <servers />
   </component>
@@ -246,5 +241,26 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/practice/bubbleSort/BubbleSortTest.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lesson14_bubbleSort_selectSort_insertSort/practice/bubbleSort/BubbleSort.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lesson15_exception_and_debug/practice/debug_application_java/LinearEquationResolver.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
