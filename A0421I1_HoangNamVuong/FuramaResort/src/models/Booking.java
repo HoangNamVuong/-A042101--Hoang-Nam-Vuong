@@ -1,32 +1,34 @@
 package models;
 
 public class Booking {
-    private int bookingCode;
+    private Integer bookingId;
     private String startDay;
     private String endDay;
-    private int customerCode;
-    private String serviceName;
-    private String serviceType;
+    private Customer customerId;
+    private Facility facility;
 
     public Booking() {
 
     }
 
-    public Booking(int bookingCode, String startDay, String endDay, int customerCode, String serviceName, String serviceType) {
-        this.bookingCode = bookingCode;
+    public Booking(Integer bookingId,
+                   String startDay,
+                   String endDay,
+                   Customer customerId,
+                   Facility facility) {
+        this.bookingId = bookingId;
         this.startDay = startDay;
         this.endDay = endDay;
-        this.customerCode = customerCode;
-        this.serviceName = serviceName;
-        this.serviceType = serviceType;
+        this.customerId = customerId;
+        this.facility = facility;
     }
 
-    public int getBookingCode() {
-        return bookingCode;
+    public Integer getBookingId() {
+        return bookingId;
     }
 
-    public void setBookingCode(int bookingCode) {
-        this.bookingCode = bookingCode;
+    public void setBookingId(Integer bookingId) {
+        this.bookingId = bookingId;
     }
 
     public String getStartDay() {
@@ -45,27 +47,30 @@ public class Booking {
         this.endDay = endDay;
     }
 
-    public int getCustomerCode() {
-        return customerCode;
+    public Customer getCustomerId() {
+        return customerId;
     }
 
-    public void setCustomerCode(int customerCode) {
-        this.customerCode = customerCode;
+    public void setCustomerId(Customer customerId) {
+        this.customerId = customerId;
     }
 
-    public String getServiceName() {
-        return serviceName;
+    public Facility getFacility() {
+        return facility;
     }
 
-    public void setServiceName(String serviceName) {
-        this.serviceName = serviceName;
+    public void setFacility(Facility facility) {
+        this.facility = facility;
     }
 
-    public String getServiceType() {
-        return serviceType;
-    }
-
-    public void setServiceType(String serviceType) {
-        this.serviceType = serviceType;
+    @Override
+    public String toString() {
+        return "Booking{" +
+                "bookingId=" + bookingId +
+                ", startDay='" + startDay + '\'' +
+                ", endDay='" + endDay + '\'' +
+                ", customerId=" + customerId +
+                ", facility=" + facility +
+                '}';
     }
 }

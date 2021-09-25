@@ -1,32 +1,59 @@
 package models;
 
 public class Employee extends Person{
-    private String academicLevel;
-    private String jobPosition;
+    private String level;
+    private String position;
+    private int salary;
 
     public Employee() {
-
     }
 
-    public Employee(int personalCode, String fullName, int dateOfBirth, String sex, int identityCardNumber, int phoneNumber, String email, String academicLevel, String jobPosition) {
-        super(personalCode, fullName, dateOfBirth, sex, identityCardNumber, phoneNumber, email);
-        this.academicLevel = academicLevel;
-        this.jobPosition = jobPosition;
+    public Employee(int id,
+                    String name,
+                    int age,
+                    String sex,
+                    String idCard,
+                    int phoneNumber,
+                    String email,
+                    String level,
+                    String position,
+                    int salary) {
+        super(id, name, age, sex, idCard, phoneNumber, email);
+        this.level = level;
+        this.position = position;
+        this.salary = salary;
     }
 
-    public String getAcademicLevel() {
-        return academicLevel;
+    public String getLevel() {
+        return level;
     }
 
-    public void setAcademicLevel(String academicLevel) {
-        this.academicLevel = academicLevel;
+    public void setLevel(String level) {
+        this.level = level;
     }
 
-    public String getJobPosition() {
-        return jobPosition;
+    public String getPosition() {
+        return position;
     }
 
-    public void setJobPosition(String jobPosition) {
-        this.jobPosition = jobPosition;
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{"+ super.toString() +
+                "level='" + level + '\'' +
+                ", position='" + position + '\'' +
+                ", salary=" + salary +
+                '}';
     }
 }

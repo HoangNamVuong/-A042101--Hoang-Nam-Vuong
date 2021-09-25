@@ -1,25 +1,32 @@
 package models;
 
 public class House extends Facility{
-    private int roomStandard;
+    private String standardRoom;
     private int numberOfFloors;
 
     public House() {
 
     }
 
-    public House(String serviceName, int usableArea, int rentalCosts, int maximumNumberPeople, String rentalType, int roomStandard, int numberOfFloors) {
-        super(serviceName, usableArea, rentalCosts, maximumNumberPeople, rentalType);
-        this.roomStandard = roomStandard;
+    public House(int facilityId,
+                 String serviceName,
+                 int useArea,
+                 int rentalPrice,
+                 int maximumNumberPeople,
+                 String rentalType,
+                 String standardRoom,
+                 int numberOfFloors) {
+        super(facilityId, serviceName, useArea, rentalPrice, maximumNumberPeople, rentalType);
+        this.standardRoom = standardRoom;
         this.numberOfFloors = numberOfFloors;
     }
 
-    public int getRoomStandard() {
-        return roomStandard;
+    public String getStandardRoom() {
+        return standardRoom;
     }
 
-    public void setRoomStandard(int roomStandard) {
-        this.roomStandard = roomStandard;
+    public void setStandardRoom(String standardRoom) {
+        this.standardRoom = standardRoom;
     }
 
     public int getNumberOfFloors() {
@@ -28,5 +35,13 @@ public class House extends Facility{
 
     public void setNumberOfFloors(int numberOfFloors) {
         this.numberOfFloors = numberOfFloors;
+    }
+
+    @Override
+    public String toString() {
+        return "House{" + super.toString() +
+                "standardRoom=" + standardRoom +
+                ", numberOfFloors=" + numberOfFloors +
+                '}';
     }
 }

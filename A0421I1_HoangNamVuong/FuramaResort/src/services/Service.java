@@ -1,9 +1,11 @@
 package services;
 
 public interface Service {
-    public static void display() {}
+    public  void display();
 
-    public static void add() {}
+    public  void addNew();
 
-    public static void returnMenu() {}
+    public  void edit();
+
+    public  void delete();
 }

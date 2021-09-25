@@ -2,25 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bfc21aa-977e-408b-a112-0b2e1a6c32c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/exercise/triangle_exception/IllegalTriangleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/exercise/triangle_exception/TriangleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/practice/array_index_out_of_bounds_exception/ArrayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/practice/debug_application_java/LinearEquationResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/practice/demo_check_day_month_year_exception/DemoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/practice/demo_check_day_month_year_exception/InvalidDateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/practice/demo_check_day_month_year_exception/Validate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/practice/demo_check_day_month_year_exception/ValidateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15_exception_and_debug/practice/number_format_exception/CalculationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16_input_output_text_file/practice/demo_writeFile_readFile/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16_input_output_text_file/practice/demo_writeFile_readFile/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16_input_output_text_file/practice/demo_writeFile_readFile/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16_input_output_text_file/practice/demo_writeFile_readFile/WriteFileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FuramaResort/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FuramaResort/src/utils/BookingComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examination/ExportProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examination/ExportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examination/ImportProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examination/ImportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examination/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examination/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examination/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson16_IO_file_text/exercise/copy_file_text/CopyFileText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson16_IO_file_text/exercise/copy_file_text/text1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson16_IO_file_text/exercise/copy_file_text/text2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson16_IO_file_text/practice/find_max_in_file/ReadAndWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson16_IO_file_text/practice/sum_in_file_text/ReadFileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson16_IO_file_text/practice/sum_in_file_text/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson17_IO_file_Binary_and_serialization/practice/demo_binary_file/BinaryFileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson17_IO_file_Binary_and_serialization/practice/demo_binary_file/BinaryObjectFileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson17_IO_file_Binary_and_serialization/practice/demo_binary_file/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson19_string_and_regex/practice/DemoStringRegex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/controllers/FuramaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/controllers/FuramaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/controllers/FuramaControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Facility.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Facility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Villa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Villa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/controllers/FuramaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/controllers/FuramaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/controllers/FuramaControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/models/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/models/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/models/Facility.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/models/Facility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/models/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/models/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/models/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/models/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/models/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/models/Villa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/services/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/services/impl/BookingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/services/ContractServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/services/impl/ContractServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/services/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/services/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/services/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/services/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/services/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/services/FacilityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/services/FacilityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/services/FacilityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/services/impl/FacilityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/services/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/services/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/DebugTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module 2/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DebugTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DebugTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DebugTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson12_java_collection_framework/exercise/use_arrayList_LinkedList/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson16_input_output_text_file/practice/demo_writeFile_readFile/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson16_IO_file_text/practice/demo_writeFile_readFile/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson16_input_output_text_file/practice/demo_writeFile_readFile/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson16_IO_file_text/practice/demo_writeFile_readFile/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson16_input_output_text_file/practice/demo_writeFile_readFile/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson16_IO_file_text/practice/demo_writeFile_readFile/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson16_input_output_text_file/practice/demo_writeFile_readFile/WriteFileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson16_IO_file_text/practice/demo_writeFile_readFile/WriteFileDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -63,7 +99,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FuramaResort" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -78,26 +114,13 @@
       <recent name="lesson10_arrayList_and_linkedList.exercise.java_util_arrayList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TriangleException">
-    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson15_exception_and_debug.practice.array_index_out_of_bounds_exception.ArrayExample" />
+  <component name="RunManager" selected="Application.DebugTest">
+    <configuration name="CopyFileText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson16_IO_file_text.exercise.copy_file_text.CopyFileText" />
       <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson15_exception_and_debug.practice.array_index_out_of_bounds_exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson15_exception_and_debug.practice.number_format_exception.CalculationExample" />
-      <module name="Module 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson15_exception_and_debug.practice.number_format_exception.*" />
+          <option name="PATTERN" value="lesson16_IO_file_text.exercise.copy_file_text.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson15_exception_and_debug.exercise.triangle_exception.TriangleException" />
+    <configuration name="ProductManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examination.ProductManager" />
       <module name="Module 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson15_exception_and_debug.exercise.triangle_exception.*" />
+          <option name="PATTERN" value="examination.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,32 +148,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadAndWriteFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson16_IO_file_text.practice.find_max_in_file.ReadAndWriteFile" />
       <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson16_IO_file_text.practice.find_max_in_file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+    <configuration name="ReadFileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson16_IO_file_text.practice.sum_in_file_text.ReadFileExample" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson16_IO_file_text.practice.sum_in_file_text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TriangleException" />
-        <item itemvalue="Application.CalculationExample" />
         <item itemvalue="Application.DebugTest" />
-        <item itemvalue="Application.Unnamed" />
-        <item itemvalue="Application.ArrayExample" />
+        <item itemvalue="Application.ProductManager" />
+        <item itemvalue="Application.CopyFileText" />
+        <item itemvalue="Application.ReadAndWriteFile" />
+        <item itemvalue="Application.ReadFileExample" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +253,20 @@
       <workItem from="1630669448104" duration="9589000" />
       <workItem from="1630933676300" duration="4885000" />
       <workItem from="1631098098235" duration="7837000" />
-      <workItem from="1631274775369" duration="5815000" />
+      <workItem from="1631274775369" duration="6448000" />
+      <workItem from="1631527037978" duration="11315000" />
+      <workItem from="1631702888125" duration="11632000" />
+      <workItem from="1631876374044" duration="16000" />
+      <workItem from="1631884818390" duration="1657000" />
+      <workItem from="1632113101376" duration="1573000" />
+      <workItem from="1632114955347" duration="632000" />
+      <workItem from="1632140709162" duration="601000" />
+      <workItem from="1632142721379" duration="198000" />
+      <workItem from="1632225874116" duration="698000" />
+      <workItem from="1632313333402" duration="6000" />
+      <workItem from="1632402727614" duration="1483000" />
+      <workItem from="1632480032734" duration="12383000" />
+      <workItem from="1632539053359" duration="42000" />
     </task>
     <servers />
   </component>

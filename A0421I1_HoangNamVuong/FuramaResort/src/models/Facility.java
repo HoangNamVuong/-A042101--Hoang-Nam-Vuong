@@ -1,9 +1,10 @@
 package models;
 
 public abstract class Facility {
+    private int facilityId;
     private String serviceName;
-    private int usableArea;
-    private int rentalCosts;
+    private int useArea;
+    private int rentalPrice;
     private int maximumNumberPeople;
     private String rentalType;
 
@@ -11,12 +12,21 @@ public abstract class Facility {
 
     }
 
-    public Facility(String serviceName, int usableArea, int rentalCosts, int maximumNumberPeople, String rentalType) {
+    public Facility(int facilityId, String serviceName, int useArea, int rentalPrice, int maximumNumberPeople, String rentalType) {
+        this.facilityId = facilityId;
         this.serviceName = serviceName;
-        this.usableArea = usableArea;
-        this.rentalCosts = rentalCosts;
+        this.useArea = useArea;
+        this.rentalPrice = rentalPrice;
         this.maximumNumberPeople = maximumNumberPeople;
         this.rentalType = rentalType;
+    }
+
+    public int getFacilityId() {
+        return facilityId;
+    }
+
+    public void setFacilityId(int facilityId) {
+        this.facilityId = facilityId;
     }
 
     public String getServiceName() {
@@ -27,20 +37,20 @@ public abstract class Facility {
         this.serviceName = serviceName;
     }
 
-    public int getUsableArea() {
-        return usableArea;
+    public int getUseArea() {
+        return useArea;
     }
 
-    public void setUsableArea(int usableArea) {
-        this.usableArea = usableArea;
+    public void setUseArea(int useArea) {
+        this.useArea = useArea;
     }
 
-    public int getRentalCosts() {
-        return rentalCosts;
+    public int getRentalPrice() {
+        return rentalPrice;
     }
 
-    public void setRentalCosts(int rentalCosts) {
-        this.rentalCosts = rentalCosts;
+    public void setRentalPrice(int rentalPrice) {
+        this.rentalPrice = rentalPrice;
     }
 
     public int getMaximumNumberPeople() {
@@ -57,5 +67,17 @@ public abstract class Facility {
 
     public void setRentalType(String rentalType) {
         this.rentalType = rentalType;
+    }
+
+    @Override
+    public String toString() {
+        return "Facility{" +
+                "facilityId=" + facilityId +
+                ", serviceName='" + serviceName + '\'' +
+                ", useArea=" + useArea +
+                ", rentalPrice=" + rentalPrice +
+                ", maximumNumberPeople=" + maximumNumberPeople +
+                ", rentalType='" + rentalType + '\'' +
+                '}';
     }
 }

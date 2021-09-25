@@ -16,6 +16,7 @@ public class ProductManager {
     }
 
     public static void displayMenu() {
+
         int choice = 0;
         while (true) {
             System.out.println("Choose:" +

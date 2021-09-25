@@ -1,7 +1,7 @@
 package models;
 
 public class Villa extends Facility{
-    private int roomStandard;
+    private String standardVilla;
     private int poolArea;
     private int numberOfFloors;
 
@@ -9,19 +9,27 @@ public class Villa extends Facility{
 
     }
 
-    public Villa(String serviceName, int usableArea, int rentalCosts, int maximumNumberPeople, String rentalType, int roomStandard, int poolArea, int numberOfFloors) {
-        super(serviceName, usableArea, rentalCosts, maximumNumberPeople, rentalType);
-        this.roomStandard = roomStandard;
+    public Villa(int facilityId,
+                 String serviceName,
+                 int useArea,
+                 int rentalPrice,
+                 int maximumNumberPeople,
+                 String rentalType,
+                 String standardVilla,
+                 int poolArea,
+                 int numberOfFloors) {
+        super(facilityId, serviceName, useArea, rentalPrice, maximumNumberPeople, rentalType);
+        this.standardVilla = standardVilla;
         this.poolArea = poolArea;
         this.numberOfFloors = numberOfFloors;
     }
 
-    public int getRoomStandard() {
-        return roomStandard;
+    public String getStandardVilla() {
+        return standardVilla;
     }
 
-    public void setRoomStandard(int roomStandard) {
-        this.roomStandard = roomStandard;
+    public void setStandardVilla(String standardVilla) {
+        this.standardVilla = standardVilla;
     }
 
     public int getPoolArea() {
@@ -38,5 +46,14 @@ public class Villa extends Facility{
 
     public void setNumberOfFloors(int numberOfFloors) {
         this.numberOfFloors = numberOfFloors;
+    }
+
+    @Override
+    public String toString() {
+        return "Villa{" + super.toString() +
+                "standardVilla='" + standardVilla + '\'' +
+                ", poolArea=" + poolArea +
+                ", numberOfFloors=" + numberOfFloors +
+                '}';
     }
 }
