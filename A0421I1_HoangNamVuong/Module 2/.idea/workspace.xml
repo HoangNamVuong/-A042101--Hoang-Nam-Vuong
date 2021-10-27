@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bfc21aa-977e-408b-a112-0b2e1a6c32c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FixBug.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examination/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/examination/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 3/lesson01_database/exercise/student_management.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 3/lesson01_database/practice/my_sql.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,7 +64,7 @@
       <recent name="lesson10_arrayList_and_linkedList.exercise.java_util_arrayList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DebugTest">
+  <component name="RunManager" selected="Application.FixBug">
     <configuration name="CopyFileText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson16_IO_file_text.exercise.copy_file_text.CopyFileText" />
       <module name="Module 2" />
@@ -76,6 +80,13 @@
     </configuration>
     <configuration name="DebugTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DebugTest" />
+      <module name="Module 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FixBug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FixBug" />
       <module name="Module 2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson16_IO_file_text.practice.sum_in_file_text.ReadFileExample" />
-      <module name="Module 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson16_IO_file_text.practice.sum_in_file_text.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FixBug" />
         <item itemvalue="Application.DebugTest" />
         <item itemvalue="Application.ProductManager" />
         <item itemvalue="Application.CopyFileText" />
         <item itemvalue="Application.ReadAndWriteFile" />
-        <item itemvalue="Application.ReadFileExample" />
       </list>
     </recent_temporary>
   </component>
@@ -217,6 +215,9 @@
       <workItem from="1632740235610" duration="414000" />
       <workItem from="1632913298271" duration="231000" />
       <workItem from="1632913643103" duration="553000" />
+      <workItem from="1633494900608" duration="1677000" />
+      <workItem from="1634557215375" duration="3000" />
+      <workItem from="1634986243121" duration="12000" />
     </task>
     <servers />
   </component>
@@ -253,6 +254,10 @@
           <line>10</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="12" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
