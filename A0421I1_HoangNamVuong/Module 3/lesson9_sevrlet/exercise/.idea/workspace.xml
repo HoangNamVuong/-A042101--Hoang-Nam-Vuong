@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="317d22b8-64a6-417e-b65a-7ed3f3186546" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/Module 3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson10_jsp_jstl/practice/demoJSTL/.idea/demoJSTL.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11_mvc/.idea/lesson11_mvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_discount_calculator/src/main/java/DiscountServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/server_time/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/server_time/.idea/server_time.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/simple_login/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/simple_login/.idea/simple_login.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson10_jsp_jstl/practice/demoJSTL/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson10_jsp_jstl/practice/demoJSTL/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson10_jsp_jstl/practice/demoJSTL/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson10_jsp_jstl/practice/demoJSTL/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson6_css/practice/demo_nhung_css/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson6_css/practice/demo_nhung_css/mycss.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson6_css/practice/demo_position/Display.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson6_css/practice/demo_position/Fix.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson6_css/practice/demo_position/Sitck.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson6_css/practice/demo_position/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson6_css/practice/nhung_css/Index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson6_css/practice/nhung_css/mycss.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/server_time/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/server_time/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/server_time/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/server_time/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/server_time/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/server_time/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/server_time/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/server_time/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/server_time/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/server_time/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/server_time/.gradle/6.8/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/server_time/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/server_time/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/server_time/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/server_time/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/server_time/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/server_time/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/server_time/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/server_time/build/libs/server_time-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/server_time/build/libs/server_time-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/simple_login/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/simple_login/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/simple_login/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/simple_login/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/simple_login/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/simple_login/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/simple_login/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/simple_login/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/simple_login/.gradle/6.8/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/simple_login/.gradle/6.8/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/simple_login/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/simple_login/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/simple_login/.gradle/6.8/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/simple_login/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/simple_login/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/simple_login/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/simple_login/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/simple_login/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/simple_login/build/classes/java/main/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/simple_login/build/classes/java/main/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/simple_login/build/libs/simple_login-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/simple_login/build/libs/simple_login-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/simple_login/src/main/java/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/simple_login/src/main/java/LoginServlet.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="20DA3iXNXlWGHn0vz7U86ctVVYT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="317d22b8-64a6-417e-b65a-7ed3f3186546" name="Default Changelist" comment="" />
+      <created>1635568590448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635568590448</updated>
+      <workItem from="1635568593220" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -14,6 +14,7 @@ import java.util.List;
 
 @WebServlet(name = "ServletStudent", urlPatterns = {"/list"})
 public class ServletStudent extends HttpServlet {
+
     List<Student> studentList = new ArrayList<>();
 
     @Override

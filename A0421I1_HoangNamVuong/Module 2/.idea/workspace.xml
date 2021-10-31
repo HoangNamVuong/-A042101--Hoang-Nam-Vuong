@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bfc21aa-977e-408b-a112-0b2e1a6c32c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FixBug.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examination/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/examination/ProductManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module 3/lesson01_database/exercise/student_management.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module 3/lesson01_database/practice/my_sql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 3/lesson10_jsp_jstl/practice/demoJSTL/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module 3/lesson10_jsp_jstl/practice/demoJSTL/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 3/lesson6_css/practice/demo_nhung_css/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 3/lesson6_css/practice/demo_nhung_css/mycss.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 3/lesson6_css/practice/demo_position/Display.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 3/lesson6_css/practice/demo_position/Fix.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 3/lesson6_css/practice/demo_position/Sitck.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 3/lesson6_css/practice/demo_position/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 3/lesson6_css/practice/nhung_css/Index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 3/lesson6_css/practice/nhung_css/mycss.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,6 +223,8 @@
       <workItem from="1633494900608" duration="1677000" />
       <workItem from="1634557215375" duration="3000" />
       <workItem from="1634986243121" duration="12000" />
+      <workItem from="1635512151091" duration="6000" />
+      <workItem from="1635512224024" duration="3000" />
     </task>
     <servers />
   </component>
