@@ -1,0 +1,14 @@
+h1 {
+    color: black;
+    font-family: Tahoma;
+    font-size: 200%;
+}
+p {
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+    border: 1px solid grey;
+}
+#element1 {
+    color: blue;
+}
