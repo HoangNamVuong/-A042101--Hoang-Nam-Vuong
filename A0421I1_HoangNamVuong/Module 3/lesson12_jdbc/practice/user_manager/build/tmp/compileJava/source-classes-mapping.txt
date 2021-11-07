@@ -1,0 +1,14 @@
+model/bean/User.java
+ model.bean.User
+model/repository/impl/BaseRepository.java
+ model.repository.impl.BaseRepository
+model/repository/UserRepository.java
+ model.repository.UserRepository
+service/UserService.java
+ service.UserService
+service/impl/UserServiceImpl.java
+ service.impl.UserServiceImpl
+controller/UserServlet.java
+ controller.UserServlet
+model/repository/impl/UserRepositoryImpl.java
+ model.repository.impl.UserRepositoryImpl
