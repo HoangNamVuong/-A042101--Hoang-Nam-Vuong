@@ -1,0 +1,36 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: PC
+  Date: 10/29/2021
+  Time: 2:42 AM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+    <script src="/jquery/jquery-3.6.0.min.js"></script>
+    <link type="text/css" href="/bootstrap-4.6.0-dist/css/bootstrap.css">
+    <script src="/bootstrap-4.6.0-dist/js/bootstrap.js"></script>
+</head>
+<body>
+<h1>Create Student</h1>
+<form action="/student?action=edit" method="post">
+
+    Id      <input type="text" name="id" value="${student.id}"><br>
+    Name      <input type="text" name="name" value="${student.name}" ><br>
+    Birthday   <input type="date" name="birthday" value="${student.birthday}"><br>
+    Class      <select name="classId">
+                <option value="0">--Chọn lớp--</option>
+                <option value="1">--A03--</option>
+                <option value="2">--A04--</option>
+                </select><br>
+    Point       <input type="text" name="point" value="${student.point}"><br>
+    Gender      <input type="radio" name="gender" value="true">Male
+                 <input type="radio" name="gender" value="false">Female<br>
+    Email        <input type="text" name="email" value="${student.email}"><br>
+                <button type="submit">Add</button>
+</form>
+</body>
+</html>
