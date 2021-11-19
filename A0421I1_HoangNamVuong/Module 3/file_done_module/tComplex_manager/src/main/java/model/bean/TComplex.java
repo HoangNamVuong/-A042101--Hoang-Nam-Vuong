@@ -1,75 +1,105 @@
 package model.bean;
 
+import java.util.Date;
+
 public class TComplex {
-    private int maMatBang;
-    private String trangThai;
-    private int dienTich;
-    private int soTang;
-    private String loaiMatBang;
+    private int idMatBang;
+    private String maMatBang;
+    private String dienTich;
+    private int idTrangThai;
+    private int idSoTang;
+    private int idLoaiMatBang;
     private String giaTien;
     private String ngayBatDau;
     private String ngayKetThuc;
 
     public TComplex() {
-
     }
 
-    public TComplex(int maMatBang,
-                    String trangThai,
-                    int dienTich,
-                    int soTang,
-                    String loaiMatBang,
+    public TComplex(int idMatBang,
+                    String maMatBang,
+                    String dienTich,
+                    int idTrangThai,
+                    int idSoTang,
+                    int idLoaiMatBang,
                     String giaTien,
                     String ngayBatDau,
                     String ngayKetThuc) {
+        this.idMatBang = idMatBang;
         this.maMatBang = maMatBang;
-        this.trangThai = trangThai;
         this.dienTich = dienTich;
-        this.soTang = soTang;
-        this.loaiMatBang = loaiMatBang;
+        this.idTrangThai = idTrangThai;
+        this.idSoTang = idSoTang;
+        this.idLoaiMatBang = idLoaiMatBang;
         this.giaTien = giaTien;
         this.ngayBatDau = ngayBatDau;
         this.ngayKetThuc = ngayKetThuc;
     }
 
-    public int getMaMatBang() {
+    public TComplex(String maMatBang,
+                    String dienTich,
+                    int idTrangThai,
+                    int idSoTang,
+                    int idLoaiMatBang,
+                    String giaTien,
+                    String ngayBatDau,
+                    String ngayKetThuc) {
+        this.maMatBang = maMatBang;
+        this.dienTich = dienTich;
+        this.idTrangThai = idTrangThai;
+        this.idSoTang = idSoTang;
+        this.idLoaiMatBang = idLoaiMatBang;
+        this.giaTien = giaTien;
+        this.ngayBatDau = ngayBatDau;
+        this.ngayKetThuc = ngayKetThuc;
+    }
+
+    public int getIdMatBang() {
+        return idMatBang;
+    }
+
+    public void setIdMatBang(int idMatBang) {
+        this.idMatBang = idMatBang;
+    }
+
+    public String getMaMatBang() {
         return maMatBang;
     }
 
-    public void setMaMatBang(int maMatBang) {
+    public void setMaMatBang(String maMatBang) {
         this.maMatBang = maMatBang;
     }
 
-    public String getTrangThai() {
-        return trangThai;
-    }
-
-    public void setTrangThai(String trangThai) {
-        this.trangThai = trangThai;
-    }
-
-    public int getDienTich() {
+    public String getDienTich() {
         return dienTich;
     }
 
-    public void setDienTich(int dienTich) {
+    public void setDienTich(String dienTich) {
         this.dienTich = dienTich;
     }
 
-    public int getSoTang() {
-        return soTang;
+    public int getIdTrangThai() {
+        return idTrangThai;
     }
 
-    public void setSoTang(int soTang) {
-        this.soTang = soTang;
+    public void setIdTrangThai(int idTrangThai) {
+        this.idTrangThai = idTrangThai;
     }
 
-    public String getLoaiMatBang() {
-        return loaiMatBang;
+    public int getIdSoTang() {
+        return idSoTang;
     }
 
-    public void setLoaiMatBang(String loaiMatBang) {
-        this.loaiMatBang = loaiMatBang;
+    public void setIdSoTang(int idSoTang) {
+        this.idSoTang = idSoTang;
+    }
+
+    public int getIdLoaiMatBang() {
+        return idLoaiMatBang;
+    }
+
+    public void setIdLoaiMatBang(int idLoaiMatBang) {
+        this.idLoaiMatBang = idLoaiMatBang;
     }
 
     public String getGiaTien() {
@@ -94,19 +124,5 @@ public class TComplex {
 
     public void setNgayKetThuc(String ngayKetThuc) {
         this.ngayKetThuc = ngayKetThuc;
-    }
-
-    @Override
-    public String toString() {
-        return "TComplex{" +
-                "maMatBang=" + maMatBang +
-                ", trangThai='" + trangThai + '\'' +
-                ", dienTich=" + dienTich +
-                ", soTang=" + soTang +
-                ", loaiMatBang='" + loaiMatBang + '\'' +
-                ", giaTien='" + giaTien + '\'' +
-                ", ngayBatDau='" + ngayBatDau + '\'' +
-                ", ngayKetThuc='" + ngayKetThuc + '\'' +
-                '}';
     }
 }

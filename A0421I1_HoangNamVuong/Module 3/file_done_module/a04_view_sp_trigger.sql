@@ -309,7 +309,7 @@ insert into student (`name`,email) values ("Nguyễn Văn Linh","vanlinh@gmail.c
 
 drop trigger auto_creat_acount_jame;
 
-
+select*from class;
 
 
 

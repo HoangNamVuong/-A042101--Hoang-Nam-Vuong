@@ -11,6 +11,7 @@
     <title>$Title$</title>
   </head>
   <body>
+  <c:redirect url="/tComplex"></c:redirect>
   $END$
   </body>
 </html>
