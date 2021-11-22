@@ -5,10 +5,13 @@ import model.repository.TComplexRepository;
 import model.repository.impl.TComplexRepositoryImpl;
 import service.TComplexService;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class TComplexServiceImpl implements TComplexService {
+    private static final String MMB_REGEX = "^[A-Z0-9]{3}-[A-Z0-9]{2}-[A-Z0-9]{2}$";
+    private static final String NBD_REGEX = "^(0?[1-9]|[12][0-9]|3[01])[\\/\\-](0?[1-9]|1[012])[\\/\\-]\\d{4}$";
     private TComplexRepository tComplexRepository = new TComplexRepositoryImpl();
     @Override
     public List<TComplex> findAll() {
@@ -27,7 +30,23 @@ public class TComplexServiceImpl implements TComplexService {
 
     @Override
     public Map<String, String> save1(TComplex tComplex) {
-        return null;
+        Map<String,String> map = new HashMap<>();
+        boolean check = true;
+        if("".equals(tComplex.getMaMatBang())) {
+            check = false;
+            map.put("messMaMatBang","Ma mat bang khong duoc de trong");
+        }else if (!validateMaMatBang(tComplex.getMaMatBang())) {
+            check = false;
+            map.put("messMaMatBang","Ma mat bang sai dinh dang");
+        }
+//        else if (!validateNgayBatDau(tComplex.getNgayBatDau())) {
+//            check = false;
+//            map.put("messRegex","Ngay bat dau sai dinh dang");
+//        }
+        if (check) {
+            tComplexRepository.save(tComplex);
+        }
+        return map;
     }
 
     @Override
@@ -43,5 +62,13 @@ public class TComplexServiceImpl implements TComplexService {
     @Override
     public List<TComplex> search(String loaiMatBang, String giaTien, String soTang) {
         return tComplexRepository.search(loaiMatBang,giaTien,soTang);
+    }
+    
+    public boolean validateMaMatBang(String maMatBang) {
+        return maMatBang.matches(MMB_REGEX);
+    }
+
+    public boolean validateNgayBatDau(String ngayBatDau) {
+        return ngayBatDau.matches(NBD_REGEX);
     }
 }

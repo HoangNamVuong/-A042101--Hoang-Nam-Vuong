@@ -17,25 +17,31 @@
 <body>
 <h1>Edit TComplex</h1>
 <form action="/tComplex?action=edit" method="post">
-    ID      <input type="text" name="idMatBang"  value="${tComplex.idMatBang}"><br>
-    Ma MB      <input type="text" name="maMatBang" value="${tComplex.maMatBang}"><br>
-    Dien Tich      <input type="text" name="dienTich" value="${tComplex.dienTich}"><br>
-<%--    Trang Thai    <input type="text" name="idTrangThai" value="${tComplex.idTrangThai}"><br>--%>
-    Trang Thai       <select name="idTrangThai">
-    <option value="0">--chon trang thai--</option>
-    <c:forEach items="${trangThaiList}" var="trangThai">
-        <option value="${trangThai.idTrangThai}"${trangThai.idTrangThai==tComplex.idTrangThai?"selected":""}>${trangThai.kieuTrangThai}</option>
-        <%--                    <c:if test="${!class1.id==student.classId}">--%>
-        <%--                        <option value="${class1.id}">${class1.name}</option>--%>
-        <%--                    </c:if>--%>
-    </c:forEach>
-</select><br>
-    So Tang      <input type="text" name="idSoTang" value="${tComplex.idSoTang}"><br>
-    Loai MB    <input type="text" name="idLoaiMatBang" value="${tComplex.idLoaiMatBang}"><br>
-    Gia Tien     <input type="text" name="giaTien" value="${tComplex.giaTien}"><br>
-    Ngay Bat Dau  <input type="date" name="ngayBatDau" value="${tComplex.ngayBatDau}"><br>
-    Ngay Ket Thuc  <input type="date" name="ngayKetThuc" value="${tComplex.ngayKetThuc}"><br>
+    ID <input type="text" name="idMatBang" value="${tComplex.idMatBang}"><br>
+    Ma MB <input type="text" name="maMatBang" value="${tComplex.maMatBang}"><br>
+    Dien Tich <input type="text" name="dienTich" value="${tComplex.dienTich}"><br>
+    Trang Thai <select name="idTrangThai">
+                    <option value="0">--chon trang thai--</option>
+                    <c:forEach items="${trangThaiList}" var="trangThai">
+                        <option value="${trangThai.idTrangThai}"${trangThai.idTrangThai==tComplex.idTrangThai?"selected":""}>${trangThai.kieuTrangThai}</option>
+                    </c:forEach>
+                </select><br>
+    So Tang <select name="idSoTang">
+                <option value="0">--chon so tang--</option>
+                <c:forEach items="${soTangList}" var="soTang">
+                    <option value="${soTang.idSoTang}"${soTang.idSoTang==tComplex.idSoTang?"selected":""}>${soTang.tenTang}</option>
+                </c:forEach>
+            </select><br>
+    Loai MB <select name="idLoaiMatBang">
+                <option value="0">--chon loai MB--</option>
+                <c:forEach items="${loaiMatBangList}" var="loaiMatBang">
+                    <option value="${loaiMatBang.idLoaiMatBang}"${loaiMatBang.idLoaiMatBang==tComplex.idLoaiMatBang?"selected":""}>${loaiMatBang.kieuMatBang}</option>
+                </c:forEach>
+            </select><br>
+    Gia Tien <input type="text" name="giaTien" value="${tComplex.giaTien}"><br>
+    Ngay Bat Dau <input type="date" name="ngayBatDau" value="${tComplex.ngayBatDau}"><br>
+    Ngay Ket Thuc <input type="date" name="ngayKetThuc" value="${tComplex.ngayKetThuc}"><br>
     <button type="submit">Add</button>
-   </form>
+</form>
 </body>
 </html>

@@ -32,10 +32,13 @@ foreign key(id_loai_mat_bang) references loai_mat_bang(id_loai_mat_bang)
 );
 
 select * from tComplex;
+select * from trang_thai;
+select * from so_tang;
+select * from loai_mat_bang;
 
 DELIMITER $$
-create procedure edit_tComplex_by_id(in p_id_mat_bang int, in p_ma_mat_bang varchar(50),in p_dien_tich varchar(50),in p_id_trang_thai int(250),in p_id_so_tang int,
-                                         in id_loai_mat_bang int(250),in gia_tien varchar(250),in ngay_bat_dau date, in p_point int,in ngay_ket_thuc date)
+create procedure edit_tComplex_by_id(in p_id_mat_bang int,in p_ma_mat_bang varchar(50),in p_dien_tich varchar(50),in p_id_trang_thai int(250),in p_id_so_tang int,
+                                         in id_loai_mat_bang int(250),in gia_tien varchar(250),in ngay_bat_dau date,in ngay_ket_thuc date)
 begin
 update tComplex 
 set ma_mat_bang = p_ma_mat_bang, dien_tich = p_dien_tich, id_trang_thai = p_id_trang_thai, id_so_tang = p_id_so_tang, id_loai_mat_bang = id_loai_mat_bang,

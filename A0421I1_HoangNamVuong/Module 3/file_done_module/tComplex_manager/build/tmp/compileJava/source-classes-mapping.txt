@@ -6,10 +6,10 @@ model/bean/TComplex.java
  model.bean.TComplex
 service/TComplexService.java
  service.TComplexService
-model/repository/impl/TComplexRepositoryImpl.java
- model.repository.impl.TComplexRepositoryImpl
-service/impl/TComplexServiceImpl.java
- service.impl.TComplexServiceImpl
+model/repository/impl/LoaiMatBangRepositoryImpl.java
+ model.repository.impl.LoaiMatBangRepositoryImpl
+model/bean/LoaiMatBang.java
+ model.bean.LoaiMatBang
 model/repository/impl/TrangThaiRepositoryImpl.java
  model.repository.impl.TrangThaiRepositoryImpl
 model/bean/TrangThai.java
@@ -20,5 +20,25 @@ service/TrangThaiService.java
  service.TrangThaiService
 service/impl/TrangThaiServiceImpl.java
  service.impl.TrangThaiServiceImpl
+service/impl/SoTangServiceImpl.java
+ service.impl.SoTangServiceImpl
+service/SoTangService.java
+ service.SoTangService
+model/repository/SoTangRepository.java
+ model.repository.SoTangRepository
+model/bean/SoTang.java
+ model.bean.SoTang
+model/repository/impl/SoTangRepositoryImpl.java
+ model.repository.impl.SoTangRepositoryImpl
+service/impl/LoaiMatBangServiceImpl.java
+ service.impl.LoaiMatBangServiceImpl
+service/LoaiMatBangService.java
+ service.LoaiMatBangService
+model/repository/LoaiMatBangRepository.java
+ model.repository.LoaiMatBangRepository
+model/repository/impl/TComplexRepositoryImpl.java
+ model.repository.impl.TComplexRepositoryImpl
+service/impl/TComplexServiceImpl.java
+ service.impl.TComplexServiceImpl
 controller/TComplexServlet.java
  controller.TComplexServlet

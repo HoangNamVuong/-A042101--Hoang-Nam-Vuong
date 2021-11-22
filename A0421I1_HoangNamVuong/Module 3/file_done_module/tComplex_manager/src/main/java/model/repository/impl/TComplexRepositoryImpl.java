@@ -5,7 +5,6 @@ import model.repository.TComplexRepository;
 
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class TComplexRepositoryImpl implements TComplexRepository {
@@ -15,7 +14,8 @@ public class TComplexRepositoryImpl implements TComplexRepository {
     final String INSERT_INTO_TCOMPLEX = "INSERT INTO tComplex(ma_mat_bang,dien_tich,id_trang_thai,id_so_tang,id_loai_mat_bang,gia_tien,ngay_bat_dau,ngay_ket_thuc)" + " values(?,?,?,?,?,?,?,?);";
     final String SELECT_BY_ID = "SELECT * FROM tComplex WHERE id_mat_bang =?;";
     final String DELETE_BY_ID = "DELETE FROM tComplex WHERE id_mat_bang =?;";
-    final String UPDATE_TCOMPLEX = "call edit_tComplex_by_id(?,?,?,?,?,?,?,?);";
+//    final String UPDATE_TCOMPLEX = "call edit_tComplex_by_id(?,?,?,?,?,?,?,?);";
+    final String UPDATE_TCOMPLEX = "UPDATE tComplex SET ma_mat_bang = ?,dien_tich= ?, id_trang_thai =?,id_so_tang = ?,id_loai_mat_bang= ?, gia_tien =?, ngay_bat_dau =?,ngay_ket_thuc = ? WHERE id_mat_bang = ?;";
     final String SEARCH = "SELECT * FROM tComplex WHERE id_loai_mat_bang like ? and gia_tien like ? and id_so_tang like ?;";
 
     @Override
@@ -124,7 +124,6 @@ public class TComplexRepositoryImpl implements TComplexRepository {
         boolean check = false;
         try {
             CallableStatement callableStatement = connection.prepareCall(UPDATE_TCOMPLEX);
-
             callableStatement.setString(1,tComplex.getMaMatBang());
             callableStatement.setString(2,tComplex.getDienTich());
             callableStatement.setInt(3, tComplex.getIdTrangThai());
@@ -133,6 +132,7 @@ public class TComplexRepositoryImpl implements TComplexRepository {
             callableStatement.setString(6,tComplex.getGiaTien());
             callableStatement.setDate(7, java.sql.Date.valueOf(tComplex.getNgayBatDau()));
             callableStatement.setDate(8, java.sql.Date.valueOf(tComplex.getNgayKetThuc()));
+            callableStatement.setInt(9, id);
             check = callableStatement.executeUpdate() > 0;
             callableStatement.close();
             connection.close();
