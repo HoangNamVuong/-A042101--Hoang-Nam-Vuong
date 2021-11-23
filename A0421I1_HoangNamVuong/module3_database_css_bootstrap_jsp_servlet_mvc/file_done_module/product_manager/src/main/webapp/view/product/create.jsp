@@ -31,19 +31,6 @@
                         <option value="${trangThai.idTrangThai}">${trangThai.kieuTrangThai}</option>
                     </c:forEach>
                 </select><br>
-    So Tang <select name="idSoTang">
-                <c:forEach items="${soTangList}" var="soTang">
-                    <option value="${soTang.idSoTang}">${soTang.tenTang}</option>
-                </c:forEach>
-            </select><br>
-    Loai MB <select name="idLoaiMatBang">
-                <c:forEach items="${loaiMatBangList}" var="loaiMatBang">
-                    <option value="${loaiMatBang.idLoaiMatBang}">${loaiMatBang.kieuMatBang}</option>
-                </c:forEach>
-            </select><br>
-    Gia Tien <input type="text" name="giaTien"><br>
-    Ngay Bat Dau <input type="date" name="ngayBatDau" value="${oldTComplex.ngayBatDau}"><br>
-    Ngay Ket Thuc <input type="date" name="ngayKetThuc"><br>
     <button type="submit">Add</button>
 </form>
 
