@@ -1,0 +1,6 @@
+dictionary/model/Dictionary.java
+ dictionary.model.Dictionary
+dictionary/controller/DictionaryController.java
+ dictionary.controller.DictionaryController
+dictionary/service/DictionaryServiceImpl.java
+ dictionary.service.DictionaryServiceImpl

@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../../:\fileCode\codeGym\a0421i1_hoang_nam_vuong\module_4_springFramework\lesson1_springMVC\exercise\converter_currency\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
