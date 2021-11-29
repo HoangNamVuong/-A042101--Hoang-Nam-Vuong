@@ -12,7 +12,7 @@
 </head>
 <body>
 <h1>Calculator</h1>
-<form action="calculate" method="post">
+<form action="calculator" method="post">
     <input type="text" name="number1" value="${number1}">
     <input type="text" name="number2" value="${number2}">
     <p>

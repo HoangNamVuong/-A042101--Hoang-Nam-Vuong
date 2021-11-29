@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class CalculatorController {
 
-    @RequestMapping("/calculate")
+    @RequestMapping("/calculator")
     public String calculator(ModelMap model, @RequestParam(name = "number1",defaultValue = "0") double number1,
                              @RequestParam(name = "number2",defaultValue = "0") double number2,
                              @RequestParam(name = "calculation",defaultValue = "") String calculation) {
@@ -36,6 +36,6 @@ public class CalculatorController {
         model.addAttribute("calculation", calculation);
         model.addAttribute("result", result);
 
-        return "calculate";
+        return "calculator";
     }
 }
