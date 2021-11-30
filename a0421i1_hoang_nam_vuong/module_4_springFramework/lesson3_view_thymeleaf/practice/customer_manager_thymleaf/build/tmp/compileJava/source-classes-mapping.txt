@@ -1,0 +1,12 @@
+customer/configuration/AppInitializer.java
+ customer.configuration.AppInitializer
+customer/configuration/AppConfiguration.java
+ customer.configuration.AppConfiguration
+customer/controller/CustomerController.java
+ customer.controller.CustomerController
+customer/service/ICustomerService.java
+ customer.service.ICustomerService
+customer/model/Customer.java
+ customer.model.Customer
+customer/service/impl/CustomerService.java
+ customer.service.impl.CustomerService
