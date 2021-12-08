@@ -19,40 +19,53 @@ public class Email {
         this.signature = signature;
     }
 
-    public String getLanguages() {
-        StringBuffer stringBuffer = new StringBuffer();
-        for (String language: languages) {
-            stringBuffer.append(language);
-            stringBuffer.append(" ");
-        }
-        return stringBuffer.toString();
+//    public String getLanguages() {
+//        StringBuffer stringBuffer = new StringBuffer();
+//        for (String language: languages) {
+//            stringBuffer.append(language);
+//            stringBuffer.append(" ");
+//        }
+//        return stringBuffer.toString();
+//    }
+
+
+    public List<String> getLanguages() {
+        return languages;
+    }
+
+    public List<String> getPageSizes() {
+        return pageSizes;
+    }
+
+    public List<String> getSpamFilters() {
+        return spamFilters;
     }
 
     public void setLanguages(List<String> languages) {
         this.languages = languages;
     }
 
-    public String getPageSizes() {
-        StringBuffer stringBuffer = new StringBuffer();
-        for (String pageSize: pageSizes) {
-            stringBuffer.append(pageSize);
-            stringBuffer.append(" ");
-        }
-        return stringBuffer.toString();
-    }
+//    public String getPageSizes() {
+//        StringBuffer stringBuffer = new StringBuffer();
+//        for (String pageSize: pageSizes) {
+//            stringBuffer.append(pageSize);
+//            stringBuffer.append(" ");
+//        }
+//        return stringBuffer.toString();
+//    }
 
     public void setPageSizes(List<String> pageSizes) {
         this.pageSizes = pageSizes;
     }
 
-    public String getSpamFilters() {
-        StringBuffer stringBuffer = new StringBuffer();
-        for (String spamFilter: spamFilters) {
-            stringBuffer.append(spamFilter);
-            stringBuffer.append(" ");
-        }
-        return stringBuffer.toString();
-    }
+//    public String getSpamFilters() {
+//        StringBuffer stringBuffer = new StringBuffer();
+//        for (String spamFilter: spamFilters) {
+//            stringBuffer.append(spamFilter);
+//            stringBuffer.append(" ");
+//        }
+//        return stringBuffer.toString();
+//    }
 
     public void setSpamFilters(List<String> spamFilters) {
         this.spamFilters = spamFilters;

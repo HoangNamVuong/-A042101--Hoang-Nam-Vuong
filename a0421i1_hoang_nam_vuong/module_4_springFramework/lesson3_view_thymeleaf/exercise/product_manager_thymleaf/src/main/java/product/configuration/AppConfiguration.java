@@ -43,7 +43,7 @@ public class AppConfiguration implements WebMvcConfigurer, ApplicationContextAwa
         templateEngine.setTemplateResolver(templateResolver());
         return templateEngine;
     }
-
+    // cau hinh jsp
     @Bean
     public ThymeleafViewResolver viewResolver() {
         ThymeleafViewResolver viewResolver = new ThymeleafViewResolver();

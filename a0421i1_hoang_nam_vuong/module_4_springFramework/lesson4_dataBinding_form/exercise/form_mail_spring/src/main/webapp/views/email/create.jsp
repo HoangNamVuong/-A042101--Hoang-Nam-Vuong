@@ -10,15 +10,15 @@
     <table border="1">
         <tr>
             <td>Languages</td>
-            <td><form:radiobuttons path="languages" items="${listLanguages}"></form:radiobuttons> </td>
+            <td><form:radiobutton path="languages" items="${listLanguages}"></form:radiobutton> </td>
         </tr>
         <tr>
             <td>PageSizes</td>
-            <td><form:radiobuttons path="pageSizes" items="${listPageSizes}"></form:radiobuttons> </td>
+            <td><form:radiobutton path="pageSizes" items="${listPageSizes}"></form:radiobutton> </td>
         </tr>
         <tr>
             <td>SpamFilters</td>
-            <td><form:radiobuttons path="spamFilters" items="${listSpamFilters}"></form:radiobuttons> </td>
+            <td><form:radiobutton path="spamFilters" items="${listSpamFilters}"></form:radiobutton> </td>
         </tr>
         <tr>
             <td>Signature</td>

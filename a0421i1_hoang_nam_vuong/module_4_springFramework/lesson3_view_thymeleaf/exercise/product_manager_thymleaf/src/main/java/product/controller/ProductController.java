@@ -35,7 +35,7 @@ public class ProductController {
         product.setId((int) (Math.random() * 1000));
         productService.save(product);
         redirect.addFlashAttribute("success", "add product successfully!");
-        return "redirect: /product";
+        return "redirect:/product";
     }
 
     @GetMapping("/{id}/edit")
@@ -48,7 +48,7 @@ public class ProductController {
     public String update(Product product,  RedirectAttributes redirect) {
         productService.update(product.getId(), product);
         redirect.addFlashAttribute("success", "update product successfully!");
-        return "redirect: /product";
+        return "redirect:/product";
     }
 
     @GetMapping("/{id}/delete")
