@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>View Detail application</title>
+</head>
+<body>
+<h1>Detail application</h1>
+<p>
+    <a href="/application">Back to blog list</a>
+</p>
+<table>
+    <tr>
+        <td>Id:</td>
+        <td th:text="${application.id}"></td>
+    </tr>
+    <tr>
+        <td>nameArtist:</td>
+        <td th:text="${application.nameArtist}"></td>
+    </tr>
+    <tr>
+        <td>musicType:</td>
+        <td th:text="${application.musicType}"></td>
+    </tr>
+    <tr>
+        <td>linkMusic:</td>
+        <td th:text="${application.linkMusic}"></td>
+    </tr>
+</table>
+</body>
+</html>
