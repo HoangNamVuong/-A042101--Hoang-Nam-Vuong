@@ -18,10 +18,6 @@ public class Student {
     private int age;
     private String address;
 
-    @ManyToOne
-    @JoinColumn(name = "subject_id", referencedColumnName = "subject_id")
-    private Subject subject;
-
     public Student() {
     }
 
@@ -62,13 +58,5 @@ public class Student {
 
     public void setAddress(String address) {
         this.address = address;
-    }
-
-    public Subject getSubject() {
-        return subject;
-    }
-
-    public void setSubject(Subject subject) {
-        this.subject = subject;
     }
 }

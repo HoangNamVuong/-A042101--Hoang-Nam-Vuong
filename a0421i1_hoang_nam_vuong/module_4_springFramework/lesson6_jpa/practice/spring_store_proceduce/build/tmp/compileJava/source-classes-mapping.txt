@@ -1,16 +1,16 @@
 procedure/config/AppInitializer.java
  procedure.config.AppInitializer
-procedure/entity/Customer.java
- procedure.entity.Customer
-procedure/config/AppConfiguration.java
- procedure.config.AppConfiguration
-procedure/controller/CustomerController.java
- procedure.controller.CustomerController
+procedure/repository/Impl/CustomerRepository.java
+ procedure.repository.Impl.CustomerRepository
 procedure/repository/ICustomerRepository.java
  procedure.repository.ICustomerRepository
 procedure/service/ICustomerService.java
  procedure.service.ICustomerService
+procedure/entity/Customer.java
+ procedure.entity.Customer
+procedure/config/AppConfiguration.java
+ procedure.config.AppConfiguration
 procedure/service/Impl/CustomerService.java
  procedure.service.Impl.CustomerService
-procedure/repository/Impl/CustomerRepository.java
- procedure.repository.Impl.CustomerRepository
+procedure/controller/CustomerController.java
+ procedure.controller.CustomerController
