@@ -1,14 +1,16 @@
 package province_customer.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import province_customer.model.Customer;
+import province_customer.model.Province;
 import province_customer.service.ICustomerService;
+import province_customer.service.IProvinceService;
 
 import java.util.Optional;
 
@@ -18,6 +20,14 @@ public class CustomerController {
     @Autowired
     private ICustomerService customerService;
 
+    @Autowired
+    private IProvinceService provinceService;
+
+    @ModelAttribute("provinces") // y nghia cua cai nay?
+    public Iterable<Province> provinces(){
+        return provinceService.findAll();
+    }
+
     @GetMapping("/create-customer")
     public ModelAndView showCreateForm() {
         ModelAndView modelAndView = new ModelAndView("/customer/create");
@@ -25,7 +35,7 @@ public class CustomerController {
         return modelAndView;
     }
 
-    @PostMapping("/create-cusomter")
+    @PostMapping("/create-customer")
     public ModelAndView saveCustomer(@ModelAttribute("customer") Customer customer) {
         customerService.save(customer);
         ModelAndView modelAndView = new ModelAndView("/customer/create");
@@ -33,21 +43,25 @@ public class CustomerController {
         modelAndView.addObject("message", "New customer create successfully");
         return modelAndView;
     }
-
     @GetMapping("/customers")
-    public ModelAndView listCustomer() {
-        Iterable<Customer> customers = customerService.findAll();
+    public ModelAndView listCustomers(@RequestParam("search") Optional<String> search, Pageable pageable){
+        Page<Customer> customers;
+        if(search.isPresent()){
+            customers = customerService.findAllByFirstNameContaining(search.get(), pageable);
+        } else {
+            customers = customerService.findAll(pageable);
+        }
         ModelAndView modelAndView = new ModelAndView("/customer/list");
-        modelAndView.addObject("customer", customers);
+        modelAndView.addObject("customers", customers);
         return modelAndView;
     }
 
     @GetMapping("/edit-customer/{id}")
     public ModelAndView showEditForm(@PathVariable Long id) {
         Optional<Customer> customer = customerService.findById(id);
-        if (customer.isPresent()) {// isPresent() la gi?, no la cua CrudRepository phai khong?
+        if (customer.isPresent()) {
             ModelAndView modelAndView = new ModelAndView("/customer/edit");
-            modelAndView.addObject("customer", customer.get());// chua hieu get() vi sao de o customerService khong duoc?
+            modelAndView.addObject("customer", customer.get());
             return modelAndView;
         }else {
             ModelAndView modelAndView = new ModelAndView("/error.404");

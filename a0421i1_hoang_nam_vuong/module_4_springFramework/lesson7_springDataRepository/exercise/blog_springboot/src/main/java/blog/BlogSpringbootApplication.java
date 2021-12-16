@@ -1,13 +1,13 @@
-package province_customer;
+package blog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProvinceManagerSpringbootApplication {
+public class BlogSpringbootApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProvinceManagerSpringbootApplication.class, args);
+        SpringApplication.run(BlogSpringbootApplication.class, args);
     }
 
 }
