@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Show application list</title>
+</head>
+<body>
+<h1>application list</h1>
+<p>
+    <a href="/create-application">Create new application</a>
+</p>
+<table border="1">
+    <thead>
+    <tr>
+        <td>nameArtist</td>
+        <td>musicType</td>
+        <td>linkMusic</td>
+        <td>Edit</td>
+        <td>Delete</td>
+        <td>View</td>
+    </tr>
+    </thead>
+    <tbody>
+    <th:block th:each="blog : ${application}">
+        <tr>
+            <td th:text="${blog.nameArtist}"></td>
+            <td th:text="${blog.musicType}"></td>
+            <td th:text="${blog.linkMusic}"></td>
+            <td><a th:href="@{/edit-application/__${application.id}__}">edit</a></td>
+            <td><a th:href="@{/delete-application/__${application.id}__}">delete</a></td>
+            <td><a th:href="@{/view-application/__${application.id}__}">view</a></td>
+        </tr>
+    </th:block>
+    </tbody>
+</table>
+</body>
+</html>

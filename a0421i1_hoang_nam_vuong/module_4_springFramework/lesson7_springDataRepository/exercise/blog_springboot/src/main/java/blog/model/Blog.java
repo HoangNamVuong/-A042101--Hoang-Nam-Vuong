@@ -13,16 +13,10 @@ public class Blog {
 
     private String author;
     @ManyToOne(targetEntity = Category.class)
+//    @JoinColumn(name = "categry_id", referencedColumnName = "id")
     private Category category;
 
     public Blog() {
-    }
-
-    public Blog(Long id, String title, String author, Category category) {
-        this.id = id;
-        this.title = title;
-        this.author = author;
-        this.category = category;
     }
 
     public Long getId() {

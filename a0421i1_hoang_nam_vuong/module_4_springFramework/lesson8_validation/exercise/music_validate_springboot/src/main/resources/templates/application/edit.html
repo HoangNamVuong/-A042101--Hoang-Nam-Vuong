@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Update application</title>
+</head>
+<body>
+<h1>Update application</h1>
+<p>
+    <a href="/application">Back to application list</a>
+</p>
+<p>
+    <th:block th:if="${message}">
+<p th:text="${message}"></p>
+</th:block>
+</p>
+<form th:action="@{/edit-application}" th:object="${application}" method="post">
+    <input type="hidden" th:field="*{id}"/>
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" th:field="*{nameArtist}"></td>
+        </tr>
+        <tr>
+            <td>Content:</td>
+            <td><input type="text" th:field="*{musicType}"></td>
+        </tr>
+        <tr>
+            <td>Image:</td>
+            <td><input type="text" th:field="*{linkMusic}"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Update blog"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

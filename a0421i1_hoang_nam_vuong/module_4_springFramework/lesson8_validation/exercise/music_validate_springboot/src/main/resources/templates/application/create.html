@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Create new application</title>
+</head>
+<body>
+<h1>Create new application</h1>
+<p>
+  <a href="/create-app">Back to application list</a>
+</p>
+<p>
+  <th:block th:if="${message}">
+<p th:text="${message}"></p>
+</th:block>
+</p>
+<form th:action="@{/create-app}" th:object="${application}" method="post">
+  <table>
+    <tr>
+      <td>NameBlog:</td>
+      <td><input type="text" th:field="*{nameArtist}"></td>
+      <td th:if="${#fields.hasErrors('nameArtist')}" th:errors="*{nameArtist}">Error</td>
+    </tr>
+    <tr>
+      <td>Content:</td>
+      <td><input type="text" th:field="*{musicType}"></td>
+      <td th:if="${#fields.hasErrors('musicType')}" th:errors="*{musicType}">Error</td>
+
+    </tr>
+    <tr>
+      <td>Image:</td>
+      <td><input type="text" th:field="*{linkMusic}"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="submit" value="Create blog"></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

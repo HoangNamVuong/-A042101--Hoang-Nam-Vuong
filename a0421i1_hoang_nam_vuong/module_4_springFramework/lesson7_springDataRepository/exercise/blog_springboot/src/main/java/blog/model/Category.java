@@ -17,12 +17,6 @@ public class Category {
     public Category() {
     }
 
-    public Category(Long id, String name, List<Blog> blog) {
-        this.id = id;
-        this.name = name;
-        this.blog = blog;
-    }
-
     public Long getId() {
         return id;
     }
