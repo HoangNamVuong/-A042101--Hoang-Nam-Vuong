@@ -1,26 +1,26 @@
-package furama.model.customer;
+package furama.model.service;
 
 import javax.persistence.*;
 import java.util.List;
 
 @Entity
-public class CustomerType {
+public class ServiceType {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     private String name;
 
-    @OneToMany(mappedBy = "customerType")
-    List<Customer> customerList;
+    @OneToMany(mappedBy = "serviceType")
+    List< Services > servicesList;
 
-    public CustomerType() {
+    public ServiceType() {
     }
 
-    public CustomerType(Integer id, String name, List<Customer> customerList) {
+    public ServiceType(Integer id, String name, List<Services> servicesList) {
         this.id = id;
         this.name = name;
-        this.customerList = customerList;
+        this.servicesList = servicesList;
     }
 
     public Integer getId() {
@@ -39,11 +39,11 @@ public class CustomerType {
         this.name = name;
     }
 
-    public List<Customer> getCustomerList() {
-        return customerList;
+    public List<Services> getServicesList() {
+        return servicesList;
     }
 
-    public void setCustomerList(List<Customer> customerList) {
-        this.customerList = customerList;
+    public void setServicesList(List<Services> servicesList) {
+        this.servicesList = servicesList;
     }
 }
