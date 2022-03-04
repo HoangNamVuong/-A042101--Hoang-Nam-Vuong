@@ -1,37 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dictionary</title>
-</head>
-<body>
-    <h1>Dictionary</h1>
-    <input id="input"/>
-    <input type="button" id="button" value="translate" onclick="clickTranslate()"/>
-    <p id="result"></p>
+let arr = {10, 15, 9, 7, 3, 5};
 
-    <script>
-        function clickTranslate() {
-            let input = document.getElementById("input").value;
-            let english = ["about", "after", "again", "along", "another", "also"];
-            let vietnam = ["khoang chung", "dang sau", "lai lan nua", "doc theo", "khac nua", "cung vay"];
-            let result;
-
-            for (let i = 0; i < english.length; i++) {
-                if (input == english[i]) {
-                    result = vietnam[i];
-                    break;
-                }else if (input ==vietnam[i]) {
-                    result = english[i];
-                    break;
-                }else {
-                    result = "not find";
-                }
-            }
-            document.getElementById("result").innerHTML = result;
-        }
-    </script>
-</body>
-</html>
+for(let i )

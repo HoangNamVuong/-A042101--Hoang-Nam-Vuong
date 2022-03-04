@@ -7,19 +7,24 @@ import { StudentInfoComponent } from './student-info/student-info.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { StudentListComponent } from './student-list/student-list.component';
 import { StudentCreateComponent } from './student-create/student-create.component';
+import { HttpClientModule } from '@angular/common/http';
+import { StudentUpdateComponent } from './student-update/student-update.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentInfoComponent,
     StudentListComponent,
-    StudentCreateComponent  
+    StudentCreateComponent,
+    StudentUpdateComponent  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule 
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

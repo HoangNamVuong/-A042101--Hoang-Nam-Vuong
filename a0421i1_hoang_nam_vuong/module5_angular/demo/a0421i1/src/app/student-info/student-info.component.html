@@ -1,9 +1,1 @@
-<!-- interpolation -->
-<!-- <p>{{student.id}}</p>
-<p>{{student.name}}</p> -->
-
-<!-- property binding -->
-<input [value] = "student.name" (change)="changeNameStudent($event.target)">
-<h2 [ngStyle] = "{backgroundColor: student.color}">Hello</h2>
-<!-- twowaybinding -->
-<input [(ngModel)]="student.name">
+<input [value] = "student?.name">

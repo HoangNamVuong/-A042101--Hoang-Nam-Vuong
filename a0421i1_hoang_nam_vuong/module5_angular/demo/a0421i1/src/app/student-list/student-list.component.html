@@ -1,10 +1,12 @@
+<a [routerLink]="'/student/create'">Create Student</a>
 <table border="1">
     <tr>
         <th>ID</th>
         <th>Name</th>
         <th>DayOfBirth</th>
-        <th>Point</th>
+        <th>Point</th> 
         <th>Detail</th>
+        <th>Update</th>
     </tr>
     <tr *ngFor="let student of studentList">
         <td>{{student.id}}</td>
@@ -13,10 +15,7 @@
         <td>{{student.point}}</td>
         <dt *ngIf="student.point >=9">gioi</dt>
         <dt *ngIf="student.point <9">kha</dt>
-        <td></td>
         <td (click)="detailStudent(student)">Detail</td>
+        <td (click)="updateStudent(student)">Update</td>
     </tr>
 </table>
-<!-- <app-student-info></app-student-info> -->
-<app-student-info [student]="student"></app-student-info>
-<app-student-create (submitCreate)="createStudent($event)"></app-student-create>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lesson1_springmvc/practice/customer-management" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lesson2_spring_controller/practice/customer-management" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lesson5_orm_hibernate/practice/customer-management" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lesson9_aop_exceptionHanding/practice/customer-management" vcs="Git" />
+  </component>
+</project>

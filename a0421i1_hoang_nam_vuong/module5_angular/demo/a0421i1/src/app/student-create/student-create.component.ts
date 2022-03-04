@@ -1,6 +1,8 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { FormGroup, NgForm } from '@angular/forms';
+import { FormControl, FormGroup, NgForm, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { Student } from '../model/Student';
+import { StudentService } from '../service/student.service';
 
 @Component({
   selector: 'app-student-create',
@@ -10,19 +12,23 @@ import { Student } from '../model/Student';
 export class StudentCreateComponent implements OnInit {
   student: Student = new Student(6,"nam vuong","1212-12-12",9);
 
-  @Output() submitCreate = new EventEmitter();
-
   studentForm: FormGroup;
-  constructor() {
-    this.studentForm = new FormGroup()
+
+  constructor(private studentService: StudentService, private router: Router) {
+    this.studentForm = new FormGroup({
+      id: new FormControl("0",[Validators.required]),
+      name: new FormControl("name",[Validators.required, Validators.minLength(10)]),
+      dayOfBirth: new FormControl(),
+      point: new FormControl(),
+    })
    }
 
   ngOnInit(): void {
   }
 
-  createStudent(registerForm: NgForm) {
-    console.log(this.student)
-    this.submitCreate.emit(registerForm.value);
+  createStudent() {
+    this.studentService.createStudent(this.studentForm.value).subscribe();
+    this.router.navigate([""]);
   }
 
 }

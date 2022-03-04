@@ -1,12 +1,13 @@
 <h2>Create Student</h2>
-<form #registerForm="ngForm" (ngSubmit)="createStudent(registerForm)">
+<form [formGroup]="studentForm" (ngSubmit)="createStudent()">
     <label>ID</label>
-    <input type="text" ngModel name="id"><br>
+    <input type="text" formControlName="id"><br>
+    <div style="color: red" *ngIf="studentForm.controls.id.hasError('required') && studentForm.get('id').dirty">Id not null</div>
     <label>Name</label>
-    <input type="text" ngModel name="name"><br>
+    <input type="text" formControlName="name"><br>
     <label>DayOfBirth</label>
-    <input type="date" ngModel name="dayOfBirth"><br>
+    <input type="date" formControlName="dayOfBirth"><br>
     <label>Point</label>
-    <input type="number" ngModel name="point"><br>
+    <input type="number" formControlName="point"><br>
     <button type="submit">Create</button>
 </form>
