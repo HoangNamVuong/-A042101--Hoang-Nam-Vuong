@@ -1,0 +1,72 @@
+<div class="container-fluid">
+    <form class="col-6  m-auto" [formGroup]="carForm" (ngSubmit)="createCar()">
+        <div class="form-group col-12">
+            <h3>Create new Car</h3>
+            <label class="col-12 float-left">Id:</label>
+            <input type="text" formControlName="id" class="form-control col-12 float-left mt-2"
+                placeholder="Enter id is number">
+            <span style="color: red"
+                *ngIf="carForm.controls.id.hasError('required') && carForm.get('id').dirty">Id not null</span>
+        </div>
+        <div class="form-group col-12">
+            <label class="col-12 float-left">Name:</label>
+            <input type="text" formControlName="name" class="form-control col-12 float-left mt-2"
+                placeholder="Enter name">
+            <span style="color: red"
+                *ngIf="carForm.controls.name.hasError('required') && carForm.get('name').dirty">name not
+                null</span>
+        </div>
+        <div class="form-group col-12">
+            <label class="col-12 float-left">Type:</label>
+            <input type="text" formControlName="type" class="form-control col-12 float-left mt-2"
+                placeholder="Enter type">
+            <span style="color: red"
+                *ngIf="carForm.controls.type.hasError('required') && carForm.get('type').dirty">type
+                not null</span>
+        </div>
+        <div class="form-group col-12">
+            <label class="col-12 float-left">Start:</label>
+            <input type="text" formControlName="start" class="form-control col-12 float-left mt-2"
+                placeholder="Enter start">
+            <span style="color: red"
+                *ngIf="carForm.controls.start.hasError('required') && carForm.get('start').dirty">start
+                not null</span>
+        </div>
+        <div class="form-group col-12">
+            <label class="col-12 float-left">End:</label>
+            <input type="text" formControlName="end" class="form-control col-12 float-left mt-2"
+                placeholder="Enter end">
+            <span style="color: red"
+                *ngIf="carForm.controls.end.hasError('required') && carForm.get('end').dirty">end
+                not null</span>
+        </div>
+        <div class="form-group col-12">
+            <label class="col-12 float-left">Phone:</label>
+            <input type="text" formControlName="phone" class="form-control col-12 float-left mt-2"
+                placeholder="Enter phone">
+            <span style="color: red"
+                *ngIf="carForm.controls.phone.hasError('required') && carForm.get('phone').dirty">phone
+                not null</span>
+        </div>
+        <div class="form-group col-12">
+            <label class="col-12 float-left">Email:</label>
+            <input type="text" formControlName="email" class="form-control col-12 float-left mt-2"
+                placeholder="Enter email">
+            <span style="color: red"
+                *ngIf="carForm.controls.email.hasError('required') && carForm.get('email').dirty">email
+                not null</span>
+        </div>
+        <div class="form-group col-12">
+            <label class="col-12 float-left">Time:</label>
+            <input type="text" formControlName="time" class="form-control col-12 float-left mt-2"
+                placeholder="Enter time">
+            <span style="color: red"
+                *ngIf="carForm.controls.time.hasError('required') && carForm.get('time').dirty">time
+                not null</span>
+        </div>
+        <div class="col-12 " style="padding: 2% 0%">
+            <button type="submit" class="btn btn-primary float-right">Create</button>
+            <!-- <a class="btn btn-primary " href="/customer" role="button">Back</a> -->
+        </div>
+    </form>
+</div>

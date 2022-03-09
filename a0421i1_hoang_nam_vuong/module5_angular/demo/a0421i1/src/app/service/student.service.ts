@@ -29,4 +29,9 @@ export class StudentService {
    updateStudent(value: Student): Observable<any> {
      return this.http.patch<any>(this.apiURL + "/" + value.id, value);
    }
+
+   deleteStudent(id: number): Observable<any> {
+     return this.http.delete<any>(this.apiURL + "/" + id);
+   }
+
 }

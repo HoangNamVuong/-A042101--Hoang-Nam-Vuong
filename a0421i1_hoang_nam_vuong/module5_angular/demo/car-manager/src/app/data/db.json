@@ -1,0 +1,24 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "type": "quoc doanh",
+      "start": "da nang",
+      "end": "tp HCM",
+      "phone": "083427",
+      "email": "abc.@gmail.com",
+      "time": "3h"
+    },
+    {
+      "id": "2",
+      "name": "car fast",
+      "type": "full opto",
+      "start": "ha noi",
+      "end": "da nang",
+      "phone": "035725",
+      "email": "fast@gmail.com",
+      "time": "1h"
+    }
+  ]
+}

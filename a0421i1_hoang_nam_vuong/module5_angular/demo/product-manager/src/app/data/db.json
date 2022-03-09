@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "description": "description product",
+      "price": 7
+    },
+    {
+      "id": "0",
+      "name": "product rice",
+      "description": "for lunch",
+      "price": 7
+    },
+    {
+      "id": "2",
+      "name": "product shirt",
+      "description": "for me",
+      "price": 9
+    },
+    {
+      "id": "4",
+      "name": "product book",
+      "description": "reead",
+      "price": 7
+    },
+    {
+      "id": "3",
+      "name": "product table",
+      "description": "for me",
+      "price": 8
+    }
+  ]
+}

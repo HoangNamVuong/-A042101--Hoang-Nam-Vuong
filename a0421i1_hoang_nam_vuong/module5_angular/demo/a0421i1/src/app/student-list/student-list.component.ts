@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Student } from '../model/Student';
 import { StudentService } from '../service/student.service';
@@ -11,8 +12,13 @@ import { StudentService } from '../service/student.service';
 export class StudentListComponent implements OnInit {
 studentList = [];
 student: Student;
-  constructor(private studentService: StudentService, private router: Router) {
+search: FormGroup;
+  constructor(private studentService: StudentService, private router: Router,) {
+    this.search = new FormGroup({
+      id: new FormControl()
+    })
     studentService.findAll().subscribe(next => {
+      console.log(next)
       this.studentList = next; 
     });
    }
@@ -30,5 +36,22 @@ student: Student;
 
   updateStudent(student: any) {
     this.router.navigate(["/student/update",student.id]);
+  }
+
+  searchStudent() {
+    this.studentService.findById(Number(this.search.value.id)).subscribe(next => {
+      this.studentList = [];
+      this.studentList.push(next);
+    })
+  }
+
+  deleteStudent(student: any) {
+    console.log(student)
+    this.studentService.deleteStudent(student.id).subscribe(next => {
+      this.studentService.findAll().subscribe(next => {
+        console.log(next)
+        this.studentList = next; 
+      });
+    });
   }
 }

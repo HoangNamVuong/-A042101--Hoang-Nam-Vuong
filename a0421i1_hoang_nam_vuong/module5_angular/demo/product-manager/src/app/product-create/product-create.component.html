@@ -1,18 +1,18 @@
 
 <div class="container-fluid">
-    <form class="col-6  m-auto" [formGroup]="studentForm" (ngSubmit)="createStudent()">
+    <form class="col-6  m-auto" [formGroup]="productForm" (ngSubmit)="createProduct()">
         <div class="form-group col-12">
-            <h3>Create new Student</h3>
+            <h3>Create new Product</h3>
             <label class="col-12 float-left">Id:</label>
             <input type="text"  formControlName="id" class="form-control col-12 float-left mt-2"
-                   placeholder="Enter id like this pattern KH-1234">
-            <span style="color: red" *ngIf="studentForm.controls.id.hasError('required') && studentForm.get('id').dirty">Id not null</span>
+                   placeholder="Enter id is number">
+            <span style="color: red" *ngIf="productForm.controls.id.hasError('required') && productForm.get('id').dirty">Id not null</span>
         </div>
         <div class="form-group col-12">
             <label class="col-12 float-left">Name:</label>
             <input type="text" formControlName="name" class="form-control col-12 float-left mt-2"
                    placeholder="Enter name">
-            <!-- <span style="color: red" *ngIf="studentForm.controls.id.hasError('required') && studentForm.get('id').dirty">Id not null</span> -->
+            <span style="color: red" *ngIf="productForm.controls.name.hasError('required') && productForm.get('name').dirty">name not null</span>
         </div>
         <!-- <div class="form-group col-12">
             <label class="col-12 float-left">CustomerType:</label>
@@ -27,16 +27,16 @@
             </select>
         </div> -->
         <div class="form-group col-12">
-            <label class="col-12 float-left">Day of birth:</label>
-            <input type="date"  formControlName="dayOfBirth" class="form-control col-12 float-left mt-2"
-                   placeholder="Enter birthday">
-            <!-- <span style="color: red" th:if="${#fields.hasErrors('birthday')}" th:errors="*{birthday}"></span> -->
+            <label class="col-12 float-left">Description:</label>
+            <input type="text"  formControlName="description" class="form-control col-12 float-left mt-2"
+                   placeholder="Enter description">
+                   <span style="color: red" *ngIf="productForm.controls.description.hasError('required') && productForm.get('description').dirty">description not null</span>
         </div>
         <div class="form-group col-12">
-            <label class="col-12 float-left">Point</label>
-            <input type="number" formControlName="point" class="form-control col-12 float-left mt-2"
-                   placeholder="Enter point">
-            <!-- <span style="color: red" th:if="${#fields.hasErrors('birthday')}" th:errors="*{birthday}"></span> -->
+            <label class="col-12 float-left">Price</label>
+            <input type="number" formControlName="price" class="form-control col-12 float-left mt-2"
+                   placeholder="Enter price">
+                   <span style="color: red" *ngIf="productForm.controls.price.hasError('required') && productForm.get('price').dirty">price not null</span>
         </div>
         <div class="col-12 " style="padding: 2% 0%">
             <button type="submit" class="btn btn-primary float-right">Create</button>

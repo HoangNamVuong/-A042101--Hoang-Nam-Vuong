@@ -4,19 +4,33 @@
       "id": 1,
       "name": "json-server",
       "dateOfBirth": "2022-02-02",
-      "point": 7
+      "point": 9,
+      "dayOfBirth": null
     },
     {
       "id": "0",
       "name": "name",
-      "dayOfBirth": "2022-03-02",
+      "dateOfBirth": "2022-03-02",
       "point": 7
     },
     {
       "id": "2",
       "name": "test",
-      "dayOfBirth": "2022-03-02",
+      "dateOfBirth": "2022-03-02",
       "point": 9
+    },
+    {
+      "id": "4",
+      "name": "nam vuong",
+      "dateOfBirth": "2022-03-02",
+      "point": 8
+    },
+    {
+      "id": "6",
+      "name": "add delete",
+      "dateOfBirth": "2022-03-01",
+      "point": 8,
+      "dayOfBirth": null
     }
   ]
 }

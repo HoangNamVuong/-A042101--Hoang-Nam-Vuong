@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="row">
+                <p></p>
+                <div class="col-lg-4">
+                    <a class="btn btn-primary" [routerLink]="'/product/create'">Create Product</a>
+                </div>
+                <div class="col-lg-8">
+                    <form style="float: right" [formGroup]="search" (ngSubmit)="searchProduct()">
+                        <input formControlName="id"><br>
+                        <button type="submit">search</button>
+                    </form>
+                </div>
+            </div>
+            <h3 class="text-center">LIST PRODUCT </h3>
+            <table class="table table-striped" style="width:100% content-box">
+                <thead>
+                    <tr style="height: 50px" class="text-center bg-success text-light m-auto">
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <!-- <th>Rank</th>
+                        <th>Detail</th> -->
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let product of productList">
+                        <td class="text-center">{{product.id}}</td>
+                        <td class="text-center">{{product.name}}</td>
+                        <td class="text-center">{{product.description}}</td>
+                        <td class="text-center">{{product.price}}</td>
+                        <!-- <td *ngIf="student.point >=9">gioi</td>
+                        <td *ngIf="student.point <9">kha</td> -->
+                        <!-- <td class="text-center">
+                            <a class="btn btn-primary" (click)="detailProduct(product)">Detail</a>
+                        </td> -->
+                        <td class="text-center">
+                            <a class="btn btn-primary" (click)="updateProduct(product)">Update</a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-danger btnDeleteCustomer" (click)="deleteProduct(product)">Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
